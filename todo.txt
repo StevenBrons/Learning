@@ -1,16 +1,18 @@
--deelvraag inleiding
+-deelvraag inleiding 							(Thijs)
 
--algoritme 1
--algoritme 2
+-algoritmes								(Thijs)
+	-Wat is een algoritme (door mensen gemaakt)	
+	-Voorbeeld 1
+	-Voorbeeld 2	
 
--is dit zelfleren?
--nee -->
+-is dit zelfleren?							(Thijs)
 
--machine learning
+-machine learning							(Steven)
 	-deep learning
--evolutionary systems
+
+-evolutionary systems							(Steven)
 	-a
 	-b
 
--conclusie
-	-defenitie
+-conclusie								(Thijs/Steven)
+	-definitie
