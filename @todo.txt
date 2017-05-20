@@ -1,3 +1,13 @@
+=======================================================================
+commit tags:
+	"[minior] test" -- kleine aanpassing
+	"test"		-- aanpassing
+	"[major] test"	-- aanpassing aan 'static' bestanden
+=======================================================================
+
+========================================================================
+*verdeling deelvraag 1*
+
 -deelvraag inleiding 							(Thijs)
 
 -algoritmes								(Thijs)
@@ -16,3 +26,4 @@
 
 -conclusie								(Thijs/Steven)
 	-definitie
+========================================================================
