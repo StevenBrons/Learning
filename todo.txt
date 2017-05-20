@@ -1,0 +1,16 @@
+-deelvraag inleiding
+
+-algoritme 1
+-algoritme 2
+
+-is dit zelfleren?
+-nee -->
+
+-machine learning
+	-deep learning
+-evolutionary systems
+	-a
+	-b
+
+-conclusie
+	-defenitie
