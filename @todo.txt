@@ -17,12 +17,12 @@ commit tags:
 
 -is dit zelfleren?							(Thijs)
 
--machine learning							(Steven)
+-machine learning							(Steven)	
+
+-neural networks							(Steven)
 	-deep learning
 
 -evolutionary systems							(Steven)
-	-a
-	-b
 
 -conclusie								(Thijs/Steven)
 	-definitie
