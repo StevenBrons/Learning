@@ -27,3 +27,9 @@ commit tags:
 -conclusie								(Thijs/Steven)
 	-definitie
 ========================================================================
+
+========================================================================
+Wat is intelligentie? (Lijkt mij (Thijs) dat ergens benoemd moet worden)
+-intelligentie
+-geheugen (verschil computer / mens)
+========================================================================
