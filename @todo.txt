@@ -1,4 +1,12 @@
 =======================================================================
+*andere dingen todo* 
+
+-deelvraag 1 LaTeX							(Steven)
+
+-deelvraag 2 vraag bedenken
+
+
+=======================================================================
 commit tags:
 	"[minior] test" -- kleine aanpassing
 	"test"		-- aanpassing
@@ -12,21 +20,40 @@ commit tags:
 
 -algoritmes								(Thijs)
 	-Wat is een algoritme (door mensen gemaakt)	
-	-Voorbeeld 1
-	-Voorbeeld 2	
-
+	-K Nearest Neighbours
+	-Breath first search
+	-Depth first search	
+	
 -is dit zelfleren?							(Thijs)
 
--machine learning							(Steven)	
+-machine learning							(Steven)
 
--neural networks							(Steven)
-	-deep learning
-
--evolutionary systems							(Steven)
+-trainen								(Steven)
+	-supervised
+	-unsupervised
+	-reinforocement	
 
 -conclusie								(Thijs/Steven)
 	-definitie
 ========================================================================
+*verdeling deelvraag 2*
+
+-deelvraag inleiding
+
+-(K Nearest Neighbours)
+
+-Support vector machine
+
+-Arteficial Neural Networks
+	-convenutional
+	-recurrent
+	-deep
+	
+-Classification vs Regression
+
+-Evolutionary Systems
+
+-Back propergation
 
 ========================================================================
 Wat is intelligentie? (Lijkt mij (Thijs) dat ergens benoemd moet worden)
