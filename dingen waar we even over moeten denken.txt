@@ -1,4 +1,0 @@
--shift enters? enters?
--LaTeX
--bold of italics voor begrippen? begrippenlijst?
--intelligentie
