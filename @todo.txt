@@ -7,6 +7,8 @@
 
 -PVA aanpassen								(Thijs)
 
+-appelstoffen aanpassen in LaTeX			(Steven)
+
 ========================================================================
 
 ========================================================================
@@ -43,22 +45,23 @@ commit tags:
 ========================================================================
 *verdeling deelvraag 2*
 
--deelvraag inleiding
+-deelvraag inleiding					(Thijs)
 
--(K Nearest Neighbours)
+-(K Nearest Neighbours)					(Steven)
 
--Support vector machine
+-Support vector machine					(Steven)
 
--Arteficial Neural Networks
+-Artificial Neural Networks				(Thijs)
 	-convenutional
+	-(linear regression)
 	-recurrent
 	-deep
 	
--Classification vs Regression
+-Classification vs Regression			(Steven)
 
--Evolutionary Systems
+-Evolutionary Systems					(Steven)	
 
--Back propergation
+-Back propergation						(Thijs)
 ========================================================================
 
 ========================================================================
