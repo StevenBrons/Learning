@@ -33,6 +33,8 @@ commit tags:
 
 -machine learning							(Steven)
 
+-Classification vs Regression						(Steven)
+
 -trainen								(Steven)
 	-supervised
 	-unsupervised
@@ -45,23 +47,20 @@ commit tags:
 ========================================================================
 *verdeling deelvraag 2*
 
--deelvraag inleiding					(Thijs)
+-deelvraag inleiding					(Steven)
 
 -(K Nearest Neighbours)					(Steven)
 
 -Support vector machine					(Steven)
+
+-Evolutionary Systems					(Steven)
 
 -Artificial Neural Networks				(Thijs)
 	-convenutional
 	-(linear regression)
 	-recurrent
 	-deep
-	
--Classification vs Regression			(Steven)
-
--Evolutionary Systems					(Steven)	
-
--Back propergation						(Thijs)
+	-Back propergation				(Thijs)
 ========================================================================
 
 ========================================================================
