@@ -57,7 +57,8 @@ commit tags:
 
 -Artificial Neural Networks				(Thijs)
 	-convenutional
-	-(linear regression)
+	-linear regression
+	-gradient descent
 	-recurrent
 	-deep
 	-Back propergation				(Thijs)
