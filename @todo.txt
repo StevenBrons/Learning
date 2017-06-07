@@ -7,6 +7,8 @@
 
 -PVA aanpassen								(Thijs)
 
+-appelstoffen aanpassen in LaTeX			(Steven)
+
 ========================================================================
 
 ========================================================================
@@ -31,6 +33,8 @@ commit tags:
 
 -machine learning							(Steven)
 
+-Classification vs Regression						(Steven)
+
 -trainen								(Steven)
 	-supervised
 	-unsupervised
@@ -43,22 +47,23 @@ commit tags:
 ========================================================================
 *verdeling deelvraag 2*
 
--deelvraag inleiding
+-deelvraag inleiding					(Steven)
 
--(K Nearest Neighbours)
+							(Steven)
 
--Support vector machine
+-Support vector machine					(Steven)
 
--Arteficial Neural Networks
+-Artificial Neural Networks				(Thijs)
 	-convenutional
+	-linear regression
 	-recurrent
 	-deep
-	
--Classification vs Regression
+	-Back propergation				(Thijs)
 
--Evolutionary Systems
+-Het verbeteren
+	-gradient descent
+	-evolutionary
 
--Back propergation
 ========================================================================
 
 ========================================================================
