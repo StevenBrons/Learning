@@ -49,19 +49,21 @@ commit tags:
 
 -deelvraag inleiding					(Steven)
 
--(K Nearest Neighbours)					(Steven)
+							(Steven)
 
 -Support vector machine					(Steven)
-
--Evolutionary Systems					(Steven)
 
 -Artificial Neural Networks				(Thijs)
 	-convenutional
 	-linear regression
-	-gradient descent
 	-recurrent
 	-deep
 	-Back propergation				(Thijs)
+
+-Het verbeteren
+	-gradient descent
+	-evolutionary
+
 ========================================================================
 
 ========================================================================
