@@ -6,7 +6,6 @@ Ik kan dus gewoon verder werken.
 -Steven
 
 
-
 Hoi,
 
 Dat is mooi. Ik heb net twee uur aan video's gekeken, verbindingen worden gelegd.
@@ -48,5 +47,17 @@ Heb je al woorden op papier over ANN's?
 Ik heb de todo een beetje aangepast, jij doet (als je nog niks hebt tenminst) niet meer gradient descent, en ik heb het verbeteren ge-dipsed
 
 -Steven
+
+[response]
+Gradient descend heeft ook raakvlakken met ANN, dus we moeten even kijken waar we dat willen plaatsen. Ik heb er nog niks
+over opgeschreven, maar het zou er wel bij of voor moeten. ANN is wel zo ontzettend groot en de wiskunde kan zó moeilijk
+worden, ik moet nog even kijken hoe ik dat ga doen. Globaal beschrijven gaat wel lukken, maar de gekke formules moeten
+zij ook gaan gebruiken. Elk youtube persoon loopt inderdaad allemaal python dingen te importeren, dat is ook lekker
+handig -_-.
+Eigenlijk is kladblok niet optimaal en zouden we iets moeten maken dat met kleurtjes of whatsapp stijl aangeeft
+wie wat (wanneer) heeft gestuurd. Aan de andere kant is dat niet echt meer nodig zodra jij weer thuis bent. Over maken
+gesproken, evolutionary dingen zijn best cool, zeker ook gecombineerd met de vogeltjes.
+
+-Thijs
 
 
