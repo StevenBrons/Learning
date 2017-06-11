@@ -40,3 +40,13 @@ zeiden dat het zo werkt'. Gradiel descent snap ik redelijk. Het principe van een
 wiskunde. 
 
 -Thijs
+
+[update]
+Ik ben nu aan het schrijven over linear regression en gradient descent,
+Het gradient descent is nog best moeilijk op papier krijgen
+Heb je al woorden op papier over ANN's?
+Ik heb de todo een beetje aangepast, jij doet (als je nog niks hebt tenminst) niet meer gradient descent, en ik heb het verbeteren ge-dipsed
+
+-Steven
+
+
