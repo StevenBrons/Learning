@@ -5,9 +5,9 @@
 
 -deelvraag 2 vraag bedenken
 
--PVA aanpassen								(Thijs)
+-PVA aanpassen / PvA v2 maken						(Thijs)
 
--appelstoffen aanpassen in LaTeX			(Steven)
+-appelstoffen aanpassen in LaTeX					(Steven)
 
 ========================================================================
 
