@@ -32,4 +32,11 @@ Ik heb nu ook heel veel dingen in mijn hoofd die nog niet op papier willen versc
 vandaag.
 Ik heb even jouw stukje gelezen en grote meningen zal ik voor later bewaren, maar in de eerste zin al staat SVP ipv SVM :p
 
+[update]:
+Ik ben wel redelijk klaar met evolutie en genetic algoritms, maar neural networks blijven heel eng.
+[update 2]:
+Er wordt opeens allemaal wiskunde tussen input en output gegooid, maar meer 'omdat deze en deze wiskunden 
+zeiden dat het zo werkt'. Gradiel descent snap ik redelijk. Het principe van een neural network ook wel, maar ja enge
+wiskunde. 
+
 -Thijs
