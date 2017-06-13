@@ -5,7 +5,7 @@
 
 -deelvraag 2 vraag bedenken
 
--PVA aanpassen / PvA v2 maken						(Thijs)
+-PVA aanpassen / PvA v2 maken						(Thijs + Steven)
 
 -appelstoffen aanpassen in LaTeX					(Steven)
 
@@ -29,7 +29,7 @@ commit tags:
 	-Breath first search
 	-Depth first search	
 	
--is dit zelfleren?							(Thijs)
+-is dit zelflerend?							(Thijs)
 
 -machine learning							(Steven)
 
@@ -49,19 +49,17 @@ commit tags:
 
 -deelvraag inleiding					(Steven)
 
-							(Steven)
-
 -Support vector machine					(Steven)
 
 -Artificial Neural Networks				(Thijs)
 	-convenutional
 	-recurrent
 	-deep
-	-Back propergation				(Thijs)
 
 -Het verbeteren						(Steven)
-	-gradient descent
-	-evolutionary
+	-gradient descent				
+	-Back propergation				
+	-evolutionary					(Thijs)
 
 ========================================================================
 
