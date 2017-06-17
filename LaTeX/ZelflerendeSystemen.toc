@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Inleiding}{2}
+\contentsline {section}{\numberline {2}Wat zijn zelflerende computersystemen?}{3}
+\contentsline {subsection}{\numberline {2.1}Inleiding}{3}
+\contentsline {subsection}{\numberline {2.2}Verschillende algoritmes}{3}
+\contentsline {subsection}{\numberline {2.3}Breadth-first search (BFS)}{3}
+\contentsline {subsection}{\numberline {2.4}Depth-first search (DFS)}{4}
+\contentsline {subsection}{\numberline {2.5}Voorbeelden algoritmes}{4}
+\contentsline {subsubsection}{\numberline {2.5.1}Breadth-first search}{4}
+\contentsline {subsubsection}{\numberline {2.5.2}Depth-first search}{4}
+\contentsline {subsection}{\numberline {2.6}Zelflerend?}{4}
+\contentsline {subsection}{\numberline {2.7}Machine learning}{4}
+\contentsline {subsection}{\numberline {2.8}Training}{4}
+\contentsline {subsubsection}{\numberline {2.8.1}Supervised Learning}{5}
+\contentsline {subsubsection}{\numberline {2.8.2}Unsupervised Learning}{6}
+\contentsline {subsubsection}{\numberline {2.8.3}Reinforcement Learning}{6}
+\contentsline {subsection}{\numberline {2.9}Conclusie}{7}
