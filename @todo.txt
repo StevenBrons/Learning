@@ -57,6 +57,7 @@ commit tags:
 	-convenutional
 	-recurrent
 	-deep
+	-bias (waarom geen 0 invullen)
 	-Back propergation				(Thijs)
 
 -Het verbeteren						(Steven)
