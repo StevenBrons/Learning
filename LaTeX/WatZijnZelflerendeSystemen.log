@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUN 2017 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUN 2017 18:01
 entering extended mode
-**./ZelflerendeSystemen.tex
-(ZelflerendeSystemen.tex
+**./watZijnZelflerendeSystemen.tex
+(watZijnZelflerendeSystemen.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -60,8 +60,8 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@dima=\skip44
 \bigstrutjot=\dimen105
 )
-(ZelflerendeSystemen.aux)
-\openout1 = `ZelflerendeSystemen.aux'.
+(watZijnZelflerendeSystemen.aux)
+\openout1 = `watZijnZelflerendeSystemen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -134,45 +134,29 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
-
-(ZelflerendeSystemen.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-)
-\tf@toc=\write3
-\openout3 = `ZelflerendeSystemen.toc'.
-
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (WatZijnZelflerendeSy
-stemen.tex
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no « in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¯ in font cmr10!
 
-Overfull \hbox (2.19495pt too wide) in paragraph at lines 17--18
+
+LaTeX Warning: Citation `WoordenOrg' on page 1 undefined on input line 21.
+
+
+Overfull \hbox (2.19495pt too wide) in paragraph at lines 29--30
 \OT1/cmr/m/n/10 een Amerikaans pro-fes-sor in de wiskunde en com-puter sci-ence
 s en een voortrekker
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 
 ! Undefined control sequence.
-l.19 ...worden om bij de root te komen. \blindtext
+l.31 ...worden om bij de root te komen. \blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -180,27 +164,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3]
-! Undefined control sequence.
-l.20 ...s je een enkele stap terug zet. \blindtext
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[1
 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ! Undefined control sequence.
-l.21 ...f een node al gecontroleerd is. \blindtext
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.27 ...ege lijst S voor bezochte nodes.\blindtext
+l.32 ...s je een enkele stap terug zet. \blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -209,7 +177,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.28 ...k een lege lijst Q met de queue.\blindtext
+l.33 ...f een node al gecontroleerd is. \blindtext
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.39 ...ege lijst S voor bezochte nodes.\blindtext
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 ...k een lege lijst Q met de queue.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -222,7 +208,7 @@ Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 ! Undefined control sequence.
-l.29 ...als root en voeg deze toe aan S.\blindtext
+l.41 ...als root en voeg deze toe aan S.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -231,7 +217,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.30 \item Voeg de root toe aan Q.\blindtext
+l.42 \item Voeg de root toe aan Q.\blindtext
                                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -240,7 +226,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.33 ...queue. Dit is de 'current' node.\blindtext
+l.45 ...queue. Dit is de 'current' node.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -249,7 +235,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.34 	\item Als current het doel is:\blindtext
+l.46 	\item Als current het doel is:\blindtext
                                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -258,7 +244,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 		\item Return current.\blindtext
+l.48 		\item Return current.\blindtext
                                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -267,7 +253,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...ke node die grenst aan* current:\blindtext
+l.50 ...ke node die grenst aan* current:\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -276,7 +262,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.40 ...bezocht is en dus niet in S zit:\blindtext
+l.52 ...bezocht is en dus niet in S zit:\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -285,7 +271,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.42 			\item Voeg de node toe aan S.\blindtext
+l.54 			\item Voeg de node toe aan S.\blindtext
                                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -294,7 +280,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ... van de node de current node is.\blindtext
+l.55 ... van de node de current node is.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -303,7 +289,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.44 			\item Haal de node uit de queue.\blindtext
+l.56 			\item Haal de node uit de queue.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -312,7 +298,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 \blindtext
+l.60 \blindtext
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -320,11 +306,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<res/datasetBFS3.png, id=17, 301.125pt x 106.14656pt>
+<res/datasetBFS3.png, id=9, 301.125pt x 106.14656pt>
 File: res/datasetBFS3.png Graphic file (type png)
-
-<use res/datasetBFS3.png>
-Package pdftex.def Info: res/datasetBFS3.png used on input line 55.
+ <use res/datasetBFS3.png>
+Package pdftex.def Info: res/datasetBFS3.png used on input line 67.
 (pdftex.def)             Requested size: 345.0pt x 121.62381pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -370,9 +355,10 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- [4 <./res/datasetBFS3.png>]
+
+[2 <./res/datasetBFS3.png>]
 ! Undefined control sequence.
-l.70 ...erste weer eruit gehaald worden.\blindtext
+l.82 ...erste weer eruit gehaald worden.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -381,7 +367,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.73 \blindtext
+l.85 \blindtext
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -389,11 +375,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<res/verschil-BFS-DFS.png, id=22, 602.25pt x 423.08063pt>
+<res/verschil-BFS-DFS.png, id=14, 602.25pt x 423.08063pt>
 File: res/verschil-BFS-DFS.png Graphic file (type png)
 
 <use res/verschil-BFS-DFS.png>
-Package pdftex.def Info: res/verschil-BFS-DFS.png used on input line 78.
+Package pdftex.def Info: res/verschil-BFS-DFS.png used on input line 90.
 (pdftex.def)             Requested size: 345.0pt x 242.37213pt.
 
 
@@ -403,16 +389,16 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
-[5]
+[3]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- <res/datasetBFS2.png, id=26, 602.25pt x 451.6875pt>
+ <res/datasetBFS2.png, id=18, 602.25pt x 451.6875pt>
 File: res/datasetBFS2.png Graphic file (type png)
 
 <use res/datasetBFS2.png>
-Package pdftex.def Info: res/datasetBFS2.png used on input line 96.
+Package pdftex.def Info: res/datasetBFS2.png used on input line 108.
 (pdftex.def)             Requested size: 345.0pt x 258.76027pt.
 
 
@@ -436,18 +422,18 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-<res/maze.png, id=27, 452.4403pt x 469.755pt>
+<res/maze.png, id=19, 452.4403pt x 469.755pt>
 File: res/maze.png Graphic file (type png)
  <use res/maze.png>
-Package pdftex.def Info: res/maze.png used on input line 107.
+Package pdftex.def Info: res/maze.png used on input line 119.
 (pdftex.def)             Requested size: 345.0pt x 358.20021pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./res/verschil-BFS-DFS.png>]
+[4 <./res/verschil-BFS-DFS.png>]
 ! Undefined control sequence.
-l.115 ...nt en markeer deze als bezocht.\blindtext
+l.127 ...nt en markeer deze als bezocht.\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -456,7 +442,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.120 ...illekeurig een van de neighbors\blindtext
+l.132 ...illekeurig een van de neighbors\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -465,7 +451,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.121 ...m Voeg current toe aan de stack\blindtext
+l.133 ...m Voeg current toe aan de stack\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -474,7 +460,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.122 ...e huidige cel en de gekozen cel\blindtext
+l.134 ...e huidige cel en de gekozen cel\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -483,7 +469,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.123 ...rent en zet de state op bezocht\blindtext
+l.135 ...rent en zet de state op bezocht\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -492,7 +478,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.125 	\blindtext
+l.137 	\blindtext
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -501,7 +487,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.128 ...stack en verwijder deze hieruit\blindtext
+l.140 ...stack en verwijder deze hieruit\blindtext
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -510,7 +496,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.129 		\item Maak deze cel current\blindtext
+l.141 		\item Maak deze cel current\blindtext
                                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -519,7 +505,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.131 	\blindtext
+l.143 	\blindtext
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -528,7 +514,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.133 \blindtext
+l.145 \blindtext
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -537,27 +523,34 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (6.11162pt too wide) in paragraph at lines 136--137
+Overfull \hbox (6.11162pt too wide) in paragraph at lines 148--149
 \OT1/cmr/m/n/10 Breadth-first search en Depth-first search zijn beide al-go-rit
 mes met vele toepassin-
  []
 
-[7 <./res/datasetBFS2.png>]
-<res/algorithm1.png, id=36, 436.63126pt x 76.78688pt>
+
+LaTeX Warning: Citation `ArthurSamuel' on page 5 undefined on input line 152.
+
+[5 <./res/datasetBFS2.png>]
+<res/algorithm1.png, id=27, 436.63126pt x 76.78688pt>
 File: res/algorithm1.png Graphic file (type png)
  <use res/algorithm1.png>
-Package pdftex.def Info: res/algorithm1.png used on input line 145.
+Package pdftex.def Info: res/algorithm1.png used on input line 157.
 (pdftex.def)             Requested size: 345.0pt x 60.67267pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./res/maze.png>] <res/algorithm2.png, id=41, 420.82219pt x 162.6075pt>
+[6 <./res/maze.png>] <res/algorithm2.png, id=32, 420.82219pt x 162.6075pt>
 File: res/algorithm2.png Graphic file (type png)
 
 <use res/algorithm2.png>
-Package pdftex.def Info: res/algorithm2.png used on input line 161.
+Package pdftex.def Info: res/algorithm2.png used on input line 173.
 (pdftex.def)             Requested size: 345.0pt x 133.3117pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 183.
 Missing character: There is no â in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -580,40 +573,52 @@ Missing character: There is no ² in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
 
-Overfull \hbox (7.88959pt too wide) in paragraph at lines 171--179
+Overfull \hbox (7.88959pt too wide) in paragraph at lines 183--191
  [][] 
  []
 
-[9 <./res/algorithm1.png> <./res/algorithm2.png>]
-<res/pacman.png, id=47, 246.1697pt x 280.04625pt>
+[7 <./res/algorithm1.png> <./res/algorithm2.png>]
+
+LaTeX Warning: Citation `MLCourse1' on page 8 undefined on input line 194.
+
+
+LaTeX Warning: Citation `MLCourse2' on page 8 undefined on input line 198.
+
+<res/pacman.png, id=39, 246.1697pt x 280.04625pt>
 File: res/pacman.png Graphic file (type png)
  <use res/pacman.png>
-Package pdftex.def Info: res/pacman.png used on input line 193.
+Package pdftex.def Info: res/pacman.png used on input line 205.
 (pdftex.def)             Requested size: 172.5pt x 196.24467pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] (ZelflerendeSystemen.bbl)) [11 <./res/pacman.png>]
-(ZelflerendeSystemen.aux) ) 
+[8]
+No file watZijnZelflerendeSystemen.bbl.
+[9 <./res/pacman.png>] (watZijnZelflerendeSystemen.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1623 strings out of 493323
- 23360 string characters out of 3139066
- 84450 words of memory out of 3000000
- 5148 multiletter control sequences out of 15000+200000
- 8241 words of font info for 29 fonts, out of 3000000 for 9000
+ 1595 strings out of 493323
+ 23037 string characters out of 3139066
+ 84428 words of memory out of 3000000
+ 5136 multiletter control sequences out of 15000+200000
+ 5504 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,821b,269s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ZelflerendeSystemen.pdf (11 pages, 249064 bytes).
+ 39i,9n,25p,793b,269s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on watZijnZelflerendeSystemen.pdf (9 pages, 223914 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
