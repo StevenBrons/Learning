@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  18 JUN 2017 13:38
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUN 2017 21:54
->>>>>>> 4a9480b8da0495875a1fafee454253fd496dd849
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  18 JUN 2017 15:20
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -25,6 +21,26 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("E:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("E:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("E:\Program Files\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf"
+Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
+
+("E:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+Package babel Info: Making " an active character on input line 132.
+))
 ("E:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -52,17 +68,17 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 ("E:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip43
-\multirow@cntb=\count88
+\multirow@cntb=\count89
 \multirow@dima=\skip44
-\bigstrutjot=\dimen105
+\bigstrutjot=\dimen106
 )
 ("E:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -70,38 +86,38 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("E:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count89
-\c@Blindtext=\count90
-\c@blind@countparstart=\count91
-\blind@countxx=\count92
-\blindtext@numBlindtext=\count93
-\blind@countyy=\count94
-\c@blindlist=\count95
-\c@blindlistlevel=\count96
-\c@blindlist@level=\count97
-\blind@listitem=\count98
-\c@blind@listcount=\count99
-\c@blind@levelcount=\count100
-\blind@mathformula=\count101
-\blind@Mathformula=\count102
-\c@blind@randomcount=\count103
-\c@blind@randommax=\count104
-\c@blind@pangramcount=\count105
-\c@blind@pangrammax=\count106
+\c@blindtext=\count90
+\c@Blindtext=\count91
+\c@blind@countparstart=\count92
+\blind@countxx=\count93
+\blindtext@numBlindtext=\count94
+\blind@countyy=\count95
+\c@blindlist=\count96
+\c@blindlistlevel=\count97
+\c@blindlist@level=\count98
+\blind@listitem=\count99
+\c@blind@listcount=\count100
+\c@blind@levelcount=\count101
+\blind@mathformula=\count102
+\blind@Mathformula=\count103
+\c@blind@randomcount=\count104
+\c@blind@randommax=\count105
+\c@blind@pangramcount=\count106
+\c@blind@pangrammax=\count107
 )
 ("E:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
 ("E:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count107
+\etb@tempcnta=\count108
 )
-\csq@reset=\count108
-\csq@gtype=\count109
-\csq@glevel=\count110
-\csq@qlevel=\count111
-\csq@maxlvl=\count112
-\csq@tshold=\count113
+\csq@reset=\count109
+\csq@gtype=\count110
+\csq@glevel=\count111
+\csq@qlevel=\count112
+\csq@maxlvl=\count113
+\csq@tshold=\count114
 \csq@ltx@everypar=\toks15
 
 ("E:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
@@ -115,7 +131,9 @@ File: csquotes.cfg
 ))
 Package csquotes Info: Allocating character ".
 Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... none found.
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
 (ZelflerendeSystemen.aux)
 \openout1 = `ZelflerendeSystemen.aux'.
@@ -135,16 +153,16 @@ LaTeX Font Info:    ... okay on input line 14.
 
 ("E:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen106
+\scratchcounter=\count115
+\scratchdimen=\dimen107
 \scratchbox=\box26
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen107
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen108
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks17
 ) ("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -191,7 +209,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-Package csquotes Info: Making character " active on input line 14.
+Package csquotes Info: Redefining character " on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -201,17 +219,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 (ZelflerendeSystemen.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `ZelflerendeSystemen.toc'.
 
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (WatZijnZelflerendeSy
-stemen.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package blindtext Warning: dutch not defined, using English instead.
+(blindtext)                 on input line 24.
+
+[2] (WatZijnZelflerendeSystemen.tex
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no « in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -336,74 +358,69 @@ Package pdftex.def Info: res/maze.png used on input line 107.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./res/verschil-BFS-DFS.png>]
-Overfull \hbox (6.11162pt too wide) in paragraph at lines 134--135
-\OT1/cmr/m/n/10 Breadth-first search en Depth-first search zijn beide al-go-rit
-mes met vele toepassin-
- []
-
-[7 <./res/datasetBFS2.png>]
-<res/algorithm1.png, id=36, 436.63126pt x 76.78688pt>
+[6 <./res/verschil-BFS-DFS.png>] [7 <./res/datasetBFS2.png>] [8 <./res/maze.png
+>] <res/algorithm1.png, id=40, 436.63126pt x 76.78688pt>
 File: res/algorithm1.png Graphic file (type png)
- <use res/algorithm1.png>
-Package pdftex.def Info: res/algorithm1.png used on input line 143.
+
+<use res/algorithm1.png>
+Package pdftex.def Info: res/algorithm1.png used on input line 149.
 (pdftex.def)             Requested size: 345.0pt x 60.67267pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./res/maze.png>] <res/algorithm2.png, id=41, 420.82219pt x 162.6075pt>
+ <res/algorithm2.png, id=41, 420.82219pt x 162.6075pt>
 File: res/algorithm2.png Graphic file (type png)
 
 <use res/algorithm2.png>
-Package pdftex.def Info: res/algorithm2.png used on input line 159.
+Package pdftex.def Info: res/algorithm2.png used on input line 165.
 (pdftex.def)             Requested size: 345.0pt x 133.3117pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ² in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ² in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ² in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ² in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ² in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ² in font cmr10!
-
-Overfull \hbox (7.88959pt too wide) in paragraph at lines 169--177
- [][] 
- []
-
-[9 <./res/algorithm1.png> <./res/algorithm2.png>]
-<res/pacman.png, id=47, 246.1697pt x 280.04625pt>
-File: res/pacman.png Graphic file (type png)
- <use res/pacman.png>
-Package pdftex.def Info: res/pacman.png used on input line 191.
-(pdftex.def)             Requested size: 172.5pt x 196.24467pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] (ZelflerendeSystemen.bbl)) [11 <./res/pacman.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ² in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ² in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ² in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ² in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ² in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ² in font cmr10!
+
+Overfull \hbox (7.88959pt too wide) in paragraph at lines 175--183
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./res/algorithm1.png>] [10 <./res/algorithm2.png>]
+<res/pacman.png, id=50, 246.1697pt x 280.04625pt>
+File: res/pacman.png Graphic file (type png)
+ <use res/pacman.png>
+Package pdftex.def Info: res/pacman.png used on input line 197.
+(pdftex.def)             Requested size: 172.5pt x 196.24467pt.
+
+(ZelflerendeSystemen.bbl [11 <./res/pacman.png>])) [12]
 (ZelflerendeSystemen.aux) ) 
 Here is how much of TeX's memory you used:
- 2648 strings out of 493323
- 38506 string characters out of 3139063
- 112057 words of memory out of 3000000
- 6153 multiletter control sequences out of 15000+200000
+ 3128 strings out of 493323
+ 44688 string characters out of 3139063
+ 132913 words of memory out of 3000000
+ 6618 multiletter control sequences out of 15000+200000
  8241 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,828b,269s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,9n,25p,828b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
@@ -411,13 +428,9 @@ b><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<<<<<<< HEAD
-Output written on ZelflerendeSystemen.pdf (11 pages, 250697 bytes).
-=======
-Output written on ZelflerendeSystemen.pdf (11 pages, 249066 bytes).
->>>>>>> 4a9480b8da0495875a1fafee454253fd496dd849
+Output written on ZelflerendeSystemen.pdf (12 pages, 250949 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
