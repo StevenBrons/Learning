@@ -16,36 +16,35 @@ Uiteraard zijn er ook vele algoritmes die gebruik maken van toepassingen, zoals 
 \subsection{Breadth-first search (BFS)}
 Dit algoritme, bedacht in de jaren vijftig van de vorige eeuw door E.F. Moore[b], een Amerikaans professor in de wiskunde en computer sciences en een voortrekker in kunstmatig leven, is een zoekalgoritme voor datasets in de vorm van grafieken of 'boom'-structuren. In deze dataset wordt een \textbf{node} als oorsprong benoemd, de \textbf{root}. Ook wordt een bepaalde uitkomst als doel gesteld. Vervolgens krijgt elke node drie waardes aangewezen:
 \begin{itemize}
-\item De afstand van de huidige node naar de root. Dit is het aantal stappen dat gezet moet worden om bij de root te komen. \blindtext
-\item De node die v\'{o}\'{o}r de huidige node kwam, de \textbf{predecessor}. Anders gezegd: bij welke node je uitkomt als je een enkele stap terug zet. \blindtext
-\item Een \textbf{state}. De state houdt bij of een node al gecontroleerd is. \blindtext
+\item De afstand van de huidige node naar de root. Dit is het aantal stappen dat gezet moet worden om bij de root te komen. 
+\item De node die v\'{o}\'{o}r de huidige node kwam, de \textbf{predecessor}. Anders gezegd: bij welke node je uitkomt als je een enkele stap terug zet.
+\item Een \textbf{state}. De state houdt bij of een node al gecontroleerd is.
 \end{itemize}
 
 Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst waar nodes aan toegevoegd en uitgehaald kunnen worden. Net zoals een daadwerkelijke wachtrij wordt het `als eerste erin, als eerste eruit' principe toegepast.
 
 \begin{enumerate}
-\item Maak een lege lijst S voor bezochte nodes.\blindtext
-\item Maak een lege lijst Q met de queue.\blindtext
-\item Benoem één node als root en voeg deze toe aan S.\blindtext
-\item Voeg de root toe aan Q.\blindtext
+\item Maak een lege lijst S voor bezochte nodes.
+\item Maak een lege lijst Q met de queue.
+\item Benoem één node als root en voeg deze toe aan S.
+\item Voeg de root toe aan Q.
 \item Terwijl Q niet leeg is:
 	\begin{enumerate}
-	\item Haal de voorste node uit de queue. Dit is de 'current' node.\blindtext
-	\item Als current het doel is:\blindtext
+	\item Haal de voorste node uit de queue. Dit is de 'current' node.
+	\item Als current het doel is:
 		\begin{enumerate}
-		\item Return current.\blindtext
+		\item Return current.
 		\end{enumerate}
-	\item Voor elke node die grenst aan* current:\blindtext
+	\item Voor elke node die grenst aan* current:
 		\begin{enumerate}
-		\item Als deze node nog niet bezocht is en dus niet in S zit:\blindtext
+		\item Als deze node nog niet bezocht is en dus niet in S zit:
 			\begin{enumerate}
-			\item Voeg de node toe aan S.\blindtext
-			\item Zeg dat de predecessor van de node de current node is.\blindtext
-			\item Haal de node uit de queue.\blindtext
+			\item Voeg de node toe aan S.
+			\item Zeg dat de predecessor van de node de current node is.
+			\item Haal de node uit de queue.
 			\end{enumerate}
 		\end{enumerate}
 	\end{enumerate}
-\blindtext
 \end{enumerate}
 
 \textit{*Aangrenzend zijn betekent hier `in directe verbinding staan met'.}
@@ -67,10 +66,9 @@ Met BFS kan je de weg van de root naar het doel achterhalen. Dit is nuttig als j
 Evenals breadth-first search is depth-first search een algoritme voor het doorlopen van datasets in grafieken of trees. DFS verschilt echter op twee manieren van BFS:
 
 \begin{itemize}
-\item Depth-first search gebruikt een stack in plaats van een queue. Waar nodes in een BFS systeem in een wachtrij werden geplaats met een `Als eerst erin, als eerst eruit' principe, handhaaft een DFS systeem een wachtrij meer vergelijkbaar met een stapel papieren. Telkens pak je het bovenste element van de stapel om mee te werken, maar als je iets in de wachtrij stopt, komt dit ook weer bovenop de stapel te liggen. De meest recente toevoeging zal dus als eerste weer eruit gehaald worden.\blindtext
+\item Depth-first search gebruikt een stack in plaats van een queue. Waar nodes in een BFS systeem in een wachtrij werden geplaats met een `Als eerst erin, als eerst eruit' principe, handhaaft een DFS systeem een wachtrij meer vergelijkbaar met een stapel papieren. Telkens pak je het bovenste element van de stapel om mee te werken, maar als je iets in de wachtrij stopt, komt dit ook weer bovenop de stapel te liggen. De meest recente toevoeging zal dus als eerste weer eruit gehaald worden.
 \item Breadth-first search begon bij een root. Vervolgens werd gekeken naar alle neighbors. Als de gewenste uitkomst niet tussen deze neighbors zit, worden de neighbors van deze neighbors gecontroleerd. Dit proces herhaalt zich totdat het doel gevonden is.
 Depth-first search begint ook bij een root, maar kijkt direct naar een weg tot een node bereikt is die geen neighbors meer heeft. Als het doel dan niet bereikt is wordt een andere weg geprobeerd. Hiervoor wordt gebruik gemaakt van \textbf{recursive backtracking}.
-\blindtext
 \end{itemize}
 
 \begin{figure}[h]
@@ -117,16 +115,16 @@ Depth-first search kan gebruikt worden voor zowel het maken als oplossen van doo
 	\begin{enumerate}
 	\item Als current neighbors heeft die nog niet bezocht zijn:
 		\begin{enumerate}
-		\item Kies willekeurig een van de neighbors\blindtext
-		\item Voeg current toe aan de stack\blindtext
-		\item Verwijder de muur tussen de huidige cel en de gekozen cel\blindtext
-		\item Benoem de gekozen cel als current en zet de state op bezocht\blindtext
+		\item Kies willekeurig een van de neighbors.
+		\item Voeg current toe aan de stack.
+		\item Verwijder de muur tussen de huidige cel en de gekozen cel.
+		\item Benoem de gekozen cel als current en zet de state op bezocht.
 		\end{enumerate}			
 	\blindtext
 	\item Anders, als de stack niet leeg is:
 		\begin{enumerate}
-		\item Haal de laatst toegevoegde cel uit de stack en verwijder deze hieruit\blindtext
-		\item Maak deze cel current\blindtext
+		\item Haal de laatst toegevoegde cel uit de stack en verwijder deze hieruit.
+		\item Maak deze cel current.
 		\end{enumerate}	
 	\blindtext
 	\end{enumerate}
