@@ -1,8 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{WoordenOrg}
-http://www.woorden.org.
-
 \bibitem{Moore}
 Olvi Mangasarian~(chair) Jin-Yi~Cai, Larry~Landweber.
 \newblock Memorial resolution of the faculty of the university of
@@ -16,6 +13,10 @@ Andrew Ng.
 \bibitem{MLCourse2}
 Andrew Ng.
 \newblock www.coursera.org.
+
+\bibitem{WoordenOrg}
+onbekend.
+\newblock http://www.woorden.org.
 
 \bibitem{ArthurSamuel}
 Arthur Samuel.

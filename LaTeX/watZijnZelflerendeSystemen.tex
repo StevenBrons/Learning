@@ -2,15 +2,15 @@
 \section{Wat zijn zelflerende computersystemen?}
 
 \subsection{Inleiding}
-Elk jaar boekt de mens grootschalige vorderingen op het gebied van computers, zowel hardware als software. Iets waar wij echter nog niet in geslaagd zijn te maken is een ware \textbf{ Artificial Intelligence}, al lukt het steeds beter de schijn van denken te cre\'eren. Voorbeelden zijn de \textit{persoonlijke assistenten} die inmiddels in elke smartphone geïntegreerd zijn. \textit{Siri}, \textit{Google Now} en \textit{Cortana} maken gebruik van spraakherkenning om de gebruiker de gevraagde informatie te tonen, maar denken zoals mensen doen ze hierbij niet. Hoe een computersysteem toch beter kan worden in het imiteren van menselijk gedrag en van zijn eigen fouten kan leren onderzoeken we in deze deelvraag.
+Elk jaar boekt de mens grootschalige vorderingen op het gebied van computers, zowel hardware als software. Iets waar wij echter nog niet in geslaagd zijn te maken is een ware \textbf{ Artificial Intelligence}, al lukt het steeds beter de schijn van denken te cre\"eren. Voorbeelden zijn de \textit{persoonlijke assistenten} die inmiddels in elke smartphone geïntegreerd zijn. \textit{Siri}, \textit{Google Now} en \textit{Cortana} maken gebruik van spraakherkenning om de gebruiker de gevraagde informatie te tonen, maar denken zoals mensen doen ze hierbij niet. Hoe een computersysteem toch beter kan worden in het imiteren van menselijk gedrag en van zijn eigen fouten kan leren onderzoeken we in deze deelvraag.
 
 
 \subsection{Verschillende algoritmes}
-Computers hebben geen dus bewustzijn. Om deze reden kunnen ze niet zelf bepalen iets te doen. Waar computers wel in uitblinken, is het uitvoeren van taken die ze zijn opgelegd. Vaak komen deze taken in de vorm van code. Via code kan je computers opdrachten geven, bijvoorbeeld laat een scherm zien. De boodschap valt echter niet op deze manier over te brengen, afhankelijk van de taal waarin je programmeert zijn er vaste commando's waar de computer op zal reageren.
-Naarmate de opdracht die je een computer wil laten uitvoeren complexer wordt, zal ook het gebruik in deze commando's een verandering zien. Hier komen algoritmes in het spel. Een algoritme is een soort stappenplan voor de computer, waarin een complexere handeling in duidelijke opdrachten weergegeven wordt. De volgende definitie geeft een betekenis in de meest algemene zin: een algoritme is een eindige reeks instructies om vanaf een beginpunt een bepaald doel te bereiken.\cite{WoordenOrg}
+Computers hebben geen dus bewustzijn. Om deze reden kunnen ze niet zelf bepalen iets te doen. Waar computers wel in uitblinken, is het uitvoeren van taken die ze zijn opgelegd. Vaak komen deze taken in de vorm van code. Via code kan je computers opdrachten geven, bijvoorbeeld: \textit{Bereken 7 * 6}. De boodschap valt echter niet op deze manier over te brengen, afhankelijk van de taal waarin je programmeert zijn er vaste commando's waar de computer op zal reageren.
+Naarmate de opdracht die je een computer wil laten uitvoeren complexer wordt, zal ook het gebruik in deze commando's ingewikkelder worden. Hier komen algoritmes in het spel. Een algoritme is een soort stappenplan, waarin een complexere handeling in duidelijke opdrachten weergegeven wordt. De volgende definitie geeft een betekenis in de meest algemene zin: \textit{"een algoritme is een eindige reeks instructies om vanaf een beginpunt een bepaald doel te bereiken."} \cite{WoordenOrg}
 
 Een toegankelijke vergelijking is koken. Er is een \textbf{input} van voedsel waar uiteindelijk een gerecht uit moet komen, de \textbf{output}. Voor het tot stand komen van dit gerecht gebruik je misschien een recept. Dit recept is als het ware het algoritme.
-Uit de gegeven definitie is af te leiden dat het aantal mogelijke algoritmes ontzettend groot is. Niet alleen is het een ruim begrip, ook kan het desbetreffende doel waarschijnlijk op meerdere manieren bereikt worden. In deze verschillende methodes kan de een echter beter zijn dan de andere, bijvoorbeeld door effici\"enter te zijn.
+Uit de gegeven definitie is af te leiden dat het aantal mogelijke algoritmes ontzettend groot is. Niet alleen is het een ruim begrip, ook kan het desbetreffende doel waarschijnlijk op meerdere manieren bereikt worden. Het ene algoritme zal misschien beter zijn dan het andere doordat het bijvoorbeeld effici\"enter werkt.
 
 Uiteraard zijn er ook vele algoritmes die gebruik maken van toepassingen, zoals een \textbf{queue} en een \textbf{stack}, die betrekking hebben tot ons onderwerp. Enkele hiervan zullen hier beschreven worden:
 
@@ -19,7 +19,7 @@ Dit algoritme, bedacht in de jaren vijftig van de vorige eeuw door E.F. Moore \c
 \begin{itemize}
 \item De afstand van de huidige node naar de root. Dit is het aantal stappen dat gezet moet worden om bij de root te komen. 
 \item De node die v\'{o}\'{o}r de huidige node kwam, de \textbf{predecessor}. Anders gezegd: bij welke node je uitkomt als je een enkele stap terug zet.
-\item Een \textbf{state}. De state houdt bij of een node al gecontroleerd is.
+\item Een \textbf{state}. De state houdt bij of de node al gecontroleerd is.
 \end{itemize}
 
 Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst waar nodes aan toegevoegd en uitgehaald kunnen worden. Net zoals een daadwerkelijke wachtrij wordt het "\textit{eerste erin, als eerste eruit}" principe toegepast.
@@ -29,7 +29,7 @@ Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst w
 \item Maak een lege lijst Q met de queue.
 \item Benoem \'e\'en node als root en voeg deze toe aan S.
 \item Voeg de root toe aan Q. 
-\item Terwijl Q niet leeg is:
+\item Zolang Q niet leeg is:
 	\begin{enumerate}
 	\item Haal de voorste node uit de queue. Dit is de \textit{current} node.
 	\item Als current het doel is:
@@ -53,16 +53,16 @@ Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst w
 \begin{figure}[h]
   \centering
     \includegraphics[width=\textwidth]{datasetBFS3.png}
-  \caption{Schematische weergave van een willekeurige dataset. De volgorde waarin de nodes bezocht worden is 3 – 2 – 6 – 4 – 5 – 1 – 0.}
+  \caption{Schematische weergave van een willekeurige dataset. Waarop het Breadth-first search algoritme wordt toegepast.}
   \label{fig:datasetBFS3}
 \end{figure}
-Hierboven is een voorbeeld van een simpele dataset weergegeven (zie figuur \ref{fig:datasetBFS3}), genummerd van 0 tot en met 7. Node 3 is de root en 0 het doel. Voor het gemak staan in elke node twee getallen: de afstand tot 3 en het nummer van de predecessor. Met kleuren zijn aangegeven in welke volgorde de nodes bezocht worden.
-3 is de root. 3 wordt toegevoegd aan de lijsten Q en S. Hierdoor is de queue niet leeg. 3 wordt weer uit de queue gehaald en \'e\'en voor \'e\'en worden de aangrenzende nodes bekeken. Hierbij worden ze toegevoegd aan de stack. Omdat zowel 2 als 6 het niet het doel is, herhaald het algoritme zich. Nu wordt 2 gecheckt. Het doel is niet gevonden. Daarna 6, ook zonder succes. (Let hierbij op dat node 5 niet nogmaals gecheckt wordt, dit is namelijk als bij node 2 gedaan en is dus al aanwezig in lijst S) Intussen zij 4 en 5 toegevoegd aan de queue, ze zijn immers verbonden met 2. Ook hier wordt het proces herhaald, node 1 zit nu in de queue. Uiteindelijk wordt node 1 gecheckt en wordt het doel, node 0, gevonden.
-Met BFS kan je de weg van de root naar het doel achterhalen. Dit is nuttig als je bijvoorbeeld een wegennetwerk hebt en wil weten wat de kortste weg van de ene naar de andere stad is.
+Hierboven is een voorbeeld van een simpele dataset weergegeven (zie figuur \ref{fig:datasetBFS3}), genummerd van node 0 tot en met node 7. Node 3 is de root en node 0 het doel. Om bij het doel te komen wordt het Breadth-first search algoritme toegepast. Node 3, de root, wordt toegevoegd aan de lijsten Q en S. Node 3 wordt weer uit de queue gehaald en \'e\'en voor \'e\'en worden de aangrenzende nodes bekeken. Hierbij worden ze toegevoegd aan de stack. Omdat zowel 2 als 6 het niet het doel zijn, herhaald het algoritme zich. Nu wordt 2 bekeken. Het doel is niet gevonden. Daarna 6, ook zonder succes. (Let hierbij op dat node 5 niet nogmaals bekeken wordt, dit is namelijk als bij node 2 gedaan en is dus al aanwezig in lijst S). Intussen zijn node 4 en node 5 toegevoegd aan de queue, ze zijn immers verbonden met node 2. Ook hier wordt het proces herhaald, node 1 zit nu in de queue. Uiteindelijk wordt node 1 bekeken en wordt het doel, node 0, gevonden.
+
+Met BFS kan je zo de weg van de root naar het doel achterhalen. Dit is nuttig als je bijvoorbeeld een wegennetwerk hebt en wil weten wat de kortste weg van de ene naar de andere stad is.
 
 
 \subsection{Depth-first search (DFS)}
-Evenals breadth-first search is depth-first search een algoritme voor het doorlopen van datasets in grafieken of trees. DFS verschilt echter op twee manieren van BFS:
+Evenals breadth-first search is depth-first search een algoritme voor het doorlopen van datasets in de vorm van grafieken of trees. DFS verschilt echter op twee manieren van BFS:
 
 \begin{itemize}
 \item Depth-first search gebruikt een stack in plaats van een queue. Waar nodes in een BFS systeem in een wachtrij werden geplaats met een "als eerst erin, als eerst eruit" principe, handhaaft een DFS systeem een wachtrij meer vergelijkbaar met een stapel papieren. Telkens pak je het bovenste element van de stapel om mee te werken, maar als je iets in de wachtrij stopt, komt dit ook weer bovenop de stapel te liggen. De meest recente toevoeging zal dus als eerste weer eruit gehaald worden.
@@ -71,21 +71,25 @@ Depth-first search begint ook bij een root, maar kijkt direct naar een weg tot e
 
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
     \includegraphics[width=\textwidth]{verschil-BFS-DFS.png}
   \caption{Schematische weergave van een willekeurige dataset.}
   \label{fig:verschil-BFS-DFS}
 \end{figure}
 
-In figuur \ref{fig:verschil-BFS-DFS} is de werking van BFS en DFS weergegeven. Het getal in elke node geeft aan als hoeveelste het bereikt wordt. De kleuren representeren de gebieden die het algoritme per stap doorloopt.
+In figuur \ref{fig:verschil-BFS-DFS} is de werking van BFS en DFS weergegeven. Het getal in elke node geeft aan als hoeveelste het bereikt wordt. 
 
 Ook bij DFS hebben de nodes een state: bezocht of niet bezocht.
-Ten eerste wordt de root gekozen en wordt deze als bezocht opgeslagen. Zoals te zien wordt er vanaf de root \'e\'en (willekeurige) neighbor gekozen om te onderzoeken. Elke bezochte neighbor wordt als bezocht genoteerd. De root wordt in de stack geplaats. Als de gekozen neighbor niet het doel is, wordt de meest recentelijk toegevoegde node, de root, gehaald, de eerst bezochte had immers geen aanliggende nodes om te onderzoeken. Deze tweede neighbor, cirkel 2 in de figuur, heeft wel een neighbor. Deze wordt gecontroleerd, evenals diens neighbors. Telkens wordt de huidige node toegevoegd aan de stack.\\
+Ten eerste wordt de root gekozen en wordt deze als bezocht opgeslagen. Zoals te zien wordt er vanaf de root \'e\'en (willekeurige) neighbor gekozen om te onderzoeken. Elke bezochte neighbor wordt als bezocht genoteerd. De root wordt in de stack geplaats. Als de gekozen neighbor niet het doel is, wordt de meest recentelijk toegevoegde node, de root, gehaald, de eerst bezochte had immers geen aanliggende nodes om te onderzoeken. Deze tweede neighbor heeft wel weer een neighbor. Deze wordt gecontroleerd, evenals diens neighbors. Telkens wordt de huidige node toegevoegd aan de stack.
+
 Als het programma de laatste in een reeks nodes bereikt heeft, wordt de bovenste node uit de stack gepakt en gekeken of daar nog niet bezochte nodes aan grenzen. Dit wordt backtracking genoemd.
-Dit proces wordt herhaald totdat het doel gevonden is of totdat alle nodes geweest zijn.
+Dit proces wordt herhaald totdat het doel gevonden is of totdat alle nodes bekeken zijn.
 
 Als vuistregel kan het volgende gehanteerd worden: depth-first search wordt gebruikt als je weet dat er maar \'e\'en uitkomst is, breadth-first search als je de kortste weg wil weten.
+
+
+
 \subsection{Voorbeelden algoritmes}
 Algoritmes hebben meestal vele toepassingen. Hier zijn enkele voorbeelden van de eerder genoemde algoritmes.
 \subsubsection{Breadth-first search}
@@ -201,6 +205,6 @@ In figuur \ref{fig:Pacman} is het spel Pac-Man te zien. Op dit spel zou reinforc
 
 \subsection{Conclusie}
 Zelflerende computersystemen zijn algoritmes gebaseerd op machine learning. Een zelflerend systeem verschilt van reguliere algoritmes zoals breadth-first search en depth-first search doordat ze in staat zijn zichzelf te verbeteren.
-
+\newpage
 \bibliography{references}
 \bibliographystyle{plain}

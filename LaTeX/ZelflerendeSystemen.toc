@@ -6,9 +6,9 @@
 \contentsline {subsection}{\numberline {2.3}Breadth-first search (BFS)}{3}
 \contentsline {subsection}{\numberline {2.4}Depth-first search (DFS)}{5}
 \contentsline {subsection}{\numberline {2.5}Voorbeelden algoritmes}{6}
-\contentsline {subsubsection}{\numberline {2.5.1}Breadth-first search}{6}
-\contentsline {subsubsection}{\numberline {2.5.2}Depth-first search}{6}
-\contentsline {subsection}{\numberline {2.6}Zelflerend?}{7}
+\contentsline {subsubsection}{\numberline {2.5.1}Breadth-first search}{7}
+\contentsline {subsubsection}{\numberline {2.5.2}Depth-first search}{7}
+\contentsline {subsection}{\numberline {2.6}Zelflerend?}{8}
 \contentsline {subsection}{\numberline {2.7}Machine learning}{8}
 \contentsline {subsection}{\numberline {2.8}Training}{9}
 \contentsline {subsubsection}{\numberline {2.8.1}Supervised Learning}{9}

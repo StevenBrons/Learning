@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  19 JUN 2017 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  25 JUN 2017 19:12
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -129,6 +129,14 @@ Package csquotes Info: ... configuration file loaded successfully.
 ("E:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
 File: csquotes.cfg 
 ))
+("E:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
 Package csquotes Info: Allocating character ".
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -153,17 +161,17 @@ LaTeX Font Info:    ... okay on input line 16.
 
 ("E:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
+\scratchcounter=\count116
 \scratchdimen=\dimen107
-\scratchbox=\box26
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count118
+\scratchbox=\box28
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count119
 \MPscratchDim=\dimen108
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks17
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks19
 ) ("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -228,7 +236,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `ZelflerendeSystemen.toc'.
 
 
-[1] [2] (WatZijnZelflerendeSystemen.tex
+[1
+
+] [2] (WatZijnZelflerendeSystemen.tex
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¯ in font cmr10!
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
@@ -239,69 +249,27 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
  [3]
-<res/datasetBFS3.png, id=20, 301.125pt x 106.14656pt>
+<res/datasetBFS3.png, id=20, 1011.02719pt x 471.26062pt>
 File: res/datasetBFS3.png Graphic file (type png)
 
 <use res/datasetBFS3.png>
 Package pdftex.def Info: res/datasetBFS3.png used on input line 55.
-(pdftex.def)             Requested size: 345.0pt x 121.62381pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
+(pdftex.def)             Requested size: 345.0pt x 160.80894pt.
  [4 <./res/datasetBFS3.png>]
-<res/verschil-BFS-DFS.png, id=25, 602.25pt x 423.08063pt>
+<res/verschil-BFS-DFS.png, id=27, 1011.02719pt x 782.925pt>
 File: res/verschil-BFS-DFS.png Graphic file (type png)
 
 <use res/verschil-BFS-DFS.png>
 Package pdftex.def Info: res/verschil-BFS-DFS.png used on input line 76.
-(pdftex.def)             Requested size: 345.0pt x 242.37213pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] <res/datasetBFS2.png, id=29, 602.25pt x 451.6875pt>
+(pdftex.def)             Requested size: 345.0pt x 267.15865pt.
+ [5]
+<res/datasetBFS2.png, id=31, 602.25pt x 451.6875pt>
 File: res/datasetBFS2.png Graphic file (type png)
-
-<use res/datasetBFS2.png>
-Package pdftex.def Info: res/datasetBFS2.png used on input line 94.
+ <use res/datasetBFS2.png>
+Package pdftex.def Info: res/datasetBFS2.png used on input line 98.
 (pdftex.def)             Requested size: 276.00105pt x 207.00684pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[6 <./res/verschil-BFS-DFS.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -320,28 +288,32 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-<res/maze.png, id=30, 452.4403pt x 469.755pt>
+ <res/maze.png, id=37, 452.4403pt x 469.755pt>
 File: res/maze.png Graphic file (type png)
- <use res/maze.png>
-Package pdftex.def Info: res/maze.png used on input line 105.
+
+<use res/maze.png>
+Package pdftex.def Info: res/maze.png used on input line 109.
 (pdftex.def)             Requested size: 276.00105pt x 286.56447pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./res/verschil-BFS-DFS.png>] [7 <./res/datasetBFS2.png>]
-<res/algorithm1.png, id=39, 436.63126pt x 76.78688pt>
+[7 <./res/datasetBFS2.png>] [8 <./res/maze.png>]
+<res/algorithm1.png, id=46, 436.63126pt x 76.78688pt>
 File: res/algorithm1.png Graphic file (type png)
  <use res/algorithm1.png>
-Package pdftex.def Info: res/algorithm1.png used on input line 147.
+Package pdftex.def Info: res/algorithm1.png used on input line 151.
 (pdftex.def)             Requested size: 345.0pt x 60.67267pt.
 
-[8 <./res/maze.png> <./res/algorithm1.png>]
-<res/algorithm2.png, id=45, 420.82219pt x 162.6075pt>
+<res/algorithm2.png, id=47, 420.82219pt x 162.6075pt>
 File: res/algorithm2.png Graphic file (type png)
  <use res/algorithm2.png>
-Package pdftex.def Info: res/algorithm2.png used on input line 163.
+Package pdftex.def Info: res/algorithm2.png used on input line 167.
 (pdftex.def)             Requested size: 345.0pt x 133.3117pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no â in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -364,43 +336,39 @@ Missing character: There is no ² in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
 
-Overfull \hbox (7.88959pt too wide) in paragraph at lines 173--181
+Overfull \hbox (7.88959pt too wide) in paragraph at lines 177--185
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./res/algorithm2.png>] <res/pacman.png, id=50, 246.1697pt x 280.04625pt>
+[9 <./res/algorithm1.png>] [10 <./res/algorithm2.png>]
+<res/pacman.png, id=56, 246.1697pt x 280.04625pt>
 File: res/pacman.png Graphic file (type png)
-
-<use res/pacman.png>
-Package pdftex.def Info: res/pacman.png used on input line 195.
+ <use res/pacman.png>
+Package pdftex.def Info: res/pacman.png used on input line 199.
 (pdftex.def)             Requested size: 172.5pt x 196.24467pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] (ZelflerendeSystemen.bbl)) [11 <./res/pacman.png>]
-(ZelflerendeSystemen.aux) ) 
+ [11 <./res/pacman.png>] (ZelflerendeSystemen.bbl)) [12] (ZelflerendeSystemen.a
+ux) ) 
 Here is how much of TeX's memory you used:
- 3127 strings out of 493323
- 44673 string characters out of 3139063
- 132912 words of memory out of 3000000
- 6617 multiletter control sequences out of 15000+200000
+ 3187 strings out of 493323
+ 45452 string characters out of 3139063
+ 134280 words of memory out of 3000000
+ 6673 multiletter control sequences out of 15000+200000
  8241 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,821b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ZelflerendeSystemen.pdf (12 pages, 249751 bytes).
+ 39i,9n,25p,1040b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb>
+Output written on ZelflerendeSystemen.pdf (13 pages, 302584 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
