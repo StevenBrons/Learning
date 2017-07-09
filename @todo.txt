@@ -1,0 +1,19 @@
+-------------- Algemene Taken --------------
+	-Deelvraag 1 opsplitsen
+	-Deelvraag 1 en 2 ver LaTeX-en
+
+
+--------------  Deekvraag 3  --------------
+	-Linear Regression (Steven)
+	-Support Vector Machines (Steven)
+	-Neural Networks (Thijs)
+	-Het leren
+		-Evolutionary
+		-Newton's Method
+		-Gradient Descent
+
+--------------  Deekvraag 4  --------------
+ 	-Toepassingen Machine Learning
+
+--------------  Deekvraag 5  --------------	
+	-Limitaties Machine learning

@@ -2,7 +2,7 @@
 \section{Wat zijn zelflerende computersystemen?}
 
 \subsection{Inleiding}
-Elk jaar boekt de mens grootschalige vorderingen op het gebied van computers, zowel hardware als software. Iets waar wij echter nog niet in geslaagd zijn te maken is een ware \textbf{ Artificial Intelligence}, al lukt het steeds beter de schijn van denken te cre\"eren. Voorbeelden zijn de \textit{persoonlijke assistenten} die inmiddels in elke smartphone geïntegreerd zijn. \textit{Siri}, \textit{Google Now} en \textit{Cortana} maken gebruik van spraakherkenning om de gebruiker de gevraagde informatie te tonen, maar denken zoals mensen doen ze hierbij niet. Hoe een computersysteem toch beter kan worden in het imiteren van menselijk gedrag en van zijn eigen fouten kan leren onderzoeken we in deze deelvraag.
+Elk jaar boekt de mens grootschalige vorderingen op het gebied van computers, zowel hardware als software. Iets waar wij echter nog niet in geslaagd zijn te maken is een ware \textbf{ Artificial Intelligence}, al lukt het steeds beter de schijn van denken te cre\"eren. Voorbeelden zijn de persoonlijke assistenten die inmiddels in elke smartphone geïntegreerd zijn. \textit{Siri}, \textit{Google Now} en \textit{Cortana} maken gebruik van spraakherkenning om de gebruiker de gevraagde informatie te tonen, maar denken zoals mensen doen ze hierbij niet. Hoe een computersysteem toch beter kan worden in het imiteren van menselijk gedrag en van zijn eigen fouten kan leren onderzoeken we in deze deelvraag.
 
 
 \subsection{Verschillende algoritmes}
@@ -56,7 +56,7 @@ Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst w
   \caption{Schematische weergave van een willekeurige dataset. Waarop het Breadth-first search algoritme wordt toegepast.}
   \label{fig:datasetBFS3}
 \end{figure}
-Hierboven is een voorbeeld van een simpele dataset weergegeven (zie figuur \ref{fig:datasetBFS3}), genummerd van node 0 tot en met node 7. Node 3 is de root en node 0 het doel. Om bij het doel te komen wordt het Breadth-first search algoritme toegepast. Node 3, de root, wordt toegevoegd aan de lijsten Q en S. Node 3 wordt weer uit de queue gehaald en \'e\'en voor \'e\'en worden de aangrenzende nodes bekeken. Hierbij worden ze toegevoegd aan de stack. Omdat zowel 2 als 6 het niet het doel zijn, herhaald het algoritme zich. Nu wordt 2 bekeken. Het doel is niet gevonden. Daarna 6, ook zonder succes. (Let hierbij op dat node 5 niet nogmaals bekeken wordt, dit is namelijk als bij node 2 gedaan en is dus al aanwezig in lijst S). Intussen zijn node 4 en node 5 toegevoegd aan de queue, ze zijn immers verbonden met node 2. Ook hier wordt het proces herhaald, node 1 zit nu in de queue. Uiteindelijk wordt node 1 bekeken en wordt het doel, node 0, gevonden.
+Hierboven is een voorbeeld van een simpele dataset weergegeven (zie figuur \ref{fig:datasetBFS3}), genummerd van node 0 tot en met node 6. Node 3 is de root en node 0 het doel. Om bij het doel te komen wordt het Breadth-first search algoritme toegepast. Node 3, de root, wordt toegevoegd aan de lijsten Q en S. Node 3 wordt weer uit de queue gehaald en \'e\'en voor \'e\'en worden de aangrenzende nodes bekeken. Hierbij worden ze toegevoegd aan de stack. Omdat zowel 2 als 6 het niet het doel zijn, herhaald het algoritme zich. Nu wordt 2 bekeken. Het doel is niet gevonden. Daarna 6, ook zonder succes. (Let hierbij op dat node 5 niet nogmaals bekeken wordt, dit is namelijk als bij node 2 gedaan en is dus al aanwezig in lijst S). Intussen zijn node 4 en node 5 toegevoegd aan de queue, ze zijn immers verbonden met node 2. Ook hier wordt het proces herhaald, node 1 zit nu in de queue. Uiteindelijk wordt node 1 bekeken en wordt het doel, node 0, gevonden.
 
 Met BFS kan je zo de weg van de root naar het doel achterhalen. Dit is nuttig als je bijvoorbeeld een wegennetwerk hebt en wil weten wat de kortste weg van de ene naar de andere stad is.
 
@@ -104,7 +104,7 @@ In figuur \ref{fig:datasetBFS2} is een dataset te zien, bijvoorbeeld een telefoo
 Stel, persoon A wil nu iets tegen F zeggen. In een kleine dataset als deze is makkelijk met het oog te zien dat de snelste manier hiervoor A – C – F is en dat A – B – C – E – F veel langer is. Bij grotere datasets is dit echter al snel moeilijk met zekerheid te zeggen. Hiervoor kan breadth-first search ingezet worden.
 
 \subsubsection{Depth-first search}
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
     \includegraphics[width=0.8\textwidth]{maze.png}
   \caption{Een voorbeeld van een automatisch gegenereerd doolhof, gebruik makend van DFS.}
@@ -162,7 +162,7 @@ Er zijn veel verschillende algoritmes die gebruikt kunnen worden voor een zelfle
 Een zelflerend systeem begint in de meeste gevallen zonder enige kennis van de data. Om de gewenste output te kunnen produceren is het dus nodig om het systeem eerst input data te geven zodat het kan leren. Dit proces wordt het \textbf{trainen} genoemd. Voor het trainen van een zelflerend systeem is training data nodig. Deze data moet gelijk of gelijkwaardig zijn aan de \textit{echte} data. De training data kan in veel verschillende vormen voorkomen en de manier van trainen is afhankelijk van de vorm van de (training) data. In figuur \ref{fig:algorithm2}  is te zien dat het trainen los staat van het algoritme. Dit verschil zullen we in de volgende deelvraag wat duidelijker maken. 
 Er zijn drie prominente manieren waarop een zelflerend systeem getraind kan worden: \textbf{supervised}, \textbf{unsupervised} en \textbf{reinforcement learning}.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
     \includegraphics[width=\textwidth]{algorithm2.png}
   \caption{Schematische weergave van een zelflerend systeem}

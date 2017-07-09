@@ -1,0 +1,6 @@
+K Nearest Neighbours (niet)
+Ordinary Least Sqaures (niet)
+Deelvraag 1 opdelen -->	
+	Wat zijn "normale" algoritme? 
+	Wat zijn Zelflerende algoritmen?
+In de vakantie sturen?
