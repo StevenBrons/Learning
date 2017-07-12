@@ -3,17 +3,20 @@
 	-Deelvraag 1 en 2 ver LaTeX-en
 
 
---------------  Deekvraag 3  --------------
+--------------  Deelvraag 3  --------------
 	-Linear Regression (Steven)
 	-Support Vector Machines (Steven)
 	-Neural Networks (Thijs)
+
+
+--------------  Deelvraag 4  --------------
 	-Het leren
 		-Evolutionary
 		-Newton's Method
 		-Gradient Descent
 
---------------  Deekvraag 4  --------------
+--------------  Deelvraag 5  --------------
  	-Toepassingen Machine Learning
 
---------------  Deekvraag 5  --------------	
+--------------  Deelvraag 6  --------------	
 	-Limitaties Machine learning
