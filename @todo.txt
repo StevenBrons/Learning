@@ -1,7 +1,7 @@
 -------------- Algemene Taken --------------
 	-Deelvraag 1 opsplitsen
 	-Deelvraag 1 en 2 ver LaTeX-en
-
+	-Deelvraag 1: eigenschappen van algoritme toevoegen
 
 --------------  Deelvraag 3  --------------
 	-Linear Regression (Steven)
