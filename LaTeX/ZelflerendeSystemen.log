@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  7 JUL 2017 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  17 JUL 2017 14:31
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -236,18 +236,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `ZelflerendeSystemen.toc'.
 
 
-[1] [2] (WatZijnZelflerendeSystemen.tex
+[1] [2] (Deelvraag1.tex
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¯ in font cmr10!
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
-
-("E:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("E:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [3]
-<res/datasetBFS3.png, id=20, 1011.02719pt x 471.26062pt>
+ [3] <res/datasetBFS3.png, id=20, 1011.02719pt x 471.26062pt>
 File: res/datasetBFS3.png Graphic file (type png)
 
 <use res/datasetBFS3.png>
@@ -292,19 +290,20 @@ File: res/maze.png Graphic file (type png)
 <use res/maze.png>
 Package pdftex.def Info: res/maze.png used on input line 109.
 (pdftex.def)             Requested size: 276.00105pt x 286.56447pt.
- [7 <./res/datasetBFS2.png>] [8 <./res/maze.png>]
-<res/algorithm1.png, id=46, 436.63126pt x 76.78688pt>
+ [7 <./res/datasetBFS2.png>] [8 <./res/maze.png>]) [9]
+(Deelvraag2.tex <res/algorithm1.png, id=49, 436.63126pt x 76.78688pt>
 File: res/algorithm1.png Graphic file (type png)
- <use res/algorithm1.png>
-Package pdftex.def Info: res/algorithm1.png used on input line 151.
+
+<use res/algorithm1.png>
+Package pdftex.def Info: res/algorithm1.png used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 60.67267pt.
-
-[9 <./res/algorithm1.png>]
-<res/algorithm2.png, id=51, 420.82219pt x 162.6075pt>
+ <res/algorithm2.png, id=50, 420.82219pt x 162.6075pt>
 File: res/algorithm2.png Graphic file (type png)
- <use res/algorithm2.png>
-Package pdftex.def Info: res/algorithm2.png used on input line 167.
+
+<use res/algorithm2.png>
+Package pdftex.def Info: res/algorithm2.png used on input line 26.
 (pdftex.def)             Requested size: 345.0pt x 133.3117pt.
+ [10 <./res/algorithm1.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -327,26 +326,26 @@ Missing character: There is no ² in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
 
-Overfull \hbox (7.88959pt too wide) in paragraph at lines 177--185
+Overfull \hbox (7.88959pt too wide) in paragraph at lines 36--44
  [][] 
  []
 
-[10 <./res/algorithm2.png>] <res/pacman.png, id=56, 246.1697pt x 280.04625pt>
+[11 <./res/algorithm2.png>] <res/pacman.png, id=59, 246.1697pt x 280.04625pt>
 File: res/pacman.png Graphic file (type png)
 
 <use res/pacman.png>
-Package pdftex.def Info: res/pacman.png used on input line 199.
+Package pdftex.def Info: res/pacman.png used on input line 58.
 (pdftex.def)             Requested size: 172.5pt x 196.24467pt.
- [11 <./res/pacman.png>] [12] (ZelflerendeSystemen.bbl))
+) [12 <./res/pacman.png>] (ZelflerendeSystemen.bbl)
 [13] (ZelflerendeSystemen.aux) ) 
 Here is how much of TeX's memory you used:
- 3186 strings out of 493323
- 45442 string characters out of 3139063
- 134229 words of memory out of 3000000
+ 3189 strings out of 493323
+ 45432 string characters out of 3139063
+ 134230 words of memory out of 3000000
  6672 multiletter control sequences out of 15000+200000
  8241 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,1040b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,9n,25p,1024b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
@@ -354,7 +353,7 @@ s/cm/cmbx12.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ZelflerendeSystemen.pdf (14 pages, 302742 bytes).
+Output written on ZelflerendeSystemen.pdf (14 pages, 302411 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

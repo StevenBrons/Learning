@@ -9,9 +9,11 @@
 \contentsline {subsubsection}{\numberline {2.5.1}Breadth-first search}{7}
 \contentsline {subsubsection}{\numberline {2.5.2}Depth-first search}{8}
 \contentsline {subsection}{\numberline {2.6}Zelflerend?}{9}
-\contentsline {subsection}{\numberline {2.7}Machine learning}{9}
-\contentsline {subsection}{\numberline {2.8}Training}{10}
-\contentsline {subsubsection}{\numberline {2.8.1}Supervised Learning}{10}
-\contentsline {subsubsection}{\numberline {2.8.2}Unsupervised Learning}{11}
-\contentsline {subsubsection}{\numberline {2.8.3}Reinforcement Learning}{11}
-\contentsline {subsection}{\numberline {2.9}Conclusie}{12}
+\contentsline {section}{\numberline {3}Wat zijn zelflerende systemen}{10}
+\contentsline {subsection}{\numberline {3.1}Machine learning}{10}
+\contentsline {subsection}{\numberline {3.2}Training}{10}
+\contentsline {subsubsection}{\numberline {3.2.1}Supervised Learning}{11}
+\contentsline {subsubsection}{\numberline {3.2.2}Unsupervised Learning}{11}
+\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{12}
+\contentsline {subsection}{\numberline {3.3}Conclusie}{12}
+\contentsline {section}{\numberline {4}Bronnen}{13}
