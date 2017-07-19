@@ -15,5 +15,6 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Supervised Learning}{11}
 \contentsline {subsubsection}{\numberline {3.2.2}Unsupervised Learning}{11}
 \contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{12}
-\contentsline {subsection}{\numberline {3.3}Conclusie}{12}
-\contentsline {section}{\numberline {4}Bronnen}{13}
+\contentsline {subsection}{\numberline {3.3}Normaliseren van data}{12}
+\contentsline {subsection}{\numberline {3.4}Conclusie}{13}
+\contentsline {section}{\numberline {4}Bronnen}{14}
