@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{SVM}
+Andreas~Christmann Ingo~Steinwart.
+\newblock Support vector machines.
+
 \bibitem{Moore}
 Olvi Mangasarian~(chair) Jin-Yi~Cai, Larry~Landweber.
 \newblock Memorial resolution of the faculty of the university of
@@ -15,8 +19,20 @@ Andrew Ng.
 \newblock www.coursera.org.
 
 \bibitem{WoordenOrg}
-onbekend.
+Onbekend.
 \newblock http://www.woorden.org.
+
+\bibitem{ANN1}
+Onbekend.
+\newblock psycnet.apa.org.
+
+\bibitem{SVM2}
+Onbekend.
+\newblock www.saedsayad.com.
+
+\bibitem{SunilRay}
+Sunil Ray.
+\newblock www.analyticsvidhya.com.
 
 \bibitem{ArthurSamuel}
 Arthur Samuel.

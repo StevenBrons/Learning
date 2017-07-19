@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  19 JUL 2017 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  19 JUL 2017 18:45
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -143,7 +143,14 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
-(ZelflerendeSystemen.aux)
+(ZelflerendeSystemen.aux
+
+LaTeX Warning: Label `fig:SupVectorMachine1' multiply defined.
+
+
+LaTeX Warning: Label `fig:SupVectorMachine1' multiply defined.
+
+)
 \openout1 = `ZelflerendeSystemen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -158,8 +165,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen107
@@ -342,26 +348,153 @@ Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ² in font cmr10!
- [12 <./res/pacman.png>]) [13] (ZelflerendeSystemen.bbl)
-[14] (ZelflerendeSystemen.aux) ) 
+ [12 <./res/pacman.png>]) [13] (Deelvraag3.tex
+<res/linearRegression.png, id=67, 677.53125pt x 677.53125pt>
+File: res/linearRegression.png Graphic file (type png)
+
+<use res/linearRegression.png>
+Package pdftex.def Info: res/linearRegression.png used on input line 13.
+(pdftex.def)             Requested size: 172.5pt x 172.49422pt.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no « in font cmr10!
+ [14 <./res/linearRegression.png>]
+<res/SVM.png, id=76, 602.25pt x 301.125pt>
+File: res/SVM.png Graphic file (type png)
+ <use res/SVM.png>
+Package pdftex.def Info: res/SVM.png used on input line 32.
+(pdftex.def)             Requested size: 172.5pt x 86.24883pt.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no « in font cmr10!
+ [15 <./res/SVM.png>] <res/dataset1d.png, id=80, 280.79906pt x 35.38219pt>
+File: res/dataset1d.png Graphic file (type png)
+
+<use res/dataset1d.png>
+Package pdftex.def Info: res/dataset1d.png used on input line 73.
+(pdftex.def)             Requested size: 172.5pt x 21.73589pt.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+
+
+LaTeX Warning: Reference `dataset1d' on page 16 undefined on input line 78.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+<res/KernelMethod.png, id=81, 301.125pt x 301.125pt>
+File: res/KernelMethod.png Graphic file (type png)
+
+<use res/KernelMethod.png>
+Package pdftex.def Info: res/KernelMethod.png used on input line 82.
+(pdftex.def)             Requested size: 172.5pt x 172.50684pt.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ [16 <./res/dataset1d.png> <./res/KernelMethod.png>]
+<res/BiologischNeuron.png, id=88, 297.36093pt x 167.12437pt>
+File: res/BiologischNeuron.png Graphic file (type png)
+
+<use res/BiologischNeuron.png>
+Package pdftex.def Info: res/BiologischNeuron.png used on input line 93.
+(pdftex.def)             Requested size: 172.5pt x 96.9475pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+<res/Perceptron.png, id=89, 602.25pt x 451.6875pt>
+File: res/Perceptron.png Graphic file (type png)
+ <use res/Perceptron.png>
+Package pdftex.def Info: res/Perceptron.png used on input line 107.
+(pdftex.def)             Requested size: 172.5pt x 129.37325pt.
+
+[17 <./res/BiologischNeuron.png> <./res/Perceptron.png>]
+<res/GenericActivationFunction.png, id=94, 261.97874pt x 179.92218pt>
+File: res/GenericActivationFunction.png Graphic file (type png)
+
+<use res/GenericActivationFunction.png>
+Package pdftex.def Info: res/GenericActivationFunction.png used on input line 1
+24.
+(pdftex.def)             Requested size: 172.5pt x 118.47171pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ [18 <./res/GenericActivationFunction.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ <res/GenericNeuralNetwork.png, id=100, 539.01375pt x 601.4972pt>
+File: res/GenericNeuralNetwork.png Graphic file (type png)
+
+<use res/GenericNeuralNetwork.png>
+Package pdftex.def Info: res/GenericNeuralNetwork.png used on input line 142.
+(pdftex.def)             Requested size: 172.5pt x 192.4922pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+) [19 <./res/GenericNeuralNetwork.png>]
+(ZelflerendeSystemen.bbl) [20] (ZelflerendeSystemen.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3189 strings out of 493323
- 45432 string characters out of 3139066
- 134230 words of memory out of 3000000
- 6672 multiletter control sequences out of 15000+200000
+ 3243 strings out of 493323
+ 46613 string characters out of 3139066
+ 134344 words of memory out of 3000000
+ 6715 multiletter control sequences out of 15000+200000
  8241 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,25p,1024b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ZelflerendeSystemen.pdf (15 pages, 304253 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ZelflerendeSystemen.pdf (21 pages, 513618 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 146 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
