@@ -1,41 +1,207 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{SVM}
-Andreas~Christmann Ingo~Steinwart.
-\newblock Support vector machines.
+\sortlist[entry]{none/global/}
+  \entry{WoordenOrg}{article}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Onbekend},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag1}
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.cims.nyu.edu/~munoz/files/ml_optimization.pdf
+    \endverb
+    \field{title}{http://www.woorden.org}
+  \endentry
 
-\bibitem{Moore}
-Olvi Mangasarian~(chair) Jin-Yi~Cai, Larry~Landweber.
-\newblock Memorial resolution of the faculty of the university of
-  wisconsin-madison.
-\newblock 1727.
+  \entry{Moore}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JYCOMcLL}{%
+         family={Jin-Yi\bibnamedelima Cai},
+         familyi={J\bibinitperiod-Y\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+         suffix={Larry\bibnamedelima Landweber},
+         suffixi={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Olvi Mangasarian\bibnamedelima (chair)},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  c\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag1}
+    \strng{namehash}{JYCLLOMc1}
+    \strng{fullhash}{JYCLLOMc1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{MEMORIAL RESOLUTION OF THE FACULTY OF THE UNIVERSITY OF
+  WISCONSIN-MADISON}
+    \field{year}{1727}
+  \endentry
 
-\bibitem{MLCourse1}
-Andrew Ng.
-\newblock www.coursera.org.
+  \entry{ArthurSamuel}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Samuel},
+         familyi={S\bibinitperiod},
+         given={Arthur},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag2}
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.cims.nyu.edu/~munoz/files/ml_optimization.pdf
+    \endverb
+    \field{title}{Machine Learning and Optimization}
+    \field{journaltitle}{Machine Learning and Optimization}
+  \endentry
 
-\bibitem{MLCourse2}
-Andrew Ng.
-\newblock www.coursera.org.
+  \entry{MLCourse1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NA}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag2}
+    \strng{namehash}{NA1}
+    \strng{fullhash}{NA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervi
+    \verb sed-learning
+    \endverb
+    \field{title}{www.coursera.org}
+  \endentry
 
-\bibitem{WoordenOrg}
-Onbekend.
-\newblock http://www.woorden.org.
+  \entry{MLCourse2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NA}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag2}
+    \strng{namehash}{NA1}
+    \strng{fullhash}{NA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsuper
+    \verb vised-learning
+    \endverb
+    \field{title}{www.coursera.org}
+  \endentry
 
-\bibitem{ANN1}
-Onbekend.
-\newblock psycnet.apa.org.
+  \entry{SunilRay}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RS}{%
+         family={Ray},
+         familyi={R\bibinitperiod},
+         given={Sunil},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag3}
+    \strng{namehash}{RS1}
+    \strng{fullhash}{RS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-
+    \verb algorithms/
+    \endverb
+    \field{title}{www.analyticsvidhya.com}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
 
-\bibitem{SVM2}
-Onbekend.
-\newblock www.saedsayad.com.
+  \entry{SVM}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ISAC}{%
+         family={Ingo\bibnamedelima Steinwart},
+         familyi={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Andreas\bibnamedelima Christmann},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag3}
+    \strng{namehash}{ISAC1}
+    \strng{fullhash}{ISAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://books.google.nl/books?hl=nl&lr=&id=HUnqnrpYt4IC&oi=fnd&pg=PP7
+    \verb &dq=support+vector+machines&ots=g8lIEB0rSi&sig=FTLWxhxAwcf95E1xLoWZ8W
+    \verb YFZ4k#v=onepage&q=support%20vector%20machines&f=false
+    \endverb
+    \field{title}{Support Vector Machines}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
 
-\bibitem{SunilRay}
-Sunil Ray.
-\newblock www.analyticsvidhya.com.
+  \entry{SVM2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Onbekend},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag3}
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb http://www.saedsayad.com/support_vector_machine.html
+    \endverb
+    \field{title}{www.saedsayad.com}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
 
-\bibitem{ArthurSamuel}
-Arthur Samuel.
-\newblock Machine learning and optimization.
-
-\end{thebibliography}
+  \entry{ANN1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Onbekend},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag3}
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb http://psycnet.apa.org/journals/rev/65/6/386/
+    \endverb
+    \field{title}{psycnet.apa.org}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+\endsortlist
+\endinput

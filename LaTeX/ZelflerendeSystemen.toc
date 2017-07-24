@@ -1,33 +1,73 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {dutch}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Inleiding}{2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Wat zijn zelflerende computersystemen?}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Inleiding}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Verschillende algoritmes}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Breadth-first search (BFS)}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Depth-first search (DFS)}{5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5}Voorbeelden algoritmes}{6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.1}Breadth-first search}{7}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.2}Depth-first search}{8}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6}Zelflerend?}{9}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Wat zijn zelflerende systemen}{10}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Machine learning}{10}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Training}{10}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.1}Supervised Learning}{11}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2}Unsupervised Learning}{11}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{12}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Normaliseren van data}{12}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Conclusie}{13}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Wat zijn zelflerende computersystemen?}{14}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Inleiding}{14}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Linear Regression}{14}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3}Support vector machine}{15}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.1}Het agoritme}{15}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2}Kernel Methods}{16}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{16}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{16}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.2}De perceptron}{17}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{18}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.4}Bias}{18}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.5}Een netwerk van perceptrons}{19}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5}Conclusie}{19}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Bronnen}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Deelvraag 1}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Deelvraag 2}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Deelvraag 3}{20}

@@ -8,6 +8,9 @@
 \usepackage{blindtext}
 \usepackage{csquotes}
 \usepackage{float}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
+\bibliography{references.bib}
+
 
 \MakeOuterQuote{"}
 
@@ -37,9 +40,9 @@
 \input{Deelvraag3}
 
 \newpage
-\section{Bronnen}
-\bibliography{references}
-\bibliographystyle{plain}
-
+\printbibheading[title={Bronnen},heading=bibnumbered]
+\printbibliography[keyword=Deelvraag1,heading=subbibnumbered,title={Deelvraag 1}]
+\printbibliography[keyword=Deelvraag2,heading=subbibnumbered,title={Deelvraag 2}]
+\printbibliography[keyword=Deelvraag3,heading=subbibnumbered,title={Deelvraag 3}]
 
 \end{document}
