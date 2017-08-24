@@ -89,8 +89,8 @@
       }}%
     }
     \keyw{Deelvraag2}
-    \strng{namehash}{NA1}
-    \strng{fullhash}{NA1}
+    \strng{namehash}{NA2}
+    \strng{fullhash}{NA2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -110,8 +110,8 @@
       }}%
     }
     \keyw{Deelvraag2}
-    \strng{namehash}{NA1}
-    \strng{fullhash}{NA1}
+    \strng{namehash}{NA2}
+    \strng{fullhash}{NA2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -202,6 +202,69 @@
     \endverb
     \field{title}{psycnet.apa.org}
     \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{GradientDescent1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NA}{%
+         family={Na},
+         familyi={N\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag4}
+    \strng{namehash}{NA1}
+    \strng{fullhash}{NA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.coursera.org/learn/machine-learning/lecture/kCvQc/gradien
+    \verb t-descent-for-linear-regression
+    \endverb
+    \field{title}{www.coursera.org}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{GradientDescent2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NM}{%
+         family={Nedrich},
+         familyi={N\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag4}
+    \strng{namehash}{NM1}
+    \strng{fullhash}{NM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regr
+    \verb ession/
+    \endverb
+    \field{title}{spin.atomicobject.com}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{carrykh}{article}{}
+    \name{author}{1}{}{%
+      {{hash=c}{%
+         family={carrykh},
+         familyi={c\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag4}
+    \strng{namehash}{c1}
+    \strng{fullhash}{c1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.youtube.com/playlist?list=PLrUdxfaFpuuK0rj55Rhc187Tn9vvxc
+    \verb k7t
+    \endverb
+    \field{title}{evolution simulations}
   \endentry
 \endsortlist
 \endinput
