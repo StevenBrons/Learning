@@ -1,22 +1,26 @@
--------------- Algemene Taken --------------
-	-Deelvraag 1 opsplitsen
-	-Deelvraag 1 en 2 ver LaTeX-en
-	-Deelvraag 1: eigenschappen van algoritme toevoegen
+-Algemene inleiding
+
+
+--------------  Deelvraag 1  --------------
+-Conclusie herschrijven en verbeteren
+
+
+--------------  Deelvraag 2  --------------
+-Inleiding + oude conclusie deelvraag 1
 
 --------------  Deelvraag 3  --------------
-	-Linear Regression (Steven)
-	-Support Vector Machines (Steven)
-	-Neural Networks (Thijs)
-
+-Conclusie
 
 --------------  Deelvraag 4  --------------
-	-Het leren
-		-Evolutionary
-		-Newton's Method
-		-Gradient Descent
+-Conclusie
+
 
 --------------  Deelvraag 5  --------------
- 	-Toepassingen Machine Learning
+-Inleiding
+-Middenstuk
+-Conclusie
 
---------------  Deelvraag 6  --------------	
-	-Limitaties Machine learning
+--------------  Deelvraag 6  --------------
+-Inleiding
+-Middenstuk
+-Conclusie
