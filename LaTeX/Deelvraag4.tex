@@ -61,11 +61,10 @@ $ error'_{i} = x$
 \end{center}
 
 De afgeleide van de cost function is dan:
-
-\begin{center}
-$ cost' = 2(error) * x$
-$ cost' = 2(y_{i} - (xa + b)_{i}) * x$
-\end{center}
+\begin{align}
+cost' &= 2(error) * x \\
+cost' &= 2(y_{i} - (xa + b)_{i}) * x
+\end{align}
 
 Met de deze afgeleide is de helling van de cost function te bepalen. Hiermee dus te bepalen welke richting we de variabele a in moeten veranderen. Het aanpassen van de a bij Linear Regression gebeurd dus als volgt:
 
@@ -126,25 +125,23 @@ $ f'(c) = \frac{f(x) - f(c)}{x - c}$
 
 Dit kan omgeschreven worden tot de formule voor een raaklijn:
 
-\begin{center}
-$ f'(c)(x - c) = f(x) - f(c)$
-
-$ f'(c)(x - c) + f(c) = f(x)$
-\end{center}
+\begin{align}
+	   f'(c)(x - c) &= f(x) - f(c) \\
+f'(c)(x - c) + f(c) &= f(x)
+\end{align}
 
 Om het nulpunt te berekenen moet gelden f(x)=0. Omdat c slechts een andere waarde voor x aanduidde, kunnen we deze vervangen door het volgende:$ c = x_n $ en $ x = x_{n+1} $
 
-\begin{center}
-$ f'(x_n)(x_{n+1} - x_n) + f(x_n) = 0$
+\begin{align}
+			 f'(x_n)(x_{n+1} - x_n) + f(x_n) &= 0 \\
+	f'(x_n)* x_{n+1} - f'(x_n) * x_n + f(x_n)&= 0 \\
+							f'(x_n)* x_{n+1} &= f'(x_n) * x_n - f(x_n) \\
+		   \frac{f'(x_n) * x_{n+1}}{f'(x_n)} &= \frac{f'(x_n) * x _n - f(x_n)}{f'(x_n)} \\
+									  x_{n+1}&= x_n - \frac{f(x_n)}{f'(x_n)}
+\end{align}
 
-$ f'(x_n)* x_{n+1} - f'(x_n) * x_n + f(x_n)= 0$
 
-$ f'(x_n)* x_{n+1} = f'(x_n) * x_n - f(x_n)= 0$
 
-$ \frac{f'(x_n) * x_{n+1}}{f'(x_n)} = \frac{f'(x_n) * x _n - f(x_n)}{f'(x_n)}$
-
-$ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
-\end{center}
 
 Met deze formule kan de volgende waarde voor x berekend worden.
 
