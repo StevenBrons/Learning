@@ -50,13 +50,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2}Kernel Methods}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{17}
+\contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{17}
+\contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.2}De perceptron}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{19}
+\contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.4}Bias}{19}
 \defcounter {refsection}{0}\relax 
@@ -84,7 +84,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.2}De wiskunde}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3}Het gebruik}{25}
+\contentsline {subsubsection}{\numberline {5.3.3}Het gebruik}{26}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{26}
 \defcounter {refsection}{0}\relax 
@@ -94,7 +94,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Voor welke toepassingen kunnen computerprogramma's, waarin een zelflerend algoritme ge\"implementeerd is, gebruikt worden?}{28}
+\contentsline {section}{\numberline {6}5. Welke toepassingen hebben systemen die gebruik maken van een zelflerend algoritme?}{28}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Welke limitaties hebben zelflerende algoritmes?}{29}
 \defcounter {refsection}{0}\relax 
