@@ -50,13 +50,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2}Kernel Methods}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{18}
+\contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{18}
+\contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{17}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.2}De perceptron}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{18}
+\contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{19}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.4.4}Bias}{19}
 \defcounter {refsection}{0}\relax 
@@ -94,16 +94,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}5. Welke toepassingen hebben systemen die gebruik maken van een zelflerend algoritme?}{28}
+\contentsline {section}{\numberline {6}Welke toepassingen hebben systemen die gebruik maken van een zelflerend algoritme?}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Welke limitaties hebben zelflerende algoritmes?}{29}
+\contentsline {subsection}{\numberline {6.1}Weak AI}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Bronnen}{30}
+\contentsline {subsection}{\numberline {6.2}Strong AI}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Deelvraag 1}{30}
+\contentsline {subsection}{\numberline {6.3}Artificial General Intelligence (AGI)}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Deelvraag 2}{30}
+\contentsline {subsection}{\numberline {6.4}Verdere toepassingen}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}Deelvraag 3}{30}
+\contentsline {subsection}{\numberline {6.5}Conclusie}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4}Deelvraag 4}{30}
+\contentsline {section}{\numberline {7}Welke limitaties hebben zelflerende algoritmes?}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Bronnen}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}Deelvraag 1}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2}Deelvraag 2}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Deelvraag 3}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4}Deelvraag 4}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5}Deelvraag 5}{31}

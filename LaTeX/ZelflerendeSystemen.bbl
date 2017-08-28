@@ -266,5 +266,70 @@
     \endverb
     \field{title}{evolution simulations}
   \endentry
+
+  \entry{Searle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Searle},
+         familyi={S\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag5}
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb http://cogprints.org/7150/1/10.1.1.83.5248.pdf
+    \endverb
+    \field{title}{cogprints.org}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{DeepQ}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Saxena},
+         familyi={S\bibinitperiod},
+         given={Shalini},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag5}
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://arstechnica.com/science/2015/02/ai-masters-49-atari-2600-game
+    \verb s-without-instructions/
+    \endverb
+    \field{title}{arstechnica.com}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{DeepMind1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Griffin},
+         familyi={G\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag5}
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb http://www.globalfuturist.org/2017/03/bad-news-for-jobs-fabled-artifi
+    \verb cial-general-intelligence-could-arrive-much-earlier-than-expected/
+    \endverb
+    \field{title}{www.globalfuturist.org}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
 \endsortlist
 \endinput
