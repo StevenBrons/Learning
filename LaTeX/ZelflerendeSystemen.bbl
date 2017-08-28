@@ -331,5 +331,48 @@
     \field{title}{www.globalfuturist.org}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
+
+  \entry{SemiSupervisedLearning}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RP}{%
+         family={Rai},
+         familyi={R\bibinitperiod},
+         given={Piyush},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag6}
+    \strng{namehash}{RP1}
+    \strng{fullhash}{RP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.cs.utah.edu/~piyush/teaching/8-11-slides.pdf
+    \endverb
+    \field{title}{Semi-supervised Learning}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{GoogleDeepMindArticle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Shead},
+         familyi={S\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag6}
+    \strng{namehash}{SS2}
+    \strng{fullhash}{SS2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb http://uk.businessinsider.com/heres-how-much-computing-power-google-d
+    \verb eepmind-needed-to-beat-lee-sedol-2016-3?international=true&r=UK&IR=T
+    \endverb
+    \field{title}{Semi-supervised Learning}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
 \endsortlist
 \endinput
