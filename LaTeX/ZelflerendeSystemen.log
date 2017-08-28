@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  26 AUG 2017 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  28 AUG 2017 12:43
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -549,6 +549,21 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'GradientDescent2':
 (biblatex)                - Invalid format of field 'urldate'.
 
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Searle':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'DeepQ':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'DeepMind1':
+(biblatex)                - Invalid format of field 'urldate'.
+
 )
 Package biblatex Info: Reference section=0 on input line 20.
 Package biblatex Info: Reference segment=0 on input line 20.
@@ -688,638 +703,7 @@ Package pdftex.def Info: res/SVM.png used on input line 32.
 (pdftex.def)             Requested size: 172.5pt x 86.24883pt.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no « in font cmr10!
-
-! Misplaced alignment tab character &.
-<argument> \itshape w * x - b &
-                               = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Incomplete \ifmmode; all text was ignored after line 47.
-<inserted text> 
-                \fi 
-l.47 \end{align}
-                
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{align}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \fi.
-\textit  ...#1\check@icr \expandafter \egroup \fi 
-                                                  
-l.47 \end{align}
-                
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.47 \end{align}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \itshape w * x - b &
-                               = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Incomplete \ifmmode; all text was ignored after line 47.
-<inserted text> 
-                \fi 
-l.47 \end{align}
-                
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{align}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \fi.
-\textit  ...#1\check@icr \expandafter \egroup \fi 
-                                                  
-l.47 \end{align}
-                
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.47 \end{align}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \itshape w * x - b &
-                               = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Incomplete \ifmmode; all text was ignored after line 47.
-<inserted text> 
-                \fi 
-l.47 \end{align}
-                
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{align}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \fi.
-\textit  ...#1\check@icr \expandafter \egroup \fi 
-                                                  
-l.47 \end{align}
-                
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.47 \end{align}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \itshape w * x - b &
-                               = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = -1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Incomplete \ifmmode; all text was ignored after line 47.
-<inserted text> 
-                \fi 
-l.47 \end{align}
-                
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{align}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \fi.
-\textit  ...#1\check@icr \expandafter \egroup \fi 
-                                                  
-l.47 \end{align}
-                
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.47 \end{align}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \itshape w * x - b &
-                               = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 0
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Incomplete \ifmmode; all text was ignored after line 47.
-<inserted text> 
-                \fi 
-l.47 \end{align}
-                
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{align}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \fi.
-\textit  ...#1\check@icr \expandafter \egroup \fi 
-                                                  
-l.47 \end{align}
-                
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.47 \end{align}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \itshape w * x - b &
-                               = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \itshape w * x - b &
-                                                  = 1
-l.47 \end{align}
-                
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Incomplete \ifmmode; all text was ignored after line 47.
-<inserted text> 
-                \fi 
-l.47 \end{align}
-                
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \end{align}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \end{align}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \fi.
-\textit  ...#1\check@icr \expandafter \egroup \fi 
-                                                  
-l.47 \end{align}
-                
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.47 \end{align}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[16 <./res/SVM.png>] <res/dataset1d.png, id=83, 280.79906pt x 35.38219pt>
+ [16 <./res/SVM.png>] <res/dataset1d.png, id=83, 280.79906pt x 35.38219pt>
 File: res/dataset1d.png Graphic file (type png)
 
 <use res/dataset1d.png>
@@ -1378,11 +762,8 @@ File: res/Perceptron.png Graphic file (type png)
 Package pdftex.def Info: res/Perceptron.png used on input line 107.
 (pdftex.def)             Requested size: 172.5pt x 129.37325pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18 <./res/BiologischNeuron.png>]
-<res/GenericActivationFunction.png, id=97, 261.97874pt x 179.92218pt>
+[18 <./res/BiologischNeuron.png> <./res/Perceptron.png>]
+<res/GenericActivationFunction.png, id=98, 261.97874pt x 179.92218pt>
 File: res/GenericActivationFunction.png Graphic file (type png)
 
 <use res/GenericActivationFunction.png>
@@ -1399,13 +780,12 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- [19 <./res/Perceptron.png> <./res/GenericActivationFunction.png>]
+ [19 <./res/GenericActivationFunction.png>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
-
-<res/GenericNeuralNetwork.png, id=103, 539.01375pt x 601.4972pt>
+ <res/GenericNeuralNetwork.png, id=103, 539.01375pt x 601.4972pt>
 File: res/GenericNeuralNetwork.png Graphic file (type png)
 
 <use res/GenericNeuralNetwork.png>
@@ -1501,7 +881,15 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [26]) [27] (Deelvraag5.tex) [28] (Deelvraag6.tex) [29]
+ [26]) [27] (Deelvraag5.tex
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no « in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no « in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [28]) [29] (Deelvraag6.tex) [30]
 Overfull \hbox (11.11172pt too wide) in paragraph at lines 54--54
 \OT1/cmr/m/n/10 SO-LU-TION OF THE FA-CULTY OF THE UNI-VER-SITY OF WISCONSIN-
  []
@@ -1531,7 +919,19 @@ Overfull \hbox (15.5805pt too wide) in paragraph at lines 57--57
  linear -[] regression/$\OT1/cmr/m/n/10 . 
  []
 
-[30] (ZelflerendeSystemen.aux)
+[31]
+Overfull \hbox (14.30272pt too wide) in paragraph at lines 58--58
+\OT1/cmtt/m/n/10 globalfuturist . org / 2017 / 03 / bad -[] news -[] for -[] jo
+bs -[] fabled -[] artificial -[]
+ []
+
+
+Overfull \hbox (7.0806pt too wide) in paragraph at lines 58--58
+\OT1/cmtt/m/n/10 general -[] intelligence -[] could -[] arrive -[] much -[] ear
+lier -[] than -[] expected/$\OT1/cmr/m/n/10 . 
+ []
+
+[32] (ZelflerendeSystemen.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1543,13 +943,13 @@ Package logreq Info: Writing requests to 'ZelflerendeSystemen.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9980 strings out of 493323
- 167754 string characters out of 3139066
- 441299 words of memory out of 3000000
- 13361 multiletter control sequences out of 15000+200000
- 10536 words of font info for 38 fonts, out of 3000000 for 9000
+ 9984 strings out of 493323
+ 167938 string characters out of 3139066
+ 442299 words of memory out of 3000000
+ 13366 multiletter control sequences out of 15000+200000
+ 9838 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,10n,45p,1024b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,45p,1024b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -1563,9 +963,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ZelflerendeSystemen.pdf (31 pages, 608697 bytes).
+Output written on ZelflerendeSystemen.pdf (33 pages, 614014 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
