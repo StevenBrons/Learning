@@ -1,7 +1,7 @@
-\section{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?}
+\section{Het verbeteren}
 
 \subsection{Inleiding}
-In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: Hoe bepalen we bij Linear Regression de waarden voor a en b in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  x en b in de vector $ w ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
+In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: Hoe bepalen we bij Linear Regression de waarden voor a en b in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  x en b in de vector $ w ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Kortom: \textit{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?} Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
 
 \subsection{Gradient descent}
 De eerste leerstrategie die we behandelen is gradient descent. Gradient descent is een algoritme dat functies minimaliseert. Door het aanpassen van bepaalde parameters wordt geprobeerd de waarde van een bepaalde functie zo laag mogelijk te maken. De functie die we bij een zelflerend systeem proberen te minimaliseren is de cost function, ook wel loss function genoemd. Dit is een functie die bepaalt hoe goed het systeem op dat moment werkt. Er wordt bepaald hoeveel de huidige outputs afwijken van de gewenste outputs. Het is hierbij dus nodig dat je de gewenste outputs weet bij gegeven inputs. Er is dus bij gradient descent altijd sprake van supervised learning. 
@@ -61,10 +61,10 @@ $ error'_{i} = x$
 \end{center}
 
 De afgeleide van de cost function is dan:
-\begin{align}
+\begin{align*}
 cost' &= 2(error) * x \\
 cost' &= 2(y_{i} - (xa + b)_{i}) * x
-\end{align}
+\end{align*}
 
 Met de deze afgeleide is de helling van de cost function te bepalen. Hiermee dus te bepalen welke richting we de variabele a in moeten veranderen. Het aanpassen van de a bij Linear Regression gebeurd dus als volgt:
 
@@ -125,20 +125,20 @@ $ f'(c) = \frac{f(x) - f(c)}{x - c}$
 
 Dit kan omgeschreven worden tot de formule voor een raaklijn:
 
-\begin{align}
+\begin{align*}
 	   f'(c)(x - c) &= f(x) - f(c) \\
 f'(c)(x - c) + f(c) &= f(x)
-\end{align}
+\end{align*}
 
 Om het nulpunt te berekenen moet gelden f(x)=0. Omdat c slechts een andere waarde voor x aanduidde, kunnen we deze vervangen door het volgende:$ c = x_n $ en $ x = x_{n+1} $
 
-\begin{align}
+\begin{align*}
 			 f'(x_n)(x_{n+1} - x_n) + f(x_n) &= 0 \\
 	f'(x_n)* x_{n+1} - f'(x_n) * x_n + f(x_n)&= 0 \\
 							f'(x_n)* x_{n+1} &= f'(x_n) * x_n - f(x_n) \\
 		   \frac{f'(x_n) * x_{n+1}}{f'(x_n)} &= \frac{f'(x_n) * x _n - f(x_n)}{f'(x_n)} \\
 									  x_{n+1}&= x_n - \frac{f(x_n)}{f'(x_n)}
-\end{align}
+\end{align*}
 
 
 
@@ -167,3 +167,4 @@ Een andere manier voor evolutie is stellen dat na een bepaalde tijd elk individu
 In de biologie kan in het DNA een mutatie plaatsvinden. Een mutatie is een willekeurige verandering zonder echte reden. Nu kunnen deze mutaties nadelig zijn door bijvoorbeeld ziektes te veroorzaken, maar voor evolutie zijn ze erg nuttig. Zonder mutaties zou het DNA altijd gebonden blijven aan wat er al bestaat omdat het telkens wordt doorgegeven. Zo zou er niets nieuws kunnen ontstaan en zou het systeem misschien vast komen te zitten. Als je bijvoorbeeld een programma hebt waarin een systeem leert een hindernis baan over te gaan, maar geen enkel individu heeft in zijn DNA de informatie om te springen staan, dan kan het programma nooit over een horde heen komen. Mutaties dienen ervoor zulke problemen te voorkomen. Je voegt een bepaalde mutatiefactor toe, een kleine kans die ervoor zorgt dat het programma soms een willekeurige verandering aanbrengt waardoor nieuwe mogelijkheden voor de individuen kunnen ontstaan.
 
 \subsection{Conclusie}
+Zelflerende algoritmes kunnen zichzelf verbeteren door gebruik te maken van leerstrategien. Drie veel gebruikte leerstrategien zijn: \textit{Gradient descent}, \textit{Newton's method} en \textit{Evolutionary improvement}. De eerste twee gebruiken een wiskundige aanpak die er op is gericht het algoritme zo goed mogelijk te maken terwijl Evolutionary improvement vooral op kans gebaseerd is.

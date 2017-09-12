@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  28 AUG 2017 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  12 SEP 2017 12:39
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -585,8 +585,6 @@ Package biblatex Info: Reference segment=0 on input line 20.
 \openout5 = `ZelflerendeSystemen.toc'.
 
  [2] [3] (Deelvraag1.tex
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¯ in font cmr10!
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
 
 ("E:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -595,7 +593,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
  [4]
-<res/datasetBFS3.png, id=23, 1011.02719pt x 471.26062pt>
+<res/datasetBFS3.png, id=24, 1011.02719pt x 471.26062pt>
 File: res/datasetBFS3.png Graphic file (type png)
 
 <use res/datasetBFS3.png>
@@ -772,8 +770,11 @@ File: res/Perceptron.png Graphic file (type png)
 Package pdftex.def Info: res/Perceptron.png used on input line 107.
 (pdftex.def)             Requested size: 172.5pt x 129.37325pt.
 
-[18 <./res/BiologischNeuron.png> <./res/Perceptron.png>]
-<res/GenericActivationFunction.png, id=98, 261.97874pt x 179.92218pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./res/BiologischNeuron.png>]
+<res/GenericActivationFunction.png, id=97, 261.97874pt x 179.92218pt>
 File: res/GenericActivationFunction.png Graphic file (type png)
 
 <use res/GenericActivationFunction.png>
@@ -790,12 +791,13 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- [19 <./res/GenericActivationFunction.png>]
+ [19 <./res/Perceptron.png> <./res/GenericActivationFunction.png>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- <res/GenericNeuralNetwork.png, id=103, 539.01375pt x 601.4972pt>
+
+<res/GenericNeuralNetwork.png, id=103, 539.01375pt x 601.4972pt>
 File: res/GenericNeuralNetwork.png Graphic file (type png)
 
 <use res/GenericNeuralNetwork.png>
@@ -991,7 +993,7 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ZelflerendeSystemen.pdf (34 pages, 619272 bytes).
+Output written on ZelflerendeSystemen.pdf (34 pages, 618279 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
