@@ -2,17 +2,17 @@
 \section{Reguliere algoritmes}
 
 \subsection{Inleiding}
-Voordat we kunnen onderzoek kunnen doen naar zelflerende algoritme moeten we eerst een beeld krijgen van reguliere algoritmes. Daarom behandelen we in dit hoofdstuk de vraag: \textit{Wat zijn voorbeelden van reguliere algoritmes en hoe werken ze?}
+Voordat we onderzoek kunnen doen naar zelflerende algoritmes moeten we eerst een beeld krijgen van reguliere algoritmes. Daarom behandelen we in dit hoofdstuk de vraag: \textit{Wat zijn voorbeelden van reguliere algoritmes en hoe werken ze?}
 
 
 \subsection{Verschillende algoritmes}
-Computers hebben geen dus bewustzijn. Om deze reden kunnen ze niet zelf bepalen iets te doen. Waar computers wel in uitblinken, is het uitvoeren van taken die ze zijn opgelegd. Vaak komen deze taken in de vorm van code. Via code kan je computers opdrachten geven, bijvoorbeeld: \textit{Bereken 7 * 6}. De boodschap valt echter niet op deze manier over te brengen, afhankelijk van de taal waarin je programmeert zijn er vaste commando's waar de computer op zal reageren.
-Naarmate de opdracht die je een computer wil laten uitvoeren complexer wordt, zal ook het gebruik in deze commando's ingewikkelder worden. Hier komen algoritmes in het spel. Een algoritme is een soort stappenplan, waarin een complexere handeling in duidelijke opdrachten weergegeven wordt. De volgende definitie geeft een betekenis in de meest algemene zin: \textit{"een algoritme is een eindige reeks instructies om vanaf een beginpunt een bepaald doel te bereiken."} \cite{WoordenOrg}
+Computers hebben geen bewustzijn. Om deze reden kunnen ze niet zelf bepalen iets te doen. Waar computers wel in uitblinken, is het uitvoeren van taken die ze zijn opgelegd. Vaak komen deze taken in de vorm van code. Via code kan je computers opdrachten geven, bijvoorbeeld: \textit{Bereken 7 * 6}. De boodschap valt echter niet op deze manier over te brengen, afhankelijk van de taal waarin je programmeert zijn er vaste commando's waar de computer op zal reageren.
+Naarmate de opdracht die je een computer wil laten uitvoeren complexer wordt, zal ook het gebruik van deze commando's ingewikkelder worden. Hier komen algoritmes in het spel. Een algoritme is een soort stappenplan, waarin een complexere handeling in duidelijke opdrachten weergegeven wordt. De volgende definitie geeft een betekenis in de meest algemene zin: \textit{"een algoritme is een eindige reeks instructies om vanaf een beginpunt een bepaald doel te bereiken."} \cite{WoordenOrg}
 
 Een toegankelijke vergelijking is koken. Er is een \textbf{input} van voedsel waar uiteindelijk een gerecht uit moet komen, de \textbf{output}. Voor het tot stand komen van dit gerecht gebruik je misschien een recept. Dit recept is als het ware het algoritme.
 Uit de gegeven definitie is af te leiden dat het aantal mogelijke algoritmes ontzettend groot is. Niet alleen is het een ruim begrip, ook kan het desbetreffende doel waarschijnlijk op meerdere manieren bereikt worden. Het ene algoritme zal misschien beter zijn dan het andere doordat het bijvoorbeeld effici\"enter werkt.
 
-Uiteraard zijn er ook vele algoritmes die gebruik maken van toepassingen, zoals een \textbf{queue} en een \textbf{stack}, die betrekking hebben tot ons onderwerp. Enkele hiervan zullen hier beschreven worden:
+Uiteraard zijn er ook vele algoritmes die gebruik maken van toepassingen, zoals een \textbf{queue} en een \textbf{stack}, die betrekking hebben tot ons onderwerp. Enkele hiervan zullen hier beschreven worden.
 
 \subsection{Breadth-first search (BFS)}
 Dit algoritme, bedacht in de jaren vijftig van de vorige eeuw door E.F. Moore \cite{Moore}, een Amerikaans professor in de wiskunde en computer sciences en een voortrekker in kunstmatig leven, is een zoekalgoritme voor datasets in de vorm van grafieken of "boom"-structuren. In deze dataset wordt een \textbf{node} als oorsprong benoemd, de \textbf{root}. Ook wordt een bepaalde uitkomst als doel gesteld. Vervolgens krijgt elke node drie waardes aangewezen:
@@ -23,6 +23,7 @@ Dit algoritme, bedacht in de jaren vijftig van de vorige eeuw door E.F. Moore \c
 \end{itemize}
 
 Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst waar nodes aan toegevoegd en uitgehaald kunnen worden. Net zoals een daadwerkelijke wachtrij wordt het "\textit{eerste erin, als eerste eruit}" principe toegepast.
+Het Breadth-first search algoritme ziet er als volgt uit:
 
 \begin{enumerate}
 \item Maak een lege lijst S voor bezochte nodes.
@@ -36,7 +37,7 @@ Bij Breadth-first search wordt gebruik gemaakt van een queue. Dit is een lijst w
 		\begin{enumerate}
 		\item Return current.
 		\end{enumerate}
-	\item Voor elke node die grenst aan current:
+	\item Voor elke node die grenst* aan current:
 		\begin{enumerate}
 		\item Als deze node nog niet bezocht is en dus niet in S zit:
 			\begin{enumerate}
@@ -88,59 +89,5 @@ Dit proces wordt herhaald totdat het doel gevonden is of totdat alle nodes bekek
 
 Als vuistregel kan het volgende gehanteerd worden: depth-first search wordt gebruikt als je weet dat er maar \'e\'en uitkomst is, breadth-first search als je de kortste weg wil weten.
 
-
-
-\subsection{Voorbeelden algoritmes}
-Algoritmes hebben meestal vele toepassingen. Hier zijn enkele voorbeelden van de eerder genoemde algoritmes.
-\subsubsection{Breadth-first search}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=0.8\textwidth]{datasetBFS2.png}
-  \caption{Schematische weergave van een willekeurige dataset.}
-  \label{fig:datasetBFS2}
-\end{figure}
-
-In figuur \ref{fig:datasetBFS2} is een dataset te zien, bijvoorbeeld een telefoonboom. Elke cirkel representeert een persoon. Zo kan persoon A de personen B en C bellen, maar A bezit geen andere telefoonnummers. Toch zou hij een boodschap naar H kunnen sturen: via C. 
-Stel, persoon A wil nu iets tegen F zeggen. In een kleine dataset als deze is makkelijk met het oog te zien dat de snelste manier hiervoor A – C – F is en dat A – B – C – E – F veel langer is. Bij grotere datasets is dit echter al snel moeilijk met zekerheid te zeggen. Hiervoor kan breadth-first search ingezet worden.
-
-\subsubsection{Depth-first search}
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=0.8\textwidth]{maze.png}
-  \caption{Een voorbeeld van een automatisch gegenereerd doolhof, gebruik makend van DFS.}
-  \label{fig:maze}
-\end{figure}
-
-Depth-first search kan gebruikt worden voor zowel het maken als oplossen van doolhoven. In figuur \ref{fig:maze} is een doolhof te zien dat gemaakt is met behulp van DFS. Wij hebben in het kader van deze deelvraag een doolhof-generator gemaakt. Het algoritme in de vorm van een stappenplan is als volgt:
-
-\begin{enumerate}
-\item Maak de start cel current en markeer deze als bezocht.
-\item Terwijl er nog niet bezochte cellen aanwezig zijn:
-	\begin{enumerate}
-	\item Als current neighbors heeft die nog niet bezocht zijn:
-		\begin{enumerate}
-		\item Kies willekeurig een van de neighbors
-		\item Voeg current toe aan de stack
-		\item Verwijder de muur tussen de huidige cel en de gekozen cel
-		\item Benoem de gekozen cel als current en zet de state op bezocht
-		\item Kies willekeurig een van de neighbors.
-		\item Voeg current toe aan de stack.
-		\item Verwijder de muur tussen de huidige cel en de gekozen cel.
-		\item Benoem de gekozen cel als current en zet de state op bezocht.
-		\end{enumerate}			
-	
-	\item Anders, als de stack niet leeg is:
-		\begin{enumerate}
-		\item Haal de laatst toegevoegde cel uit de stack en verwijder deze hieruit
-		\item Maak deze cel current
-		\item Haal de laatst toegevoegde cel uit de stack en verwijder deze hieruit.
-		\item Maak deze cel current.
-		\end{enumerate}	
-	\end{enumerate}
-\end{enumerate}
-
 \subsection{Conclusie}
-Twee voorbeelden van reguliere algoritmes zijn "Breadth-first seach" en  "Depth-first search". Dit zijn twee algoritmes met vele toepassingen. Toch kunnen beide algoritmes niet als zelflerend worden beschouwd, ze verbeteren hun manier van zoeken namelijk niet. 
-
-
-
+Twee voorbeelden van reguliere algoritmes zijn "Breadth-first seach" en  "Depth-first search". Dit zijn twee algoritmes met vele toepassingen. Beide algoritmes zijn niet zelflerend omdat ze hun manier van zoeken niet zelf verbeteren.
