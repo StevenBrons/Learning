@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  3 OCT 2017 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  4 OCT 2017 08:53
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -666,7 +666,7 @@ Missing character: There is no ² in font cmr10!
 File: res/linearRegression.png Graphic file (type png)
 
 <use res/linearRegression.png>
-Package pdftex.def Info: res/linearRegression.png used on input line 13.
+Package pdftex.def Info: res/linearRegression.png used on input line 14.
 (pdftex.def)             Requested size: 172.5pt x 172.49422pt.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
@@ -678,7 +678,7 @@ Missing character: There is no « in font cmr10!
 <res/SVM.png, id=66, 602.25pt x 301.125pt>
 File: res/SVM.png Graphic file (type png)
  <use res/SVM.png>
-Package pdftex.def Info: res/SVM.png used on input line 32.
+Package pdftex.def Info: res/SVM.png used on input line 33.
 (pdftex.def)             Requested size: 172.5pt x 86.24883pt.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no « in font cmr10!
@@ -686,7 +686,7 @@ Missing character: There is no « in font cmr10!
 File: res/dataset1d.png Graphic file (type png)
 
 <use res/dataset1d.png>
-Package pdftex.def Info: res/dataset1d.png used on input line 73.
+Package pdftex.def Info: res/dataset1d.png used on input line 74.
 (pdftex.def)             Requested size: 172.5pt x 21.73589pt.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
@@ -694,7 +694,7 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
 
-LaTeX Warning: Reference `dataset1d' on page 14 undefined on input line 78.
+LaTeX Warning: Reference `dataset1d' on page 14 undefined on input line 79.
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
@@ -708,7 +708,7 @@ Missing character: There is no © in font cmr10!
 File: res/KernelMethod.png Graphic file (type png)
 
 <use res/KernelMethod.png>
-Package pdftex.def Info: res/KernelMethod.png used on input line 82.
+Package pdftex.def Info: res/KernelMethod.png used on input line 83.
 (pdftex.def)             Requested size: 172.5pt x 172.50684pt.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
@@ -719,7 +719,7 @@ Missing character: There is no © in font cmr10!
 File: res/BiologischNeuron.png Graphic file (type png)
 
 <use res/BiologischNeuron.png>
-Package pdftex.def Info: res/BiologischNeuron.png used on input line 93.
+Package pdftex.def Info: res/BiologischNeuron.png used on input line 94.
 (pdftex.def)             Requested size: 172.5pt x 96.9475pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -738,7 +738,7 @@ Missing character: There is no ™ in font cmr10!
 <res/Perceptron.png, id=79, 602.25pt x 451.6875pt>
 File: res/Perceptron.png Graphic file (type png)
  <use res/Perceptron.png>
-Package pdftex.def Info: res/Perceptron.png used on input line 107.
+Package pdftex.def Info: res/Perceptron.png used on input line 108.
 (pdftex.def)             Requested size: 172.5pt x 129.37325pt.
 
 
@@ -750,7 +750,7 @@ File: res/GenericActivationFunction.png Graphic file (type png)
 
 <use res/GenericActivationFunction.png>
 Package pdftex.def Info: res/GenericActivationFunction.png used on input line 1
-24.
+25.
 (pdftex.def)             Requested size: 172.5pt x 118.47171pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
@@ -772,7 +772,7 @@ Missing character: There is no © in font cmr10!
 File: res/GenericNeuralNetwork.png Graphic file (type png)
 
 <use res/GenericNeuralNetwork.png>
-Package pdftex.def Info: res/GenericNeuralNetwork.png used on input line 142.
+Package pdftex.def Info: res/GenericNeuralNetwork.png used on input line 143.
 (pdftex.def)             Requested size: 172.5pt x 192.4922pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -944,10 +944,10 @@ Package logreq Info: Writing requests to 'ZelflerendeSystemen.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9977 strings out of 493323
- 167937 string characters out of 3139063
+ 9978 strings out of 493323
+ 167950 string characters out of 3139063
  442299 words of memory out of 3000000
- 13361 multiletter control sequences out of 15000+200000
+ 13362 multiletter control sequences out of 15000+200000
  9838 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,9n,45p,1062b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -964,7 +964,7 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ZelflerendeSystemen.pdf (31 pages, 595685 bytes).
+Output written on ZelflerendeSystemen.pdf (31 pages, 595640 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
