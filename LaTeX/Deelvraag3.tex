@@ -2,7 +2,7 @@
 \label{chapter:MLA}
 
 \subsection{Inleiding}
-In de vorige deelvraag hebben we behandeld wat een zelflerend systeem is. In deze deelvraag gaan wij dieper in op de verschillende soorten zelflerende algoritmes en beantwoorden we de vraag: \textit{Wat zijn voorbeelden van zelflerende algoritmes en hoe werken ze?} We zullen in deze deelvraag naar drie verschillende algoritmes kijken: \textit{Linear Regression, Support vector machines en Artificial Neural Networks.} \cite{SunilRay} 
+In het vorige hoofdstuk hebben we behandeld wat een zelflerend systeem is. In dit hoofdstuk gaan wij dieper in op de verschillende soorten zelflerende algoritmes en beantwoorden we de vraag: \textit{Wat zijn voorbeelden van zelflerende algoritmes en hoe werken ze?} We zullen in deze deelvraag naar drie verschillende algoritmes kijken: \textit{Linear Regression, Support vector machines en Artificial Neural Networks.} \cite{SunilRay} 
 
 \subsection{Linear Regression}
 Het eerste machine learning algoritme dat we gaan behandelen is \textbf{linear regression}. Dit algoritme wordt gebruikt voor het voorspellen van een y-waarde bij gegeven x-waarde(n). Om linear regression te kunnen gebruiken is het belangrijk dat er wel een lineair verband bestaat tussen de x-waarde(n) en de y-waarde. In figuur \ref{fig:LinearRegression1} is een dergelijk linear verband te zien. 
@@ -18,15 +18,16 @@ Dit lineaire verband is te beschrijven met de formule:
 
 Het doel bij linear regression is het bepalen van de waarde voor a en b. Dit is op verschillende manieren mogelijk. Een statistische manier hiervoor is door gebruik te maken van het \textbf{ordinary least squares} algoritme. Dit algoritme bepaalt de best passende lijn door de punten, ook wel bekend als de trendlijn. De waarden voor a en b worden hierbij als volgt bepaald:
 
-\[
-	\frac{\sum_i^n(x_{i} - x)(y_{i} - y)}{\sum_i^n(x_{i} - x)^{2}}
-\]
+\begin{align*}
+	a&=\frac{\sum_{i=0}^{n}(x_{i}-\bar{x})(y_{i}-\bar{y})}{\sum_{i=0}^{n}{(x_{i}-\bar{x}})^{2}}\\
+	b&=\bar{y}-(a * \bar{x})
+\end{align*}
 
-In deze formules is de x zonder subscript het gemiddelde van alle x waarden en de y zonder subscript het gemiddelde van alle y waarden. 
-Dit algoritme is echter alleen toepasbaar als er sprake is van één x-waarde als invoer. Bij meerdere x-waarden is het dus niet te gebruiken. Een andere manier om de a en b waarde te vinden is door gebruik te maken van een leerstrategie. In deelvraag 4 bespreken we drie verschillende leer strategieën.
+In deze formules is $\bar{x}$ het gemiddelde van alle x-waarden en de $\bar{y}$ het gemiddelde van alle y-waarden. 
+Dit algoritme is echter alleen toepasbaar als er sprake is van \'{e}\'{e}n x-waarde als invoer, dus geen multidimensionale invoer waarden zoals $(3,3)$. Bij meerdere x-waarden is dit algoritme dus niet te gebruiken. Een andere manier om de a en b waarde te vinden is door gebruik te maken van een leerstrategie. In deelvraag 4 bespreken we drie verschillende leer strategieën.
 
 \subsection{Support vector machine}
-Een support vector machine (SVM) is een machine learning algoritme ontwikkeld door vladimir vapnik. Het algoritme kan gebruikt worden voor het classificeren van data. Het algoritme heeft training data nodig en is dus een vorm van supervised learning. \cite{SVM}
+Een support vector machine (SVM) is een machine learning algoritme ontwikkeld door Vladimir Vapnik. Het algoritme kan gebruikt worden voor het classificeren van data. Het algoritme is een vorm van supervised learning. \cite{SVM}
 
 \begin{figure}[h]
   \centering
@@ -35,7 +36,7 @@ Een support vector machine (SVM) is een machine learning algoritme ontwikkeld do
   \label{fig:SupVectorMachine1}
 \end{figure}
 
-Een support vector machine werkt als volgt: Het trekt een lijn, een textbf{vector}, tussen de twee groepen. Deze vector is \textit{z\'o dat de afstand tussen de vector en het dichtstbijzijnde datapunten zo groot mogelijk is.} \cite{SVM2} Deze dichtstbijzijnde datapunten worden de \textbf{support vectoren} genoemd In figuur \ref{fig:SupVectorMachine1} is twee keer dezelfde dataset weergegeven. In de linker afbeelding is te zien dat de vector de twee groepen scheidt maar de afstand tussen het dichtstbijzijnde datapunt kleiner is dan bij de rechter afbeelding, deze afstand wordt de marge genoemd. De in de rechter afbeelding is de marge het grootst, dus dit is de betere vector. Het gebied tussen de twee support vectoren wordt het \textbf{hyperplane} genoemd.
+Een support vector machine werkt als volgt: Het trekt een lijn, een \textbf{vector}, tussen de twee groepen. Deze vector is z\'o dat \textit{de afstand tussen de vector en het dichtstbijzijnde datapunten zo groot mogelijk is.} \cite{SVM2} Deze dichtstbijzijnde datapunten worden de \textbf{support vectoren} genoemd In figuur \ref{fig:SupVectorMachine1} is twee keer dezelfde dataset weergegeven. In de linker afbeelding is te zien dat de vector de twee groepen scheidt maar de afstand tussen het dichtstbijzijnde datapunt kleiner is dan bij de rechter afbeelding, deze afstand wordt de marge genoemd. De in de rechter afbeelding is de marge het grootst, dus dit is de betere vector. Het gebied tussen de twee support vectoren wordt het \textbf{hyperplane} genoemd.
 
 \subsubsection{Het agoritme}
 Het doel van het algoritme is van een nieuw datapunt bepalen of het tot groep A (de rode vierkantjes) of groep B (de blauwe cirkels) behoort. Als een nieuw datapunt behoort tot groep A dan willen we dat de output van het algoritme negatief is en als het nieuwe datapunt behoort tot groep B willen we dat de output positief is. Hoe positiever of negatiever de output is hoe zekerder het is dat dit punt daadwerkelijk tot die groep behoort. Als de output 0 is, dan bevindt het punt zich precies tussen de twee groepen, het ligt dan op de stippellijn van figuur \ref{fig:SupVectorMachine1}. Verder is het zo dat de output tussen -1 en 1 ligt als het binnen de twee support vectoren ligt. In dit gebied is het niet helemaal zeker tot welke groep het punt behoort. 
@@ -56,38 +57,40 @@ Een support vector machine probeert het volgende:
 
 Vanuit de vectoren zijn de volgende twee formules af te leiden:
 \begin{itemize}
-\item De formule voor of een datapunt buiten de twee support vectoren ligt: $y_{i}(w^{t}x_{i} - b) \geq 0 $
+\item De formule voor of een datapunt buiten de twee support vectoren ligt: $y_{i}(w^{T}x_{i} - b) \geq 0 $
 \item De formule voor de afstand tussen de twee support vectoren: $\frac{2}{||w||}$
 \end{itemize} 
 
 Een vector die voldoet aan de volgende eisen wordt gekozen:
 \begin{itemize}
-\item Voor alle datapunten moet gelden: $y_{i}(w^{t}x_{i} - b) \geq 0 $
+\item Voor alle datapunten moet gelden: $y_{i}(w^{T}x_{i} - b) \geq 0 $
 \item $\frac{2}{||w||}$ moet zo klein mogelijk zijn, ofwel $||w||$ zo groot mogelijk
 \end{itemize}
 
+
+
 \subsubsection{Kernel Methods}
-In veel gevallen zal de dataset niet zo mooi geordend zijn als in figuur \ref{fig:SupVectorMachine1}. Het is dan niet mogelijk om een rechte lijn te trekken die de twee groepen scheidt. Een support vector machine zou in dit geval dus niet werken. Om toch een support vector machine te kunnen gebruiken is er iets genaamd de \textbf{Kernel Trick}.
+In veel gevallen zal de dataset niet zo mooi geordend zijn als in figuur \ref{fig:SupVectorMachine1}. Het is dan niet mogelijk om een rechte lijn te trekken die de twee groepen scheidt. Een support vector machine zou in dit geval dus niet werken. Om toch een support vector machine te kunnen gebruiken is er iets genaamd de \textbf{kernel krick}.
 
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.5\textwidth]{dataset1d.png}
   \caption{Een één dimensionale dataset}
-  \label{fig:SupVectorMachine1}
+  \label{fig:SupVectorMachine2}
 \end{figure}
 
-In figuur \ref{dataset1d} is een één dimensionale dataset te zien, dit wil zeggen, er is maar één variabele. Met een support vector machine is het nu niet mogelijk om een lijn te trekken die de twee groepen scheidt. Daarom wordt er een extra variabele bij gemaakt, bijvoorbeeld $X_{1} = (X_{0})^{2}$. Nu is het wel mogelijk een lijn te trekken door de dataset die de twee groepen opdeelt:
+In figuur \ref{fig:SupVectorMachine2} is een \'{e}\'{e}n dimensionale dataset te zien, dit wil zeggen, er is maar \'{e}\'{e}n variabele. Met een support vector machine is het nu niet mogelijk om een lijn te trekken die de twee groepen scheidt. Daarom wordt er een extra variabele bij gemaakt, bijvoorbeeld $X_{1} = (X_{0})^{2}$. Nu is het wel mogelijk een lijn te trekken door de dataset die de twee groepen opdeelt:
 
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.5\textwidth]{KernelMethod.png}
-  \caption{Een dataset, gescheiden door een lijn}
-  \label{fig:SupVectorMachine1}
+  \caption{Een dataset, met een fictief uitgevoerde kernal trick, gescheiden door een lijn}
+  \label{fig:SupVectorMachine2}
 \end{figure}
 
 \subsection{Artificial Neural Networks}
 \subsubsection{Biologisch en kunstmatig netwerk}
-Binnen mensen wordt informatie overgebracht door middel van het zenuwstelsel. Dit zenuwstelsel is opgebouwd uit miljarden zenuwcellen. Een zenuwcel, ook wel een neuron genoemd, is opgebouwd uit drie delen: een cel lichaampje, een aantal dendrieten en één axon. In firguur \ref{fig:BiologischNeuron} is een weergave van een biologische neuron te zien.
+Binnen mensen wordt informatie overgebracht door middel van het zenuwstelsel. Dit zenuwstelsel is opgebouwd uit miljarden zenuwcellen. Een zenuwcel, ook wel een neuron genoemd, is opgebouwd uit drie delen: een cel lichaampje, een aantal dendrieten en \'{e}\'{e}n axon. In firguur \ref{fig:BiologischNeuron} is een weergave van een biologische neuron te zien.
 
 \begin{figure}[h]
   \centering
@@ -96,12 +99,12 @@ Binnen mensen wordt informatie overgebracht door middel van het zenuwstelsel. Di
   \label{fig:BiologischNeuron}
 \end{figure}
 
-In de biologie zijn dendrieten verantwoordelijk voor de instroom van informatie, zij brengen informatie (impulsen) naar het cel lichaampje toe. De zenuwcel kan deze informatie vervolgens via een enkele axon doorgeven aan een dendriet van een andere zenuwcel of aan een spier. Het doorgeven van informatie gebeurt in het uiteinde van de axon en dendrieten, in zogeheten synapsen.
+In de biologie zijn dendrieten verantwoordelijk voor de instroom van informatie, zij brengen informatie (impulsen) naar het cel lichaampje toe. De zenuwcel kan deze informatie vervolgens via een enkele axonen doorgeven aan een dendriet van een andere zenuwcel of aan een spier. Het doorgeven van informatie gebeurt in het uiteinde van de axon en dendrieten, in zogeheten synapsen.
 
-Het principe van een neuron kan ook door een computer uitgevoerd worden. Dit is het idee voor een Artificial Neural Network (ANN). Een dergelijk netwerk bestaat uit een verschillend aantal ‘computerneuronen’. Elk van deze neuronen krijgt, net zoals een biologische neuron, informatie binnen. Binnen de neuron vindt een berekening plaats. Vervolgens wordt deze waarde doorgegeven of gegeven als output.
+Het principe van een neuron kan ook door een computer uitgevoerd worden. Dit is het idee voor een Artificial Neural Network (ANN). Een dergelijk netwerk bestaat uit een verschillend aantal ‘computerneuronen’. Elk van deze neuronen krijgt, net zoals een biologische neuron, informatie binnen. Binnen de neuron vindt een berekening plaats. Vervolgens wordt deze waarde doorgegeven aan de volgende neuron of gegeven als output.
 
 \subsubsection{De perceptron}
-De simpelste vorm van een neural network is een netwerk met slechts één neuron. Zo’n ANN, voor het eerst gemaakt door  F. Rosenblatt in 1958 \cite{ANN1}, wordt een \textbf{perceptron} genoemd.
+De simpelste vorm van een neural network is een netwerk met slechts \'{e}\'{e}n neuron. Zo'n ANN, voor het eerst gemaakt door  F. Rosenblatt in 1958 \cite{ANN1}, wordt een \textbf{perceptron} genoemd.
 
 \begin{figure}[h]
   \centering
@@ -133,10 +136,10 @@ Een ANN is een vorm van supervised learning. Het programma weet dus wat het antw
 Hoe ∆w berekend wordt, wordt bepaald door de leerstrategie van het systeem. Hier wordt in de volgende deelvraag verder op in gegaan.
 
 \subsubsection{Bias}
-Met de besproken perceptron is echter één probleem. Wanneer beide inputs gelijk zijn aan 0, heeft het aanpassen van wegingen geeneffect. Een weging maal 0 zal immers altijd in 0 resulteren. Om dit probleem tegen te gaan, wordt er een \textbf{bias} toegevoegd. Dit is een extra input die standaard gelijk is aan 1. De weging van de synaps van de bias wordt niet veranderd. Omdat de neuron nu ook bij inputs van 0 een andere uitkomst uit de berekening zal geven, zal er nu toch een getal door de activation function gaan en zullen de wegingen toch worden aangepast. 
+Met de besproken perceptron is echter een probleem. Wanneer beide inputs gelijk zijn aan nul heeft het aanpassen van wegingen geen effect. Een weging maal nul zal immers altijd in nul resulteren. Om dit probleem tegen te gaan, wordt er een \textbf{bias} toegevoegd. Dit is een extra input die standaard gelijk is aan \'{e}\'{e}n. De weging van de synaps van de bias wordt niet veranderd. Omdat de neuron nu ook bij inputs van nul een andere uitkomst uit de berekening zal geven, zal er nu toch een getal door de activation function gaan en zullen de wegingen toch worden aangepast. 
 
 \subsubsection{Een netwerk van perceptrons}
-Natuurlijk is het ook mogelijk van niet één, maar meerdere perceptrons te hebben. Zo wordt het een echt netwerk van synapsen en neuronen.
+Natuurlijk is het ook mogelijk van niet \'{e}\'{e}n, maar meerdere perceptrons te hebben. Zo wordt het een echt netwerk van synapsen en neuronen.
 
 \begin{figure}[h]
   \centering
@@ -146,7 +149,7 @@ Natuurlijk is het ook mogelijk van niet één, maar meerdere perceptrons te hebb
 \end{figure}
 
 Ook is het mogelijk meerdere lagen neuronen te hebben. Dit wordt een \textbf{deep neural network} genoemd, of simpelweg \textbf{deep learning}.
-De tot nu toe besproken ANN’s hebben hun informatie allemaal in één richting bewogen: alle inputs, alle neuronen, alle outputs. Dit wordt \textbf{feedforward} genoemd. Ook zou je een neural network kunnen hebben waarin de informatie ook nog tussen de neuronen in dezelfde laag beweegt: een \textbf{recurrent neural network}.
+De tot nu toe besproken ANN’s hebben hun informatie allemaal in \'{e}\'{e}n richting bewogen: van alle inputs, naar alle neuronen, naar alle outputs. Dit wordt \textbf{feedforward} genoemd. Ook zou je een neural network kunnen hebben waarin de informatie ook nog tussen de neuronen in dezelfde laag beweegt: een \textbf{recurrent neural network}.
 
 \subsection{Conclusie}
 Voorbeelden van zelflerende algoritmes zijn: \textit{Linear regression}, \textit{Support vector machines} en \textit{Arteficial Neural Networks}. Alle drie de algoritmes werken verschillend en zijn goed voor verschillende scenario's. Linear regression werkt door het opstellen van een lineare formule door waarden met een linear verband. Support vector machines werken door een vector te maken die twee groepen zo goed mogelijk scheidt. En Arteficial neural networks werken door een netwerk van neuronen te simuleren.

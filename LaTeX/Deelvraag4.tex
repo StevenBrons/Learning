@@ -1,10 +1,10 @@
 \section{Het verbeteren}
 
 \subsection{Inleiding}
-In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: Hoe bepalen we bij Linear Regression de waarden voor a en b in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  x en b in de vector $ w ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Kortom: \textit{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?} Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
+In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: Hoe bepalen we bij Linear Regression de waarden voor $a$ en $b$ in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  $x$ en $b$ in de vector $ a ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Kortom: \textit{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?} Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
 
 \subsection{Gradient descent}
-De eerste leerstrategie die we behandelen is gradient descent. Gradient descent is een algoritme dat functies minimaliseert. Door het aanpassen van bepaalde parameters wordt geprobeerd de waarde van een bepaalde functie zo laag mogelijk te maken. De functie die we bij een zelflerend systeem proberen te minimaliseren is de cost function, ook wel loss function genoemd. Dit is een functie die bepaalt hoe goed het systeem op dat moment werkt. Er wordt bepaald hoeveel de huidige outputs afwijken van de gewenste outputs. Het is hierbij dus nodig dat je de gewenste outputs weet bij gegeven inputs. Er is dus bij gradient descent altijd sprake van supervised learning. 
+De eerste leerstrategie die we behandelen is gradient descent. Gradient descent is een algoritme dat functies minimaliseerd door het aanpassen van bepaalde parameters. Er wordt geprobeerd de waarde van een bepaalde functie zo laag mogelijk te maken. De functie die we bij een zelflerend systeem proberen te minimaliseren is de \textbf{cost function}, ook wel loss function genoemd. Dit is een functie die bepaalt hoe goed het systeem op dat moment werkt. Er wordt bepaald hoeveel de huidige outputs afwijken van de gewenste outputs. Het is hierbij dus nodig dat je de gewenste outputs weet bij gegeven inputs. Er is dus bij gradient descent altijd sprake van supervised learning. 
 
 \subsubsection{Het algoritme} 
 \begin{figure}[h]
@@ -14,12 +14,12 @@ De eerste leerstrategie die we behandelen is gradient descent. Gradient descent 
   \label{fig:GenericCostFunction}
 \end{figure}
 
-In figuur \ref{fig:GenericCostFunction} is de cost van een bepaalde situatie uitgezet tegen een variabele a. Dit kan bijvoorbeeld de a uit de formule $ y = ax + b $ bij Linear Regression zijn.  Het is dus te zien dat de cost minimaal is in punt q. We willen dus dat a gelijk wordt aan de waarde van a in punt q. Nu is dit punt in deze grafiek erg makkelijk te vinden, maar zodra er gebruik wordt gemaakt van ingewikkeldere algoritmen, zoals een ANN, wordt dit punt moeilijker te bepalen.
+In figuur \ref{fig:GenericCostFunction} is de cost van een bepaalde situatie uitgezet tegen een variabele $a$. Dit kan bijvoorbeeld de $a$ uit de formule $ y = ax + b $ bij Linear Regression zijn.  Het is dus te zien dat de cost minimaal is in punt q. We willen dus dat a gelijk wordt aan de waarde van $a$ in punt $q$. Nu is dit punt in deze grafiek erg makkelijk te vinden, maar zodra er gebruik wordt gemaakt van ingewikkeldere algoritmen, zoals een ANN, wordt dit punt moeilijker te bepalen.
 
-Op een gegeven moment in het trainingsproces is de a gelijk aan het punt p. Het Gradient Descent algoritme doet dan het volgende:
+Op een gegeven moment in het trainingsproces is de $a$ gelijk aan het punt $p$. Het Gradient Descent algoritme doet dan het volgende:
 \begin{itemize}
 \item De afgeleide op het huidige punt wordt bepaald (de rode lijn in figuur \ref{fig:GenericCostFunction}).
-\item De a wordt zodanig aangepast dat het meer in de richting komt van de q. (Dit wordt gedaan door de afgeleide bij de variabele op te tellen)
+\item De $a$ wordt zodanig aangepast dat het meer in de richting komt van de $q$. (Dit wordt gedaan door de afgeleide bij de variabele op te tellen)
 \end{itemize}
 
 Wanneer Gradient Descent wordt toegepast zal een bepaalde variabele in een zelflerend systeem zo aangepast worden dat de cost als gevolg van die variabele het laagst wordt. 
@@ -40,7 +40,7 @@ $ cost = \sum_{i=0}^n(error_i)^2$
 Zoals bekend uit de wiskunde is het mogelijk om hiervan de laagste waarde te bepalen door de afgeleide op nul te herleiden. Voor elk individueel datapunt is de afgeleide van de error:
 
 \begin{center}
-$ cost' = 2(error_i) * error'_i$
+$ cost_i' = 2(error_i) * error'_i$
 \end{center}
 
 Bij het differentiëren wordt gebruik gemaakt van de kettingregel.
@@ -57,32 +57,32 @@ $ error_{i} = y_{i} - (xa + b)_{i}$
 De waarde van $ b_{i} $, $ x_{i} $ en $ y_{i} $ zijn hier constant. De $ x_{i} $ en $ y_{i} $ zijn namelijk bekend uit de training data en $ b_{i} $ veranderd wel, maar niet hierbij. De afgeleide van de error functie is dan:
 
 \begin{center}
-$ error'_{i} = x$
+$ error'_{i} = x_i$
 \end{center}
 
 De afgeleide van de cost function is dan:
 \begin{align*}
-cost' &= 2(error) * x \\
-cost' &= 2(y_{i} - (xa + b)_{i}) * x
+cost_i' &= 2(error_i) * x_i \\
+cost_i' &= 2(y_{i} - (xa + b)_{i}) * x_i
 \end{align*}
 
 Met de deze afgeleide is de helling van de cost function te bepalen. Hiermee dus te bepalen welke richting we de variabele a in moeten veranderen. Het aanpassen van de a bij Linear Regression gebeurd dus als volgt:
 
 \begin{center}
-$ a = a + (2 * error * x)$
+$ a = a + (2 * error_i * x_i)$
 \end{center}
 
 \subsubsection{Learning rate}
-Een zelflerend systeem bereikt niet in een keer de gewenste output. Er wordt langzaam in de richting van de goede output gewerkt. De formule voor het aanpassen van de a waarde uit het vorige kopje is daarom iets anders. Er wordt een \textbf{learning rate} geïntroduceerd:
+Een zelflerend systeem bereikt niet in een keer de gewenste output. Er wordt langzaam in de richting van de goede output gewerkt. De formule voor het aanpassen van de $a$ waarde uit het vorige kopje is daarom iets anders. Er wordt een \textbf{learning rate} geïntroduceerd:
 
 \begin{center}
-$ a = a + (error * x * learning rate)$
+$ a = a + (error_i * x_i * learning rate)$
 \end{center}
 
 Het kiezen van een goede learning rate is heel belangrijk. Een te lage learning rate zorgt ervoor dat het heel lang duurt voordat de goede output bereikt wordt. Een te hoge learning rate zorgt ervoor dat de gewenste output voorbij wordt geschoten. De gewenste output wordt dan nooit bereikt omdat de variabele net te groot of te klein wordt gemaakt. \cite{GradientDescent1}\cite{GradientDescent2}
 
 \subsection{Newton's method}
-Net zoals gradient decent is Newton’s method, vernoemd naar Isaac Newton, een manier om de laagste waarde van een bepaalde functie te bepalen. Hiervoor maakt gradient descent gebruik van het gegeven dat een extreme waarde van een grafiek een richtingsco\"effici\"ent van 0 heeft en de afgeleide op dat punt dus gelijk is aan 0. Newton’s method gebruik voor het bepalen van de laagste waarde de tweede afgeleide. Er wordt dan gekeken op welke punten deze lijn de x-as snijdt, dit zijn namelijk de toppen van de grafiek van de eerste afgeleide. Door gebruik te maken van Newton’s method, zal je een schatting krijgen van het snijpunt met de x-as, maar waarschijnlijk zal je dit punt niet exact kunnen vinden. De nauwkeurigheid van de schatting hangt af van de hoeveelheid waarmee je de stappen herhaalt.
+Net zoals gradient decent is Newton's method, vernoemd naar Isaac Newton, een manier om de laagste waarde van een bepaalde functie te bepalen. Hiervoor maakt gradient descent gebruik van het gegeven dat een extreme waarde van een grafiek een richtingsco\"effici\"ent van nul heeft en de afgeleide op dat punt dus gelijk is aan nul. Newton's method gebruik voor het bepalen van de laagste waarde de tweede afgeleide. Er wordt dan gekeken op welke punten deze lijn de x-as snijdt, dit zijn namelijk de toppen van de grafiek van de eerste afgeleide. Door gebruik te maken van Newton's method, zal je een schatting krijgen van het snijpunt met de x-as, maar waarschijnlijk zal je dit punt niet exact kunnen vinden. De nauwkeurigheid van de schatting hangt af van de hoeveelheid waarmee je de stappen herhaalt.
 
 \subsubsection{Het proces}
 In figuur \ref{fig:NM1} is een willekeurige grafiek getekend.
@@ -94,7 +94,7 @@ In figuur \ref{fig:NM1} is een willekeurige grafiek getekend.
   \label{fig:NM1}
 \end{figure}
 
-Bij het gebruik van Newton’s method, waarbij we dus zoeken naar een snijpunt met de x-as, wordt eerst een gok gedaan. Deze gok, op punt a, correspondeert met een waarde op de grafiek van $ f(x) $. Aan dit punt wordt een raaklijn getekend.
+Bij het gebruik van Newton’s method, waarbij we dus zoeken naar een snijpunt met de x-as, wordt eerst een gok gedaan. Deze gok, op punt $a$, correspondeert met een waarde op de grafiek van $ f(x) $. Aan dit punt wordt een raaklijn getekend.
 
 \begin{figure}[h]
   \centering
@@ -103,7 +103,7 @@ Bij het gebruik van Newton’s method, waarbij we dus zoeken naar een snijpunt m
   \label{fig:NM2}
 \end{figure}
 
-De raaklijn van $ f(x) $ op $ f(a) $ snijdt de x-as op een bepaald punt $ a_2 $. Te zien is dat dit punt al aanzienlijk dichten bij het doel ligt dan de originele schatting. Ook $ a_2 $ correspondeert met een waarde van $ f(x) $ en ook op dit punt kan weer een raaklijn getekend worden.
+De raaklijn van $ f(x) $ op $ f(a) $ snijdt de x-as op een bepaald punt $ a_2 $. Te zien is dat dit punt al aanzienlijk dichten bij het doel ligt dan de originele schatting. Ook $ a_2 $ correspondeert met een waarde van $ f(x) $ en ook op dit punt kan weer een raaklijn getekend worden (figuur \ref{fig:NM3}).
 
 \begin{figure}[h]
   \centering
@@ -115,7 +115,7 @@ De raaklijn van $ f(x) $ op $ f(a) $ snijdt de x-as op een bepaald punt $ a_2 $.
 Na slechts twee raaklijnen getekend te hebben, ligt het punt $ a_3 $ al erg dicht bij het doel. Om een nauwkeurigere benadering van dit doel te bereiken kan je vaker een raaklijn tekenen en het nieuwe snijpunt bepalen. Hoe nauwkeurig je een benadering wil hebben verschilt per situatie.
 
 \subsubsection{De wiskunde}
-Uiteraard zijn de waardes van de punten $ a_2 $, $ a_3 $ … $ a_n $ te berekenen, we willen immers de waarde van het nulpunt bepalen. Dit gebeurt als volgt:
+Uiteraard zijn de waardes van de punten $ a_2 $, $ a_3 $ ... $ a_n $ te berekenen, we willen immers de waarde van het nulpunt bepalen. Dit gebeurt als volgt:
 
 We weten dat de afgeleide de helling van de grafiek aangeeft: $ \frac{\Delta y}{\Delta x} $. Het idee is dat je de helling berekent tussen twee punten die oneindig dicht bij elkaar liggen, hier aangegeven met d: $ \frac{dy}{dx} $. Voor het gemak noemen we deze punten x en c. Dit geeft voor de afgeleide:
 
@@ -157,7 +157,7 @@ Het leerproces van een systeem zou de evolutie van het systeem genoemd kunnen wo
 Wanneer evolutionary improvement wordt toegepast, is er altijd sprake van een bepaald DNA. In dit DNA staan een aantal waardes. Deze waardes kunnen worden doorgegeven aan de volgende generatie.
 
 \subsubsection{Een populatie}
-Wanneer de informatie van een enkel individu telkens wordt doorgegeven aan een volgende generatie die ook bestaat uit slecht één individu, zal de verbetering van een systeem niet zo groot of zelfs afwezig zijn. Het systeem weet niet of het DNA dat doorgegeven wordt goed of slecht presteert, want er is maar één individu per generatie. Om deze reden bestaat een generatie meestal uit meerdere individuen. Ze zullen niet allemaal even goed presteren en dus zal er onderscheid gemaakt kunnen worden tussen goed en slecht.
+Wanneer de informatie van een enkel individu telkens wordt doorgegeven aan een volgende generatie die ook bestaat uit slecht \'{e}\'{e}n individu, zal de verbetering van een systeem niet zo groot of zelfs afwezig zijn. Het systeem weet niet of het DNA dat doorgegeven wordt goed of slecht presteert, want er is maar één individu per generatie. Om deze reden bestaat een generatie meestal uit meerdere individuen. Ze zullen niet allemaal even goed presteren en dus zal er onderscheid gemaakt kunnen worden tussen goed en slecht.
 
 Hoe de overgave van DNA wordt geregeld kan op veel verschillende manieren en is afhankelijk van het soort programma en de voorkeur van de programmeur. Je zou bijvoorbeeld de individuen uit een populatie kunnen rangschikken op volgorde van prestatie (hoe prestatie wordt gemeten is natuurlijk ook geheel afhankelijk van het soort programma) en een bepaald percentage van het slechtst presterende deel laten afvallen \cite{carrykh}. Vervolgens vul je dit deel weer op met individuen met een willekeurig DNA, de rest van de populatie blijft gelijk. Het idee is dat je door telkens het slechte DNA weg te filteren, uiteindelijk een populatie krijgt die gemiddeld steeds beter presteert.
 
@@ -167,4 +167,4 @@ Een andere manier voor evolutie is stellen dat na een bepaalde tijd elk individu
 In de biologie kan in het DNA een mutatie plaatsvinden. Een mutatie is een willekeurige verandering zonder echte reden. Nu kunnen deze mutaties nadelig zijn door bijvoorbeeld ziektes te veroorzaken, maar voor evolutie zijn ze erg nuttig. Zonder mutaties zou het DNA altijd gebonden blijven aan wat er al bestaat omdat het telkens wordt doorgegeven. Zo zou er niets nieuws kunnen ontstaan en zou het systeem misschien vast komen te zitten. Als je bijvoorbeeld een programma hebt waarin een systeem leert een hindernis baan over te gaan, maar geen enkel individu heeft in zijn DNA de informatie om te springen staan, dan kan het programma nooit over een horde heen komen. Mutaties dienen ervoor zulke problemen te voorkomen. Je voegt een bepaalde mutatiefactor toe, een kleine kans die ervoor zorgt dat het programma soms een willekeurige verandering aanbrengt waardoor nieuwe mogelijkheden voor de individuen kunnen ontstaan.
 
 \subsection{Conclusie}
-Zelflerende algoritmes kunnen zichzelf verbeteren door gebruik te maken van leerstrategien. Drie veel gebruikte leerstrategien zijn: \textit{Gradient descent}, \textit{Newton's method} en \textit{Evolutionary improvement}. De eerste twee gebruiken een wiskundige aanpak die er op is gericht het algoritme zo goed mogelijk te maken terwijl Evolutionary improvement vooral op kans gebaseerd is.
+Zelflerende algoritmes kunnen zichzelf verbeteren door gebruik te maken van leerstrategien. Drie veel gebruikte leerstrategien zijn: \textit{Gradient descent}, \textit{Newton's method} en \textit{Evolutionary improvement}. De eerste twee gebruiken een wiskundige aanpak  terwijl Evolutionary improvement vooral op kans gebaseerd is.
