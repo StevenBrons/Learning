@@ -1,7 +1,7 @@
 \section{Het verbeteren}
 
 \subsection{Inleiding}
-In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: Hoe bepalen we bij Linear Regression de waarden voor $a$ en $b$ in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  $x$ en $b$ in de vector $ a ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Kortom: \textit{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?} Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
+In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: hoe bepalen we bij Linear Regression de waarden voor $a$ en $b$ in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  $x$ en $b$ in de vector $ a ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Kortom: \textit{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?} Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
 
 \subsection{Gradient descent}
 De eerste leerstrategie die we behandelen is gradient descent. Gradient descent is een algoritme dat functies minimaliseerd door het aanpassen van bepaalde parameters. Er wordt geprobeerd de waarde van een bepaalde functie zo laag mogelijk te maken. De functie die we bij een zelflerend systeem proberen te minimaliseren is de \textbf{cost function}, ook wel loss function genoemd. Dit is een functie die bepaalt hoe goed het systeem op dat moment werkt. Er wordt bepaald hoeveel de huidige outputs afwijken van de gewenste outputs. Het is hierbij dus nodig dat je de gewenste outputs weet bij gegeven inputs. Er is dus bij gradient descent altijd sprake van supervised learning. 
@@ -14,7 +14,8 @@ De eerste leerstrategie die we behandelen is gradient descent. Gradient descent 
   \label{fig:GenericCostFunction}
 \end{figure}
 
-In figuur \ref{fig:GenericCostFunction} is de cost van een bepaalde situatie uitgezet tegen een variabele $a$. Dit kan bijvoorbeeld de $a$ uit de formule $ y = ax + b $ bij Linear Regression zijn.  Het is dus te zien dat de cost minimaal is in punt q. We willen dus dat a gelijk wordt aan de waarde van $a$ in punt $q$. Nu is dit punt in deze grafiek erg makkelijk te vinden, maar zodra er gebruik wordt gemaakt van ingewikkeldere algoritmen, zoals een ANN, wordt dit punt moeilijker te bepalen.
+In figuur \ref{fig:GenericCostFunction} is de cost van een bepaalde situatie uitgezet tegen een variabele $a$. Dit kan bijvoorbeeld de $a$ uit de formule $ y = ax + b $ bij Linear Regression zijn.  Het is te zien dat de cost minimaal is in punt q. We willen dus dat a gelijk wordt aan de waarde van $a$ in punt $q$. Nu is dit punt in deze grafiek erg makkelijk te vinden, maar zodra er gebruik wordt gemaakt van een ingewikkeldere algoritme, zoals een ANN, wordt dit punt moeilijker te bepalen.
+
 
 Op een gegeven moment in het trainingsproces is de $a$ gelijk aan het punt $p$. Het Gradient Descent algoritme doet dan het volgende:
 \begin{itemize}
@@ -43,10 +44,10 @@ Zoals bekend uit de wiskunde is het mogelijk om hiervan de laagste waarde te bep
 $ cost_i' = 2(error_i) * error'_i$
 \end{center}
 
-Bij het differentiëren wordt gebruik gemaakt van de kettingregel.
+Bij het differenti\"{e}ren wordt gebruik gemaakt van de kettingregel.
 
 \subsubsection{Linear regression met gradient descent}
-Om het principe van Gradient Descent beter te begrijpen gaan we nu doormiddel van Gradient Descent Linear Regression uitvoeren.
+Om het principe van gradient descent beter te begrijpen gaan we nu door middel van gradient descent linear regression uitvoeren.
 
 De guess is hier dus de huidige uitkomst van $ y = ax + b $.
 
@@ -73,7 +74,7 @@ $ a = a + (2 * error_i * x_i)$
 \end{center}
 
 \subsubsection{Learning rate}
-Een zelflerend systeem bereikt niet in een keer de gewenste output. Er wordt langzaam in de richting van de goede output gewerkt. De formule voor het aanpassen van de $a$ waarde uit het vorige kopje is daarom iets anders. Er wordt een \textbf{learning rate} geïntroduceerd:
+Een zelflerend systeem bereikt niet in een keer de gewenste output. Er wordt langzaam in de richting van de goede output gewerkt. De formule voor het aanpassen van de $a$ waarde uit het vorige kopje is daarom iets anders. Er wordt een \textbf{learning rate} ge\"{i}ntroduceerd:
 
 \begin{center}
 $ a = a + (error_i * x_i * learning rate)$
@@ -82,7 +83,7 @@ $ a = a + (error_i * x_i * learning rate)$
 Het kiezen van een goede learning rate is heel belangrijk. Een te lage learning rate zorgt ervoor dat het heel lang duurt voordat de goede output bereikt wordt. Een te hoge learning rate zorgt ervoor dat de gewenste output voorbij wordt geschoten. De gewenste output wordt dan nooit bereikt omdat de variabele net te groot of te klein wordt gemaakt. \cite{GradientDescent1}\cite{GradientDescent2}
 
 \subsection{Newton's method}
-Net zoals gradient decent is Newton's method, vernoemd naar Isaac Newton, een manier om de laagste waarde van een bepaalde functie te bepalen. Hiervoor maakt gradient descent gebruik van het gegeven dat een extreme waarde van een grafiek een richtingsco\"effici\"ent van nul heeft en de afgeleide op dat punt dus gelijk is aan nul. Newton's method gebruik voor het bepalen van de laagste waarde de tweede afgeleide. Er wordt dan gekeken op welke punten deze lijn de x-as snijdt, dit zijn namelijk de toppen van de grafiek van de eerste afgeleide. Door gebruik te maken van Newton's method, zal je een schatting krijgen van het snijpunt met de x-as, maar waarschijnlijk zal je dit punt niet exact kunnen vinden. De nauwkeurigheid van de schatting hangt af van de hoeveelheid waarmee je de stappen herhaalt.
+Net zoals gradient decent is Newton's method, vernoemd naar Isaac Newton, een manier om de laagste waarde van een bepaalde functie te bepalen. Hiervoor maakt gradient descent gebruik van het gegeven dat een extreme waarde van een grafiek een richtingsco\"effici\"ent van nul heeft en de afgeleide op dat punt dus gelijk is aan nul. Newton's method gebruik voor het bepalen van de laagste waarde de tweede afgeleide. Er wordt dan gekeken op welke punten deze lijn de x-as snijdt, dit zijn namelijk de toppen van de grafiek van de eerste afgeleide. Door gebruik te maken van Newton's method, zul je een schatting krijgen van het snijpunt met de x-as, maar waarschijnlijk zal je dit punt niet exact kunnen vinden. De nauwkeurigheid van de schatting hangt af van de hoeveelheid waarmee je de stappen herhaalt.
 
 \subsubsection{Het proces}
 In figuur \ref{fig:NM1} is een willekeurige grafiek getekend.
@@ -103,7 +104,7 @@ Bij het gebruik van Newton’s method, waarbij we dus zoeken naar een snijpunt m
   \label{fig:NM2}
 \end{figure}
 
-De raaklijn van $ f(x) $ op $ f(a) $ snijdt de x-as op een bepaald punt $ a_2 $. Te zien is dat dit punt al aanzienlijk dichten bij het doel ligt dan de originele schatting. Ook $ a_2 $ correspondeert met een waarde van $ f(x) $ en ook op dit punt kan weer een raaklijn getekend worden (figuur \ref{fig:NM3}).
+De raaklijn van $ f(x) $ op $ f(a) $ snijdt de x-as op een bepaald punt $ a_2 $. Te zien is dat dit punt al aanzienlijk dichter bij het doel ligt dan de originele schatting. Ook $ a_2 $ correspondeert met een waarde van $ f(x) $ en ook op dit punt kan weer een raaklijn getekend worden (figuur \ref{fig:NM3}).
 
 \begin{figure}[h]
   \centering
@@ -130,7 +131,7 @@ Dit kan omgeschreven worden tot de formule voor een raaklijn:
 f'(c)(x - c) + f(c) &= f(x)
 \end{align*}
 
-Om het nulpunt te berekenen moet gelden f(x)=0. Omdat c slechts een andere waarde voor x aanduidde, kunnen we deze vervangen door het volgende:$ c = x_n $ en $ x = x_{n+1} $
+Om het nulpunt te berekenen, moet gelden $ f(x) = 0 $. Omdat c slechts een andere waarde voor x aanduidde, kunnen we deze vervangen door het volgende: $ c = x_n $ en $ x = x_{n+1} $
 
 \begin{align*}
 			 f'(x_n)(x_{n+1} - x_n) + f(x_n) &= 0 \\
@@ -140,31 +141,28 @@ Om het nulpunt te berekenen moet gelden f(x)=0. Omdat c slechts een andere waard
 									  x_{n+1}&= x_n - \frac{f(x_n)}{f'(x_n)}
 \end{align*}
 
-
-
-
 Met deze formule kan de volgende waarde voor x berekend worden.
 
 \subsubsection{Het gebruik}
 Er zijn vele situaties te bedenken waarin je de nulpunten van een functie zou willen weten. In het gebied van machine learning wordt het gebruikt om te berekenen waar de cost functie minimaal is. Onder het kopje gradient descent staat al beschreven hoe we aan de cost functie komen en wat de afgeleide hier van is. De grafiek die afgebeeld staat zou de afgeleide van deze cost functie zijn. Dit betekent namelijk dat de tweede afgeleide van de cost functie wordt genomen wanneer je een raaklijn aan de grafiek berekent.
 
-Gradient descent kan goed worden gebruikt bij grafiek met slechts \'e\'en minimum. Zodra dit niet het geval is, kan het makkelijk in een dal vast blijven hangen, denkend dat het de minimale waarde gevonden heeft, terwijl er misschien nog een lager punt te vinden is. Bij zulke gevallen kan Newton’s method ingezet worden, want al deze punten zullen wel op de x-as liggen en dus zullen ze allemaal te vinden zijn met Newton’s method.
+Gradient descent kan goed worden gebruikt bij grafiek met slechts \'e\'en minimum. Zodra dit niet het geval is, kan het makkelijk in een dal vast blijven hangen, denkend dat het de minimale waarde gevonden heeft, terwijl er misschien nog een lager punt te vinden is. Bij zulke gevallen kan Newton's method ingezet worden, want al deze punten zullen wel op de x-as liggen en dus zullen ze allemaal te vinden zijn met Newton's method.
 
 \subsection{Evolutionary improvement}
-Het leerproces van een systeem zou de evolutie van het systeem genoemd kunnen worden, het leert zichzelf beter te functioneren in een omgeving. Net zoals evolutie in de biologie, gaat evolutionary improvement in generaties van systemen. Deze manier van leren maakt gebruik van het doorgeven van informatie tussen deze generaties om het algemene niveau van presteren te verhogen.
+Het leerproces van een systeem zou de evolutie van het systeem genoemd kunnen worden: het leert zichzelf beter te functioneren in een bepaalde omgeving. Net zoals evolutie in de biologie, gaat evolutionary improvement in generaties van systemen. Deze manier van leren maakt gebruik van het doorgeven van informatie tussen deze generaties om het algemene niveau van presteren te verhogen.
 
 \subsubsection{DNA}
 Wanneer evolutionary improvement wordt toegepast, is er altijd sprake van een bepaald DNA. In dit DNA staan een aantal waardes. Deze waardes kunnen worden doorgegeven aan de volgende generatie.
 
 \subsubsection{Een populatie}
-Wanneer de informatie van een enkel individu telkens wordt doorgegeven aan een volgende generatie die ook bestaat uit slecht \'{e}\'{e}n individu, zal de verbetering van een systeem niet zo groot of zelfs afwezig zijn. Het systeem weet niet of het DNA dat doorgegeven wordt goed of slecht presteert, want er is maar één individu per generatie. Om deze reden bestaat een generatie meestal uit meerdere individuen. Ze zullen niet allemaal even goed presteren en dus zal er onderscheid gemaakt kunnen worden tussen goed en slecht.
+Wanneer de informatie van een enkel individu telkens wordt doorgegeven aan een volgende generatie die ook bestaat uit slecht \'{e}\'{e}n individu, zal de verbetering van een systeem niet zo groot of zelfs afwezig zijn. Het systeem weet niet of het DNA dat doorgegeven wordt goed of slecht presteert, want er is maar \'{e}\'{e}n individu per generatie. Om deze reden bestaat een generatie meestal uit meerdere individuen. Ze zullen niet allemaal even goed presteren en dus zal er onderscheid gemaakt kunnen worden tussen goed en slecht.
 
-Hoe de overgave van DNA wordt geregeld kan op veel verschillende manieren en is afhankelijk van het soort programma en de voorkeur van de programmeur. Je zou bijvoorbeeld de individuen uit een populatie kunnen rangschikken op volgorde van prestatie (hoe prestatie wordt gemeten is natuurlijk ook geheel afhankelijk van het soort programma) en een bepaald percentage van het slechtst presterende deel laten afvallen \cite{carrykh}. Vervolgens vul je dit deel weer op met individuen met een willekeurig DNA, de rest van de populatie blijft gelijk. Het idee is dat je door telkens het slechte DNA weg te filteren, uiteindelijk een populatie krijgt die gemiddeld steeds beter presteert.
+De overgave van DNA kan op veel verschillende manieren gebeuren en is afhankelijk van het soort programma en de voorkeur van de programmeur. Je zou bijvoorbeeld de individuen uit een populatie kunnen rangschikken op volgorde van prestatie (hoe prestatie wordt gemeten is natuurlijk ook geheel afhankelijk van het soort programma) en een bepaald percentage van het slechtst presterende deel laten afvallen \cite{carrykh}. Vervolgens vul je dit deel weer op met individuen met een willekeurig DNA, de rest van de populatie blijft gelijk. Het idee is dat je door telkens het slechte DNA weg te filteren, uiteindelijk een populatie krijgt die gemiddeld steeds beter presteert.
 
-Een andere manier voor evolutie is stellen dat na een bepaalde tijd elk individu een ‘kind’ krijgt. Dit zou goed kunnen werken in een simulatie waarin individuen een rivaliserend verband met elkaar hebben, bijvoorbeeld doordat ze dezelfde voeding nodig hebben. De individuen die langer overleven zullen meer kinderen krijgen en hun DNA dus vaker doorgeven, terwijl de individuen met slechte eigenschappen snel doodgaan. Natuurlijk kan je er ook voor kiezen het DNA van meerdere individuen te combineren voor een volgende generatie.
+Een andere manier voor evolutie is stellen dat na een bepaalde tijd elk individu een 'kind' krijgt. Dit zou goed kunnen werken in een simulatie waarin individuen een rivaliserend verband met elkaar hebben, bijvoorbeeld doordat ze dezelfde voeding nodig hebben. De individuen die langer overleven zullen meer kinderen krijgen en hun DNA dus vaker doorgeven, terwijl de individuen met slechte eigenschappen snel doodgaan. Natuurlijk kan je er ook voor kiezen het DNA van meerdere individuen te combineren voor een volgende generatie.
 
 \subsubsection{Mutaties}
-In de biologie kan in het DNA een mutatie plaatsvinden. Een mutatie is een willekeurige verandering zonder echte reden. Nu kunnen deze mutaties nadelig zijn door bijvoorbeeld ziektes te veroorzaken, maar voor evolutie zijn ze erg nuttig. Zonder mutaties zou het DNA altijd gebonden blijven aan wat er al bestaat omdat het telkens wordt doorgegeven. Zo zou er niets nieuws kunnen ontstaan en zou het systeem misschien vast komen te zitten. Als je bijvoorbeeld een programma hebt waarin een systeem leert een hindernis baan over te gaan, maar geen enkel individu heeft in zijn DNA de informatie om te springen staan, dan kan het programma nooit over een horde heen komen. Mutaties dienen ervoor zulke problemen te voorkomen. Je voegt een bepaalde mutatiefactor toe, een kleine kans die ervoor zorgt dat het programma soms een willekeurige verandering aanbrengt waardoor nieuwe mogelijkheden voor de individuen kunnen ontstaan.
+In de biologie kan in het DNA een mutatie plaatsvinden. Een mutatie is een willekeurige verandering zonder echte reden. Nu kunnen deze mutaties nadelig zijn door bijvoorbeeld ziektes te veroorzaken, maar voor evolutie zijn ze erg nuttig. Zonder mutaties zou het DNA altijd gebonden blijven aan wat er al bestaat omdat het telkens wordt doorgegeven. Zo zou er niets nieuws kunnen ontstaan en zou het systeem misschien vast komen te zitten. Als je bijvoorbeeld een programma hebt waarin een systeem leert een hindernisbaan over te gaan, maar geen enkel individu heeft in zijn DNA staan hoe je moet springen, dan kan het programma nooit over een horde heen komen. Mutaties dienen ervoor zulke problemen te voorkomen. Je voegt een bepaalde mutatiefactor toe, een kleine kans die ervoor zorgt dat het programma soms een willekeurige verandering aanbrengt waardoor nieuwe mogelijkheden voor de individuen kunnen ontstaan.
 
 \subsection{Conclusie}
 Zelflerende algoritmes kunnen zichzelf verbeteren door gebruik te maken van leerstrategien. Drie veel gebruikte leerstrategien zijn: \textit{Gradient descent}, \textit{Newton's method} en \textit{Evolutionary improvement}. De eerste twee gebruiken een wiskundige aanpak  terwijl Evolutionary improvement vooral op kans gebaseerd is.

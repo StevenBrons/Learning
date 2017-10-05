@@ -1,0 +1,15 @@
+Vragen enzo
+
+Inleiding
+-disclaimer toegevoegt voor een incomplete inleiding
+
+Hoofdstuk 1
+-BFS en DFS subsubsections gemaakt
+-{is de laatste zin van 'verschillende algoritmes' nog juist?}
+-{willen we in het plaatje bij BFS de root en het doel aangeven?}
+-{ik vind de conslusie nog niet goed}
+
+Hoofdstuk 2
+-{is de deelvraag nog goed (in de eerste zin van het hoofdtuk wordt al een half antwoord gegeven)}
+
+Conclusie document toegevoegt

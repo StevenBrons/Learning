@@ -143,6 +143,28 @@
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
+  \entry{VladimirVapnik}{article}{}
+    \name{author}{1}{}{%
+      {{hash=VV}{%
+         family={Vapnik},
+         familyi={V\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Deelvraag3}
+    \strng{namehash}{VV1}
+    \strng{fullhash}{VV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-
+    \verb algorithms/
+    \endverb
+    \field{title}{www.analyticsvidhya.com}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
   \entry{SVM}{article}{}
     \name{author}{1}{}{%
       {{hash=ISAC}{%
