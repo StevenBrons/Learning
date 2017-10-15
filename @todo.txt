@@ -1,24 +1,14 @@
+-Anna's opmerkingen verbeteren
+-Programma spel maken
+-Programma spel mooi maken
+-Evolutionary systeem maken
+-Stukje over Newton's Method schrijven
+-Stukje over Spel + Evolutionary schrijven
+-Stukje over Digit Recognition + Neural network schrijven
+-Conclusie schrijven
+-Logboek programma struggles toevoegen
+-Inleiding schrijven
+-Laten lezen door mensen
+-Laatste controle
+-Mooi printen en inleveren (Profielwerkstuk + 4 programma's + logboek)
 
---------------  Deelvraag 1  --------------
--Conclusie herschrijven en verbeteren		(Thijs)
-
-
---------------  Deelvraag 2  --------------
--Inleiding + oude conclusie deelvraag 1		(Steven)
-
---------------  Deelvraag 3  --------------
--Conclusie					(Steven)
-
---------------  Deelvraag 4  --------------
--Conclusie					(Thijs)
-
-
---------------  Deelvraag 5  --------------
--Inleiding					(Thijs)
--Middenstuk					(Thijs)
--Conclusie					(Thijs)
-
---------------  Deelvraag 6  --------------
--Inleiding					(Steven)
--Middenstuk					(Steven)
--Conclusie					(Steven)
