@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  19 OCT 2017 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  22 OCT 2017 17:12
 entering extended mode
 **./Deelvraag8.tex
 (Deelvraag8.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("E:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("E:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,51 +21,51 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("E:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2017/05/19 3.10 The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("E:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf"
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 132.
 ))
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -73,17 +73,17 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip43
 \multirow@cntb=\count89
 \multirow@dima=\skip44
 \bigstrutjot=\dimen106
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count90
@@ -105,10 +105,10 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count106
 \c@blind@pangrammax=\count107
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count108
 )
@@ -120,16 +120,16 @@ Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count114
 \csq@ltx@everypar=\toks15
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
 File: csquotes.cfg 
 ))
-("E:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count115
 \float@exts=\toks16
@@ -137,24 +137,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks17
 \@floatcapt=\box27
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-("E:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen107
 ))
-("E:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen108
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count116
@@ -195,18 +195,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -214,35 +214,35 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("E:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count128
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("E:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("E:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("E:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
 \integerpart=\count129
 \decimalpart=\count130
@@ -303,7 +303,7 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count172
@@ -381,13 +381,13 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
 File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
 File: blx-bibtex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 
 
@@ -397,7 +397,7 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- ("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 \c@textcitecount=\count304
 \c@textcitetotal=\count305
@@ -410,12 +410,12 @@ File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
 File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count311
 \c@bbx:relatedtotal=\count312
@@ -423,7 +423,7 @@ File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
 File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -440,13 +440,13 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
 File: biblatex.cfg 
 ))
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
@@ -459,7 +459,7 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\dutch.lbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\dutch.lbx"
 File: dutch.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (Deelvraag8.aux)
@@ -477,7 +477,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
- ("E:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count313
 \scratchdimen=\dimen116
@@ -490,13 +490,13 @@ LaTeX Font Info:    ... okay on input line 23.
 \MPnumerator=\count317
 \makeMPintoPDFobject=\count318
 \everyMPtoPDFconversion=\toks24
-) ("E:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("E:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("E:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -549,21 +549,21 @@ Package logreq Info: Writing requests to 'Deelvraag8.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  9640 strings out of 493323
- 160658 string characters out of 3139063
+ 160658 string characters out of 3139066
  440382 words of memory out of 3000000
  13069 multiletter control sequences out of 15000+200000
  5958 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,11n,37p,819b,1420s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on Deelvraag8.pdf (4 pages, 201020 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
