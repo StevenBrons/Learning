@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  22 OCT 2017 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  22 OCT 2017 13:55
 entering extended mode
 **./ZelflerendeSystemen.tex
 (ZelflerendeSystemen.tex
@@ -597,16 +597,27 @@ Package biblatex Info: Reference segment=0 on input line 22.
  [2]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¯ in font cmr10!
- [3] (Deelvraag1.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no « in font cmr10!
+[3] (Deelvraag1.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [4]
-<res/datasetBFS3.png, id=24, 1011.02719pt x 471.26062pt>
+
+[4] <res/datasetBFS3.png, id=24, 1011.02719pt x 471.26062pt>
 File: res/datasetBFS3.png Graphic file (type png)
 
 <use res/datasetBFS3.png>
@@ -790,49 +801,49 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no « in font cmr10!
  [28])
 [29] [30]
-Overfull \hbox (11.11172pt too wide) in paragraph at lines 64--64
+Overfull \hbox (11.11172pt too wide) in paragraph at lines 69--69
 \OT1/cmr/m/n/10 SO-LU-TION OF THE FA-CULTY OF THE UNI-VER-SITY OF WISCONSIN-
  []
 
 
-Overfull \hbox (11.45224pt too wide) in paragraph at lines 65--65
+Overfull \hbox (11.45224pt too wide) in paragraph at lines 70--70
 []\OT1/cmr/m/n/10 Arthur Sa-muel. []  Ma-chine Learning and Op-ti-mi-za-tion". 
 In: \OT1/cmr/m/it/10 Ma-chine Learning
  []
 
 
-Overfull \hbox (9.83055pt too wide) in paragraph at lines 65--65
+Overfull \hbox (9.83055pt too wide) in paragraph at lines 70--70
 \OT1/cmtt/m/n/10 org / learn / machine -[] learning / lecture / olRZo / unsuper
 vised -[] learning$\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (49.11353pt too wide) in paragraph at lines 66--66
+Overfull \hbox (49.11353pt too wide) in paragraph at lines 71--71
 []\OT1/cmr/m/n/10 Sunil Ray. []  www.analyticsvidhya.com". In: (). \OT1/cmr/m/s
 c/10 doi\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 https : / / www . analyticsvidhya .
 
  []
 
 
-Overfull \hbox (15.5805pt too wide) in paragraph at lines 67--67
+Overfull \hbox (15.5805pt too wide) in paragraph at lines 72--72
 \OT1/cmtt/m/n/10 atomicobject . com / 2014 / 06 / 24 / gradient -[] descent -[]
  linear -[] regression/$\OT1/cmr/m/n/10 . 
  []
 
 [31]
-Overfull \hbox (14.30272pt too wide) in paragraph at lines 68--68
+Overfull \hbox (14.30272pt too wide) in paragraph at lines 73--73
 \OT1/cmtt/m/n/10 globalfuturist . org / 2017 / 03 / bad -[] news -[] for -[] jo
 bs -[] fabled -[] artificial -[]
  []
 
 
-Overfull \hbox (7.0806pt too wide) in paragraph at lines 68--68
+Overfull \hbox (7.0806pt too wide) in paragraph at lines 73--73
 \OT1/cmtt/m/n/10 general -[] intelligence -[] could -[] arrive -[] much -[] ear
 lier -[] than -[] expected/$\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (42.33582pt too wide) in paragraph at lines 69--69
+Overfull \hbox (42.33582pt too wide) in paragraph at lines 74--74
 []\OT1/cmr/m/n/10 Sam Shead. []  Semi-supervised Learning". In: (). \OT1/cmr/m/
 sc/10 doi\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 http : / / uk . businessinsider .
  []
@@ -866,7 +877,7 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ZelflerendeSystemen.pdf (33 pages, 599697 bytes).
+Output written on ZelflerendeSystemen.pdf (33 pages, 601425 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
