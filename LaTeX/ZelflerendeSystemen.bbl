@@ -24,7 +24,7 @@
          familyi={O\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag1}
+    \keyw{Hoofdstuk2}
     \strng{namehash}{O1}
     \strng{fullhash}{O1}
     \field{labelnamesource}{author}
@@ -48,7 +48,7 @@
   c\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag1}
+    \keyw{Hoofdstuk2}
     \strng{namehash}{JYCLLOMc1}
     \strng{fullhash}{JYCLLOMc1}
     \field{labelnamesource}{author}
@@ -67,7 +67,7 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag2}
+    \keyw{Hoofdstuk3}
     \strng{namehash}{SA1}
     \strng{fullhash}{SA1}
     \field{labelnamesource}{author}
@@ -88,7 +88,7 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag2}
+    \keyw{Hoofdstuk3}
     \strng{namehash}{NA2}
     \strng{fullhash}{NA2}
     \field{labelnamesource}{author}
@@ -109,7 +109,7 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag2}
+    \keyw{Hoofdstuk3}
     \strng{namehash}{NA2}
     \strng{fullhash}{NA2}
     \field{labelnamesource}{author}
@@ -130,7 +130,7 @@
          giveni={S\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag3}
+    \keyw{Hoofdstuk4}
     \strng{namehash}{RS1}
     \strng{fullhash}{RS1}
     \field{labelnamesource}{author}
@@ -152,7 +152,7 @@
          giveni={V\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag3}
+    \keyw{Hoofdstuk4}
     \strng{namehash}{VV1}
     \strng{fullhash}{VV1}
     \field{labelnamesource}{author}
@@ -174,7 +174,7 @@
          giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag3}
+    \keyw{Hoofdstuk4}
     \strng{namehash}{ISAC1}
     \strng{fullhash}{ISAC1}
     \field{labelnamesource}{author}
@@ -195,7 +195,7 @@
          familyi={O\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag3}
+    \keyw{Hoofdstuk4}
     \strng{namehash}{O1}
     \strng{fullhash}{O1}
     \field{labelnamesource}{author}
@@ -214,7 +214,7 @@
          familyi={O\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag3}
+    \keyw{Hoofdstuk4}
     \strng{namehash}{O1}
     \strng{fullhash}{O1}
     \field{labelnamesource}{author}
@@ -235,7 +235,7 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag4}
+    \keyw{Hoofdstuk5}
     \strng{namehash}{NA1}
     \strng{fullhash}{NA1}
     \field{labelnamesource}{author}
@@ -257,7 +257,7 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag4}
+    \keyw{Hoofdstuk5}
     \strng{namehash}{NM1}
     \strng{fullhash}{NM1}
     \field{labelnamesource}{author}
@@ -277,7 +277,7 @@
          familyi={c\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag4}
+    \keyw{Hoofdstuk5}
     \strng{namehash}{c1}
     \strng{fullhash}{c1}
     \field{labelnamesource}{author}
@@ -298,7 +298,7 @@
          giveni={J\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag5}
+    \keyw{Hoofdstuk6}
     \strng{namehash}{SJ1}
     \strng{fullhash}{SJ1}
     \field{labelnamesource}{author}
@@ -319,7 +319,7 @@
          giveni={S\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag5}
+    \keyw{Hoofdstuk6}
     \strng{namehash}{SS1}
     \strng{fullhash}{SS1}
     \field{labelnamesource}{author}
@@ -341,7 +341,7 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag5}
+    \keyw{Hoofdstuk6}
     \strng{namehash}{GM1}
     \strng{fullhash}{GM1}
     \field{labelnamesource}{author}
@@ -363,7 +363,7 @@
          giveni={P\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag6}
+    \keyw{Hoofdstuk7}
     \strng{namehash}{RP1}
     \strng{fullhash}{RP1}
     \field{labelnamesource}{author}
@@ -384,7 +384,7 @@
          giveni={S\bibinitperiod},
       }}%
     }
-    \keyw{Deelvraag6}
+    \keyw{Hoofdstuk7}
     \strng{namehash}{SS2}
     \strng{fullhash}{SS2}
     \field{labelnamesource}{author}
