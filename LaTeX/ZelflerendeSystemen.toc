@@ -16,122 +16,130 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Conclusie}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Machine learning}{8}
+\contentsline {subsection}{\numberline {2.4}Praktijk: Voorbeelden algoritmes}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Inleiding}{8}
+\contentsline {subsubsection}{\numberline {2.4.1}Breadth-first search}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Training}{8}
+\contentsline {subsubsection}{\numberline {2.4.2}Depth-first search}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Supervised Learning}{9}
+\contentsline {section}{\numberline {3}Machine learning}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Unsupervised Learning}{9}
+\contentsline {subsection}{\numberline {3.1}Inleiding}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{10}
+\contentsline {subsection}{\numberline {3.2}Training}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Normaliseren van data}{10}
+\contentsline {subsubsection}{\numberline {3.2.1}Supervised Learning}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Conclusie}{11}
+\contentsline {subsubsection}{\numberline {3.2.2}Unsupervised Learning}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Machine learning algoritmes}{12}
+\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Inleiding}{12}
+\contentsline {subsection}{\numberline {3.3}Normaliseren van data}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Linear Regression}{12}
+\contentsline {subsection}{\numberline {3.4}Conclusie}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Support vector machine}{13}
+\contentsline {section}{\numberline {4}Machine learning algoritmes}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Het agoritme}{13}
+\contentsline {subsection}{\numberline {4.1}Inleiding}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Kernel Methods}{14}
+\contentsline {subsection}{\numberline {4.2}Linear Regression}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{15}
+\contentsline {subsection}{\numberline {4.3}Support vector machine}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{15}
+\contentsline {subsubsection}{\numberline {4.3.1}Het agoritme}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.2}De perceptron}{15}
+\contentsline {subsubsection}{\numberline {4.3.2}Kernel Methods}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{16}
+\contentsline {subsection}{\numberline {4.4}Artificial Neural Networks}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.4}Bias}{17}
+\contentsline {subsubsection}{\numberline {4.4.1}Biologisch en kunstmatig netwerk}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.5}Een netwerk van perceptrons}{17}
+\contentsline {subsubsection}{\numberline {4.4.2}De perceptron}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Conclusie}{18}
+\contentsline {subsubsection}{\numberline {4.4.3}Activation functions}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Het verbeteren}{19}
+\contentsline {subsubsection}{\numberline {4.4.4}Bias}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Inleiding}{19}
+\contentsline {subsubsection}{\numberline {4.4.5}Een netwerk van perceptrons}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Gradient descent}{19}
+\contentsline {subsection}{\numberline {4.5}Conclusie}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Het algoritme}{19}
+\contentsline {section}{\numberline {5}Het verbeteren}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}De wiskunde achter gradient descent}{20}
+\contentsline {subsection}{\numberline {5.1}Inleiding}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.3}Linear regression met gradient descent}{20}
+\contentsline {subsection}{\numberline {5.2}Gradient descent}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.4}Learning rate}{21}
+\contentsline {subsubsection}{\numberline {5.2.1}Het algoritme}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Newton's method}{21}
+\contentsline {subsubsection}{\numberline {5.2.2}De wiskunde achter gradient descent}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}Het proces}{21}
+\contentsline {subsubsection}{\numberline {5.2.3}Linear regression met gradient descent}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2}De wiskunde}{23}
+\contentsline {subsubsection}{\numberline {5.2.4}Learning rate}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3}Het gebruik}{24}
+\contentsline {subsection}{\numberline {5.3}Newton's method}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{24}
+\contentsline {subsubsection}{\numberline {5.3.1}Het proces}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.1}DNA}{24}
+\contentsline {subsubsection}{\numberline {5.3.2}De wiskunde}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.2}Een populatie}{24}
+\contentsline {subsubsection}{\numberline {5.3.3}Het gebruik}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{25}
+\contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Conclusie}{25}
+\contentsline {subsubsection}{\numberline {5.4.1}DNA}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Toepassingen}{26}
+\contentsline {subsubsection}{\numberline {5.4.2}Een populatie}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Inleiding}{26}
+\contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Weak AI}{26}
+\contentsline {subsection}{\numberline {5.5}Conclusie}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Strong AI}{26}
+\contentsline {subsection}{\numberline {5.6}Praktijk: Newton's Method}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Artificial General Intelligence (AGI)}{26}
+\contentsline {section}{\numberline {6}Toepassingen}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Verdere toepassingen}{27}
+\contentsline {subsection}{\numberline {6.1}Inleiding}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Conclusie}{27}
+\contentsline {subsection}{\numberline {6.2}Weak AI}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Limitaties}{28}
+\contentsline {subsection}{\numberline {6.3}Strong AI}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Inleiding}{28}
+\contentsline {subsection}{\numberline {6.4}Artificial General Intelligence (AGI)}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Training Data}{28}
+\contentsline {subsection}{\numberline {6.5}Verdere toepassingen}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.1}Semi-supervised learning}{28}
+\contentsline {subsection}{\numberline {6.6}Conclusie}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Grootte}{28}
+\contentsline {section}{\numberline {7}Limitaties}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Specifiek}{28}
+\contentsline {subsection}{\numberline {7.1}Inleiding}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.4.1}Transfer Learning}{29}
+\contentsline {subsection}{\numberline {7.2}Training Data}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5}Conculsie}{29}
+\contentsline {subsubsection}{\numberline {7.2.1}Semi-supervised learning}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusie}{30}
+\contentsline {subsection}{\numberline {7.3}Grootte}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Bronnen}{31}
+\contentsline {subsection}{\numberline {7.4}Specifiek}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Hoofdstuk 2}{31}
+\contentsline {subsubsection}{\numberline {7.4.1}Transfer Learning}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Hoofdstuk 3}{31}
+\contentsline {subsection}{\numberline {7.5}Conculsie}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3}Hoofdstuk 4}{31}
+\contentsline {section}{\numberline {8}Conclusie}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4}Hoofdstuk 5}{31}
+\contentsline {section}{\numberline {9}Bronnen}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5}Hoofdstuk 6}{32}
+\contentsline {subsection}{\numberline {9.1}Hoofdstuk 2}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.6}Hoofdstuk 7}{32}
+\contentsline {subsection}{\numberline {9.2}Hoofdstuk 3}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3}Hoofdstuk 4}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.4}Hoofdstuk 5}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.5}Hoofdstuk 6}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.6}Hoofdstuk 7}{35}
