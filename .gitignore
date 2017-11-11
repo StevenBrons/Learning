@@ -115,6 +115,7 @@ hs_err_pid*
 *-blx.aux
 *-blx.bib
 *.run.xml
+*.log
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
