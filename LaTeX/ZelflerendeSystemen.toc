@@ -86,6 +86,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.3}Het gebruik}{19}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{20}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.4.1}DNA}{20}
@@ -143,3 +144,80 @@
 \contentsline {subsection}{\numberline {9.5}Hoofdstuk 6}{24}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.6}Hoofdstuk 7}{24}
+=======
+\contentsline {subsubsection}{\numberline {5.3.4}Newton's method uitgebeeld}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.1}DNA}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.2}Een populatie}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Conclusie}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6}Praktijk: Newton's Method}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Toepassingen}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Inleiding}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Weak AI}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Strong AI}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Artificial General Intelligence (AGI)}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5}Verdere toepassingen}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.6}Conclusie}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Limitaties}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Inleiding}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Training Data}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.2.1}Semi-supervised learning}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Grootte}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4}Specifiek}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.4.1}Transfer Learning}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5}Conclusie}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Praktijk 1}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}Inleiding}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2}Het spel}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Evolutionary improvement toepassen}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4}Het programma}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5}De resultaten}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.6}Conclusie}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Conclusie}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Bronnen}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1}Hoofdstuk 2}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2}Hoofdstuk 3}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3}Hoofdstuk 4}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.4}Hoofdstuk 5}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5}Hoofdstuk 6}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6}Hoofdstuk 7}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.7}Hoofdstuk 8}{40}
+>>>>>>> 808dfb5dcdfaf6e05bba20a8ce6c2c6ecb9d8263

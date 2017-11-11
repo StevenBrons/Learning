@@ -37,9 +37,9 @@ In het geval van supervised learning heb je te maken met \textbf{labeled} traini
 \hline
 \multicolumn{1}{c}{\multirow{2}{*}{Huisprijs (output)}} & \multicolumn{3}{c}{Huiseigenschappen (input)} \\
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{Woonoppervlakte} & \multicolumn{1}{c}{Perceeloppervlakte} & \multicolumn{1}{c}{Aantal Kamers} \\ \hline
-€ 519.000 & 124 m² & 311 m² & 4 \\
-€ 569.000 & 133 m² & 309 m² & 5 \\
-€ 569.500 & 170 m² & 310 m² & 6 \\ \hline
+€ 519.000 & 124 $ m^{2} $ & 311 $ m^{2} $ & 4 \\
+€ 569.000 & 133 $ m^{2} $ & 309 $ m^{2} $ & 5 \\
+€ 569.500 & 170 $ m^{2} $ & 310 $ m^{2} $ & 6 \\ \hline
 \end{tabular}
 \caption{Labeled dataset Bron: http://www.funda.nl/koop/huizen/ }
 \label{fig:LabeledDataset}
@@ -63,7 +63,7 @@ Reinforcement learning is een zeer specifieke soort van leren. Er is bij deze vo
 In figuur \ref{fig:Pacman} is het spel Pac-Man te zien. Op dit spel zou reinforcement learning toegepast kunnen worden. De agent is hierbij pacman, dit is namelijk een object dat bepaalde opdrachten kan uitvoeren, zoals: beweeg naar links. De context is hierbij het level, ofwel: de positie van de muren (de blauwe obstakels), de posities van de ghosts (de gekleurde vijanden), de posities van de pac-dots (de kleine stipjes) en de posities van de power-pellets (de grotere stipjes). Het eten van de pac-dots is positief, het geraakt worden door de ghosts is negatief. Door reinforcement learing toe te passen op het spel zal de agent steeds beter worden in het spelen van het spel. 
 
 \subsection{Normaliseren van data}
-Zoals ook in tabel \ref{fig:LabeledDataset} te zien is, kunnen verschillende inputs erg van elkaar verschillen qua grootte. Zo zal het aantal kamers nooit in de buurt komen van het oppervlak. Uiteindelijk zou dit een probleem kunnen veroorzaken bij de berekeningen van het systeem. Een groot getal zou namelijk een veel groter aandeel kunnen hebben alleen omdat het getal zoveel groter is. Het is daarom gebruikelijk de inputs te normaliseren. Dit houdt in dat de inputs zullen veranderen in een getal met een waarde binnen een bepaald gebied, zodat alle verschillende inputs eerlijk met elkaar vergeleken kunnen worden. Je zou bijvoorbeeld voor de oppervlaktes kunnen stellen dat alle waardes tussen 100 m² en 1000 m² zullen liggen. Aan een input van 500 m² zou je dan een waarde van 5 kunnen geven.
+Zoals ook in tabel \ref{fig:LabeledDataset} te zien is, kunnen verschillende inputs erg van elkaar verschillen qua grootte. Zo zal het aantal kamers nooit in de buurt komen van het oppervlak. Uiteindelijk zou dit een probleem kunnen veroorzaken bij de berekeningen van het systeem. Een groot getal zou namelijk een veel groter aandeel kunnen hebben alleen omdat het getal zoveel groter is. Het is daarom gebruikelijk de inputs te normaliseren. Dit houdt in dat de inputs zullen veranderen in een getal met een waarde binnen een bepaald gebied, zodat alle verschillende inputs eerlijk met elkaar vergeleken kunnen worden. Je zou bijvoorbeeld voor de oppervlaktes kunnen stellen dat alle waardes tussen 100 m² en 1000 m² zullen liggen. Aan een input van 500 $ m^{2} $ zou je dan een waarde van 5 kunnen geven.
 
 \subsection{Conclusie}
-Zelflerende computersystemen zijn algoritmes gebaseerd op machine learning. Een zelflerend systeem verschilt van reguliere algoritmes zoals breadth-first search en depth-first search doordat ze in staat zijn zichzelf te verbeteren.
+Zelflerende computersystemen zijn algoritmes gebaseerd op machine learning. Een zelflerend systeem verschilt van reguliere algoritmes zoals breadth-first search en depth-first search doordat het in staat is zichzelf te verbeteren.

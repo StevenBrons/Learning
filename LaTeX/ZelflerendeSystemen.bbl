@@ -396,5 +396,153 @@
     \field{title}{Semi-supervised Learning}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
+
+  \entry{Desmos}{article}{}
+    \keyw{Hoofdstuk8}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb www.desmos.com
+    \endverb
+    \field{title}{Desmos}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource1}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb https://beebom.com/examples-of-artificial-intelligence/
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource2}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb http://study.com/academy/lesson/what-is-an-algorithm-in-programming-d
+    \verb efinition-examples-analysis.html
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource3}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb http://www.secfac.wisc.edu/senate/2003/0929/1727(mem_res).pdf
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource4}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb https://www.khanacademy.org/computing/computer-science/algorithms/bre
+    \verb adth-first-search/a/the-breadth-first-search-algorithm
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource5}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb http://www.graph500.org/specifications#sec-5
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource6}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb https://www.kirupa.com/developer/actionscript/depth_breadth_search.ht
+    \verb ml
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource7}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb http://www.algolist.net/Algorithms/Graph/Undirected/Depth-first_searc
+    \verb h
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource8}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_bac
+    \verb ktracker
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource9}{article}{}
+    \keyw{Hoofdstuk2}
+    \verb{doi}
+    \verb https://www.khanacademy.org/computer-programming/depth-first-traversa
+    \verb ls-of-binary-trees/934024358
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource10}{article}{}
+    \keyw{Hoofdstuk4}
+    \verb{doi}
+    \verb http://biologiepagina.nl/Vwo5/Zenuwstelsel/inleiding.html
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource11}{article}{}
+    \keyw{Hoofdstuk4}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.evolvingsciences.com/Neuron%20.html
+    \endverb
+    \field{title}{Afbeelding biologisch neuron}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource12}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eJGRE}{%
+         prefix={en},
+         prefixi={e\bibinitperiod},
+         family={Jim\bibnamedelima Gao},
+         familyi={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Richard\bibnamedelima Evans},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Hoofdstuk6}
+    \strng{namehash}{JGREe1}
+    \strng{fullhash}{JGREe1}
+    \field{labelnamesource}{author}
+    \verb{doi}
+    \verb https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cool
+    \verb ing-bill-40/
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{nonCitedSource13}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KJ}{%
+         family={Kerns},
+         familyi={K\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Hoofdstuk6}
+    \strng{namehash}{KJ1}
+    \strng{fullhash}{KJ1}
+    \field{labelnamesource}{author}
+    \verb{doi}
+    \verb http://www.machinedesign.com/robotics/what-s-difference-between-weak-
+    \verb and-strong-ai
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
 \endsortlist
 \endinput
