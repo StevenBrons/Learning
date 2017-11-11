@@ -80,58 +80,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.3}Het gebruik}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{24}
+\contentsline {subsubsection}{\numberline {5.3.4}Newton's method uitgebeeld}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.1}DNA}{24}
+\contentsline {subsection}{\numberline {5.4}Evolutionary improvement}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.2}Een populatie}{24}
+\contentsline {subsubsection}{\numberline {5.4.1}DNA}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{25}
+\contentsline {subsubsection}{\numberline {5.4.2}Een populatie}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Conclusie}{25}
+\contentsline {subsubsection}{\numberline {5.4.3}Mutaties}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Toepassingen}{26}
+\contentsline {subsection}{\numberline {5.5}Conclusie}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Inleiding}{26}
+\contentsline {section}{\numberline {6}Toepassingen}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Weak AI}{26}
+\contentsline {subsection}{\numberline {6.1}Inleiding}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Strong AI}{26}
+\contentsline {subsection}{\numberline {6.2}Weak AI}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Artificial General Intelligence (AGI)}{26}
+\contentsline {subsection}{\numberline {6.3}Strong AI}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Verdere toepassingen}{27}
+\contentsline {subsection}{\numberline {6.4}Artificial General Intelligence (AGI)}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Conclusie}{27}
+\contentsline {subsection}{\numberline {6.5}Verdere toepassingen}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Limitaties}{28}
+\contentsline {subsection}{\numberline {6.6}Conclusie}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Inleiding}{28}
+\contentsline {section}{\numberline {7}Limitaties}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Training Data}{28}
+\contentsline {subsection}{\numberline {7.1}Inleiding}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.1}Semi-supervised learning}{28}
+\contentsline {subsection}{\numberline {7.2}Training Data}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Grootte}{28}
+\contentsline {subsubsection}{\numberline {7.2.1}Semi-supervised learning}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Specifiek}{28}
+\contentsline {subsection}{\numberline {7.3}Grootte}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.4.1}Transfer Learning}{29}
+\contentsline {subsection}{\numberline {7.4}Specifiek}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5}Conculsie}{29}
+\contentsline {subsubsection}{\numberline {7.4.1}Transfer Learning}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusie}{30}
+\contentsline {subsection}{\numberline {7.5}Conculsie}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Bronnen}{31}
+\contentsline {section}{\numberline {8}Conclusie}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Hoofdstuk 2}{31}
+\contentsline {section}{\numberline {9}Bronnen}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Hoofdstuk 3}{31}
+\contentsline {subsection}{\numberline {9.1}Hoofdstuk 2}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3}Hoofdstuk 4}{31}
+\contentsline {subsection}{\numberline {9.2}Hoofdstuk 3}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4}Hoofdstuk 5}{31}
+\contentsline {subsection}{\numberline {9.3}Hoofdstuk 4}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5}Hoofdstuk 6}{32}
+\contentsline {subsection}{\numberline {9.4}Hoofdstuk 5}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.6}Hoofdstuk 7}{32}
+\contentsline {subsection}{\numberline {9.5}Hoofdstuk 6}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.6}Hoofdstuk 7}{33}

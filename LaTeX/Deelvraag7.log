@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  22 OCT 2017 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  11 NOV 2017 17:33
 entering extended mode
 **./Deelvraag7.tex
 (Deelvraag7.tex
@@ -535,13 +535,34 @@ Package pdftex.def Info: res/platformer1.png used on input line 41.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./res/platformer1.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+
 <res/platformer2.png, id=10, 1026.83624pt x 549.55313pt>
 File: res/platformer2.png Graphic file (type png)
 
 <use res/platformer2.png>
-Package pdftex.def Info: res/platformer2.png used on input line 53.
+Package pdftex.def Info: res/platformer2.png used on input line 66.
 (pdftex.def)             Requested size: 172.5pt x 92.3159pt.
- [2 <./res/platformer2.png>] (Deelvraag7.aux)
+ [2 <./res/platformer2.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+
+<res/EvolutionResults.png, id=16, 588.69937pt x 443.40656pt>
+File: res/EvolutionResults.png Graphic file (type png)
+
+<use res/EvolutionResults.png>
+Package pdftex.def Info: res/EvolutionResults.png used on input line 76.
+(pdftex.def)             Requested size: 241.49895pt x 181.89935pt.
+ [3 <./res/EvolutionResults.png>] (Deelvraag7.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -550,19 +571,19 @@ Package logreq Info: Writing requests to 'Deelvraag7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9633 strings out of 493323
- 160538 string characters out of 3139066
+ 9640 strings out of 493323
+ 160703 string characters out of 3139066
  439382 words of memory out of 3000000
- 13064 multiletter control sequences out of 15000+200000
+ 13070 multiletter control sequences out of 15000+200000
  5196 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,37p,819b,1423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,6n,37p,1258b,1423s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Deelvraag7.pdf (2 pages, 85143 bytes).
+Output written on Deelvraag7.pdf (3 pages, 145425 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
