@@ -11,6 +11,8 @@
 \usepackage{amsmath}
 \usepackage[backend=bibtex,sorting=none]{biblatex}
 \usepackage{color}
+\usepackage{pgfplots,pgfplotstable}
+
 
 \bibliography{references.bib}
 
@@ -19,6 +21,10 @@
 \MakeOuterQuote{"}
 
 \graphicspath{ {res/} }
+
+
+
+
 
 \begin{document}
 
@@ -35,9 +41,9 @@ Voordat we kunnen beginnen aan het ontwerp van het systeem moeten we eerst duide
 \textbf{Welke afbeeldingen gaan we proberen te classificeren?}\\
 We gaan proberen handgeschreven cijfers te classificeren. We gebruiken hiervoor de MNIST dataset. [TODO] Dit is een dataset van een groot aantal afbeeldingen van handgeschreven cijfers met het bijbehorende label. De afbeeldingen zijn elk 28 x 28 pixels groot. Deze dataset is erg geschikt om Machine Learning op toe te passen.\\
 \textbf{Welk algoritme gebruiken we voor het classificeren van de afbeeldingen?}\\
-Wij gebruiken een Neural Network (TODO) om deze afbeeldingen te classificeren. Het is gebleken dat dit het beste algoritme is voor het classificeren van afbeeldingen. Er zijn 28 * 28 = 784 input neuronen en 10 output neuronen. We kiezen ervoor om één hidden layer te maken.\\
+Wij gebruiken een Neural Network (TODO) om deze afbeeldingen te classificeren. Het is gebleken dat dit het beste algoritme is voor het classificeren van afbeeldingen. Er zijn 28 * 28 = 784 input neuronen en 10 output neuronen. We kiezen ervoor om \"e\"en hidden layer te maken.\\
 \textbf{Welke manier van leren gebruiken we voor het verbeteren voor het algoritme?}\\
-We gaan gebruik maken van Gradient Descent (TODO). Dit lijkt ons de meest geschikte leer strategie voor dit probleem.
+We gaan gebruik maken van Gradient Descent (TODO).
 
 \subsection{Netwerk}
 Het aantal input neuronen en het aantal output neuronen staat vast (respectievelijk 784 en 10). Het aantal hidden neuronen kunnen we zelf bepalen. Ook moeten nog aan elke laag een bias toevoegen (TODO). Zoals uitgelegd in (TODO) moeten we ook een \textit{activation function} kiezen. Hiervoor gebruiken we een sigmoid functie (zie figuur \ref{fig:sigmoid-function}). De lagen zijn onderling volledig verbonden. Elke verbinding heeft zijn eigen weging die op het begin naar een willekeurige waarde wordt gezet.
@@ -104,13 +110,62 @@ De weging $w_{lm}$ wordt dan:
 $$ w_{lm} = w_{lm} - \eta *\sum_{m=1}^{M}[(O_{m}-t_{m}) * O_{m}(1-O_{m})*w_{ij}]*H_{l}(1-H_{l})*I_{k} $$
 
 \subsection{Programma}
-Bij het opstarten van het programma verschijnt een scherm waarin de beginwaarden van het neural network bepaald kunnen worden en het probleem gekozen kan worden. Als je met de muis op een onderdeel staat verschijnt er meer informatie over het desbetreffende onderdeel.Het wordt erg aangeraden om zelf een paar dingen te proberen en te kijken wat het resultaat is.
+Bij het opstarten van het programma verschijnt een scherm waarin de beginwaarden van het neural network bepaald kunnen worden en het probleem gekozen kan worden. Als je met de muis op een onderdeel staat verschijnt er meer informatie over het desbetreffende onderdeel. Om uit te testen of het programma goed functioneert hebben we het eerst een simpel probleem uitgetest: XOR. Het doel van een XOR port is als volgt: Als \'e\'en van beide input waarden $"1"$ is, moet het antwoord $"1"$ worden, anders $"0"$. Na even trainen lukt leert het neural network dit probleem op te lossen! Dit betekent dat het programma goed functioneert, dus kunnen we naar het \textit{echte} probleem.
 
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=\textwidth]{NeuralNetworkXOR.png}
+  \caption{Het door ons geschreven Neural Network programma dat zelf heeft geleerd XOR op te lossen}
+  \label{fig:NNXOR}
+\end{figure}
 
 \subsection{Resultaten}
-TODO
+De prestaties van het neural network worden door een aantal variable be\"einvloed:
+
+\begin{itemize}
+  \item Het aantal hidden neurons
+  \item De learnig rate
+  \item Het aantal training plaatjes
+\end{itemize}
+
+In figuur \ref{fig:NNXOR} is te zien welk effect het veranderen van de variable heeft op de prestaties van het netwerk.
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=\textwidth]{NeuralNetworkDigitRecognitionResults.png}
+  \caption{Resultaten van ons neural network.
+  De y-as duidt de prestatie van het netwerk aan.
+  De x-as duidt de de learning rate aan.
+  De z-as duidt het aantal plaatjes aan.}
+  \label{fig:NNXOR}
+\end{figure}
+
+\begin{figure}[H]
+\begin{tikzpicture}[scale=1.5]
+\begin{axis} 
+\addplot3[surf] coordinates{
+(0.01,0,0) (0.01,5,0.350) (0.01,15,0.688) (0.01,30,0.830) 
+
+(0.1,0,0) (0.1,5,0.649) (0.1,15,0.897) (0.1,30,0.917) 
+
+(0.5,0,0) (0.5,5,0.902) (0.5,15,0.897) (0.5,30,0.897) 
+
+(1,0,0) (1,5,0.765) (1,15,0.881) (1,30,0.908)
+
+(2,0,0) (2,5,0.714) (2,15,0.853) (2,30,0.869)
+
+};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Resultaten van ons neural network getrained op \textbf{40000} plaatjes. 
+De y-as duidt de prestatie van het netwerk aan. 
+De x-as duidt de de learning rate aan. 
+De z-as duidt het aantal hidden neurons aan.}
+\end{figure}
+
+Het hoogst behaalde resultaat is een acuratie 
 
 \subsection{Conclusie}
-TODO
-
+E\"en manier voor het maken van een computerprogramma dat in staat is afbeeldingen te categoriseren is door gebruik te maken van een neural network dat verbeterd wordt doormiddel van gradi\"ent descent.
 \end{document}
