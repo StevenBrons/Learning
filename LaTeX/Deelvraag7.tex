@@ -1,32 +1,4 @@
-\documentclass[a4paper,titlepage]{article}
-\title{Zelflerende Systemen}
-\author{Steven Bronsveld en Thijs van Loenhout}
-
-\usepackage[dutch]{babel}
-\usepackage{graphicx}
-\usepackage{multirow}
-\usepackage{blindtext}
-\usepackage{csquotes}
-\usepackage{float}
-\usepackage{amsmath}
-\usepackage[backend=bibtex,sorting=none]{biblatex}
-\usepackage{color}
-
-\bibliography{references.bib}
-
-\definecolor{praktijk}{rgb}{1,0.5,0}
-
-\MakeOuterQuote{"}
-
-\graphicspath{ {res/} }
-
-\begin{document}
-
-
-
-\textcolor{praktijk}{
-	\section{Praktijk 1}
-}
+\section{Praktijk 1}
 
 
 \subsection{Inleiding}
@@ -74,11 +46,9 @@ Het is de bedoeling dat het programma beter wordt in het spelen van het spel, na
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.7\textwidth]{EvolutionResults.png}
-  \caption{De hoogste fitness per 10 generaties voor 6 verschillende tests. (Grafiek gemaakt m.b.v Desmos LINK DESMOS HIER)}
+  \caption{De hoogste fitness per 10 generaties voor 6 verschillende tests. (Grafiek gemaakt m.b.v Desmos \cite{Desmos})}
   \label{fig:EvolutionResults}
 \end{figure}
 
 \subsection{Conclusie}
 Een computerprogramma blijkt niet erg intelligent te hoeven zijn om zichzelf een spel als deze te kunnen leren spelen. Door middel van willekeurige trial and error kan het programma steeds beter worden. Wij hebben gekozen dit evolutionair te doen, maar we denken dat dit ook op de andere in hoofdstuk 5 genoemde manieren kan. We hebben gemerkt dat de speler, aangestuurd door het programma, zich niet 'bewust' hoeft te zijn om de wereld waarin hij loopt, hij hoeft immers alleen te weten wanneer hij over een gat heen moet springen.
-
-\end{document}

@@ -4,7 +4,7 @@
 In de vorige deelvraag hebben we verschillende Machine Learning algoritmes behandeld. Hierbij hebben we nog niet besproken hoe een algoritme zichzelf kan verbeteren: hoe bepalen we bij Linear Regression de waarden voor $a$ en $b$ in de formule $ y = ax + b $? Hoe bepalen we de waarden voor  $x$ en $b$ in de vector $ a ∙ x - b = 0 $ bij een Support Vector Machine? Hoe bepalen we de wegingen van de synapsen in een Artificial Neural Network? Kortom: \textit{Op wat voor manieren kunnen zelflerende algoritmes zichzelf verbeteren?} Er zijn verschillende manieren waarop al deze waarden bepaald kunnen worden: Gradient Descent, Newton's method en evolutionary improvement. Deze drie leerstrategieën zullen we in deze deelvraag behandelen.
 
 \subsection{Gradient descent}
-De eerste leerstrategie die we behandelen is gradient descent. Gradient descent is een algoritme dat functies minimaliseerd door het aanpassen van bepaalde parameters. Er wordt geprobeerd de waarde van een bepaalde functie zo laag mogelijk te maken. De functie die we bij een zelflerend systeem proberen te minimaliseren is de \textbf{cost function}, ook wel loss function genoemd. Dit is een functie die bepaalt hoe goed het systeem op dat moment werkt. Er wordt bepaald hoeveel de huidige outputs afwijken van de gewenste outputs. Het is hierbij dus nodig dat je de gewenste outputs weet bij gegeven inputs. Er is dus bij gradient descent altijd sprake van supervised learning. 
+De eerste leerstrategie die we behandelen is gradient descent. Gradient descent is een algoritme dat functies minimaliseert door het aanpassen van bepaalde parameters. Er wordt geprobeerd de waarde van een bepaalde functie zo laag mogelijk te maken. De functie die we bij een zelflerend systeem proberen te minimaliseren is de \textbf{cost function}, ook wel loss function genoemd. Dit is een functie die bepaalt hoe goed het systeem op dat moment werkt. Er wordt bepaald hoeveel de huidige outputs afwijken van de gewenste outputs. Het is hierbij dus nodig dat je de gewenste outputs weet bij gegeven inputs. Er is dus bij gradient descent altijd sprake van supervised learning. 
 
 \subsubsection{Het algoritme} 
 \begin{figure}[h]
@@ -67,7 +67,7 @@ cost_i' &= 2(error_i) * x_i \\
 cost_i' &= 2(y_{i} - (xa + b)_{i}) * x_i
 \end{align*}
 
-Met de deze afgeleide is de helling van de cost function te bepalen. Hiermee dus te bepalen welke richting we de variabele a in moeten veranderen. Het aanpassen van de a bij Linear Regression gebeurd dus als volgt:
+Met de deze afgeleide is de helling van de cost function te bepalen. Hiermee dus te bepalen welke richting we de variabele a in moeten veranderen. Het aanpassen van de a bij Linear Regression gebeurt dus als volgt:
 
 \begin{center}
 $ a = a + (2 * error_i * x_i)$
