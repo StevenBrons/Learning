@@ -88,3 +88,57 @@ Als vuistregel kan het volgende gehanteerd worden: depth-first search wordt gebr
 
 \subsection{Conclusie}
 Twee voorbeelden van reguliere algoritmes zijn "Breadth-first seach" en  "Depth-first search". Dit zijn twee algoritmes met vele toepassingen. Beide algoritmes zijn niet zelflerend omdat ze hun manier van zoeken niet zelf verbeteren.
+\newpage
+
+\textcolor{praktijk}{
+\subsection{Praktijk: Voorbeelden algoritmes}
+}
+
+Algoritmes hebben meestal vele toepassingen. Hier zijn enkele voorbeelden van de eerder genoemde algoritmes.
+\subsubsection{Breadth-first search}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.8\textwidth]{datasetBFS2.png}
+  \caption{Schematische weergave van een willekeurige dataset.}
+  \label{fig:datasetBFS2}
+\end{figure}
+
+In figuur \ref{fig:datasetBFS2} is een dataset te zien, bijvoorbeeld een telefoonboom. Elke cirkel representeert een persoon. Zo kan persoon A de personen B en C bellen, maar A bezit geen andere telefoonnummers. Toch zou hij een boodschap naar H kunnen sturen: via C. 
+Stel, persoon A wil nu iets tegen F zeggen. In een kleine dataset als deze is makkelijk met het oog te zien dat de snelste manier hiervoor A – C – F is en dat A – B – C – E – F veel langer is. Bij grotere datasets is dit echter al snel moeilijk met zekerheid te zeggen. Hiervoor kan breadth-first search ingezet worden.
+
+\subsubsection{Depth-first search}
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=0.8\textwidth]{maze.png}
+  \caption{Een voorbeeld van een automatisch gegenereerd doolhof, gebruik makend van DFS.}
+  \label{fig:maze}
+\end{figure}
+
+Depth-first search kan gebruikt worden voor zowel het maken als oplossen van doolhoven. In figuur \ref{fig:maze} is een doolhof te zien dat gemaakt is met behulp van DFS. Wij hebben in het kader van deze deelvraag een doolhof-generator gemaakt. Het algoritme in de vorm van een stappenplan is als volgt:
+
+\begin{enumerate}
+\item Maak de start cel current en markeer deze als bezocht.
+\item Terwijl er nog niet bezochte cellen aanwezig zijn:
+	\begin{enumerate}
+	\item Als current neighbors heeft die nog niet bezocht zijn:
+		\begin{enumerate}
+		\item Kies willekeurig een van de neighbors
+		\item Voeg current toe aan de stack
+		\item Verwijder de muur tussen de huidige cel en de gekozen cel
+		\item Benoem de gekozen cel als current en zet de state op bezocht
+		\item Kies willekeurig een van de neighbors.
+		\item Voeg current toe aan de stack.
+		\item Verwijder de muur tussen de huidige cel en de gekozen cel.
+		\item Benoem de gekozen cel als current en zet de state op bezocht.
+		\end{enumerate}			
+	
+	\item Anders, als de stack niet leeg is:
+		\begin{enumerate}
+		\item Haal de laatst toegevoegde cel uit de stack en verwijder deze hieruit
+		\item Maak deze cel current
+		\item Haal de laatst toegevoegde cel uit de stack en verwijder deze hieruit.
+		\item Maak deze cel current.
+		\end{enumerate}	
+	\end{enumerate}
+\end{enumerate}
