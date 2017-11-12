@@ -111,9 +111,11 @@ public class Frame extends JFrame {
 						while (true) {
 							i++;
 							if (i % 5 == 0) {
-								drawMaze();
-								repaint();
-								Thread.sleep(Main.DELAY);
+								if (Main.DELAY > 0) {
+									drawMaze();
+									repaint();
+									Thread.sleep(Main.DELAY);
+								}
 							}
 							Cell next = current.checkNeighbors();
 							if (next != null) {
