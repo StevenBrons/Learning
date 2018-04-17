@@ -1,10 +1,13 @@
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.Image;
 import java.awt.Insets;
+import java.awt.MultipleGradientPaint.CycleMethod;
+import java.awt.Point;
+import java.awt.RadialGradientPaint;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
@@ -35,7 +38,8 @@ class DigitRecognition extends Problem {
 	static int curInputNum = 0;
 	static TrainImage curInput;
 	static Main m = new Main();
-	Image image;
+	boolean customImage = false;
+	BufferedImage image;
 	JTextField title = new JTextField("Image #0");
 	JTextField label = new JTextField();
 	JLabel labelLabel = new JLabel("Label:");
@@ -65,6 +69,9 @@ class DigitRecognition extends Problem {
 						n[x][y] = 0;
 					}
 				}
+				customImage = true;
+				image = new BufferedImage(imagePanel.getWidth(), imagePanel.getHeight(), BufferedImage.TYPE_INT_ARGB);
+				image.createGraphics().fillRect(0, 0, imagePanel.getWidth(), imagePanel.getHeight());
 				setCurInput(curInput);
 				updateData();
 			}
@@ -106,21 +113,22 @@ class DigitRecognition extends Problem {
 		gb.gridy = 1;
 		add(imagePanel, gb);
 
+		gb.gridwidth = 2;
+		gb.gridx = 0;
+		gb.gridy = 2;
+		add(clear, gb);
+
 		gb.gridwidth = 1;
 		gb.weighty = 1;
 		gb.weightx = 4;
 		gb.gridx = 0;
-		gb.gridy = 2;
+		gb.gridy = 3;
 		add(labelLabel, gb);
 		gb.weightx = 1;
 		gb.gridx = 1;
-		gb.gridy = 2;
+		gb.gridy = 3;
 		add(label, gb);
 
-		gb.gridwidth = 2;
-		gb.gridx = 0;
-		gb.gridy = 3;
-		add(clear, gb);
 		if (trainingData.size() > 0) {
 			setCurInput(0);
 			updateData();
@@ -147,7 +155,9 @@ class DigitRecognition extends Problem {
 	}
 
 	public void updateData() {
-		image = curInput.getImage();
+		if (!customImage) {
+			image = curInput.getImage();
+		}
 		imagePanel.updateOnce();
 		label.setText("" + curInput.label);
 		title.setText("Image #" + curInputNum);
@@ -163,12 +173,31 @@ class DigitRecognition extends Problem {
 
 	@Override
 	public void run() {
-		double d[] = new double[curInput.data.length * curInput.data[0].length];
-		for (int x = 0; x < curInput.data.length; x++) {
-			for (int y = 0; y < curInput.data[x].length; y++) {
-				d[x * 28 + y] = (curInput.data[x][y] / (double) 255) * 100 - 50;
+		double d[] = new double[28 * 28];
+
+		if (customImage) {
+			BufferedImage resizedImage = new BufferedImage(28, 28, BufferedImage.TYPE_INT_RGB);
+			resizedImage.createGraphics().drawImage(image, 0, 0, 28, 28, null);
+
+			image = resizedImage;
+
+			for (int x = 0; x < 28; x++) {
+				for (int y = 0; y < 28; y++) {
+					Color c = new Color(resizedImage.getRGB(x, y));
+					int gray = 255 - (int) (((double) c.getRed() + c.getGreen() + c.getBlue()) / 3.0);
+					d[x * 28 + y] = (gray / (double) 255) * 100 - 50;
+					System.out.println(d[x * 28 + y]);
+				}
+			}
+
+		} else {
+			for (int x = 0; x < curInput.data.length; x++) {
+				for (int y = 0; y < curInput.data[x].length; y++) {
+					d[x * 28 + y] = (curInput.data[x][y] / (double) 255) * 100 - 50;
+				}
 			}
 		}
+
 		Main.network.input(d, curInput.label);
 		Main.f.repaint();
 	}
@@ -182,6 +211,7 @@ class DigitRecognition extends Problem {
 	}
 
 	public void next() {
+		customImage = false;
 		if (curInputNum < trainingData.size() - 2) {
 			curInputNum++;
 		} else {
@@ -191,6 +221,7 @@ class DigitRecognition extends Problem {
 	}
 
 	public void prev() {
+		customImage = false;
 		if (curInputNum >= 1) {
 			curInputNum--;
 		} else {
@@ -214,14 +245,13 @@ class ImageScreen extends Canvas {
 
 	boolean entered = false;
 
-	double mouseX = 0;
-	double mouseY = 0;
+	int mouseX = 0;
+	int mouseY = 0;
 
 	BufferedImage screen;
-
 	Graphics g2;
-
 	DigitRecognition d;
+	Graphics2D cg;
 
 	public ImageScreen(DigitRecognition d) {
 		this.d = d;
@@ -262,19 +292,14 @@ class ImageScreen extends Canvas {
 			public void mouseDragged(MouseEvent e) {
 				mouseX = e.getX();
 				mouseY = e.getY();
-				double width = Math.min(getWidth(), getHeight());
-				int drawX = (int) Math.round(mouseX * 28 / width);
-				int drawY = (int) Math.round((mouseY - (getHeight() / 2 - width / 2)) * 28 / width);
-				p(drawX, drawY, 50);
-				p(drawX + 1, drawY + 1, 10);
-				p(drawX - 1, drawY - 1, 10);
-				p(drawX - 1, drawY + 1, 10);
-				p(drawX + 1, drawY - 1, 5);
-				p(drawX + 1, drawY, 10);
-				p(drawX - 1, drawY, 10);
-				p(drawX, drawY + 1, 10);
-				p(drawX, drawY - 1, 10);
-				d.image = DigitRecognition.curInput.getImage();
+
+				cg = d.image.createGraphics();
+				float[] fractions = { 0.1f, 0.5f, 1f };
+				Color[] colors2 = { Color.BLACK, new Color(0, 0, 0, 1), new Color(0, 0, 0, 0) };
+				RadialGradientPaint rgp2 = new RadialGradientPaint(new Point(mouseX, mouseY), 30,
+						new Point(mouseX, mouseY), fractions, colors2, CycleMethod.NO_CYCLE);
+				cg.setPaint(rgp2);
+				cg.fillRect(0, 0, getWidth(), getHeight());
 
 			}
 		});
@@ -313,8 +338,8 @@ class ImageScreen extends Canvas {
 		if (getWidth() > 0) {
 			if (screen == null) {
 				screen = new BufferedImage(getWidth(), getHeight(), BufferedImage.TYPE_INT_ARGB);
+				g2 = getGraphics();
 			}
-			g2 = getGraphics();
 			drawAll();
 		}
 	}
@@ -346,16 +371,23 @@ class ImageScreen extends Canvas {
 	}
 
 	public void drawAll() {
-		draw();
-		g2.drawImage(screen, 0, 0, null);
-	}
-
-	public void draw() {
-		Graphics g = screen.createGraphics();
+		Graphics2D g = screen.createGraphics();
 		g.clearRect(0, 0, screen.getWidth(), screen.getHeight());
 		int width = Math.min(getWidth(), getHeight());
 		g.drawImage(d.image, getWidth() / 2 - width / 2, getHeight() / 2 - width / 2, width, width, null);
-		g.setColor(Color.RED);
-		g.fillOval((int) mouseX - 10, (int) mouseY - 10, 20, 20);
+
+		if (d.customImage) {
+			float[] fractions = { 0.4f, 1f };
+			Color[] colors = { Color.RED, new Color(0, 0, 0, 0) };
+			RadialGradientPaint rgp = new RadialGradientPaint(new Point(mouseX, mouseY), 30, new Point(mouseX, mouseY),
+					fractions, colors, CycleMethod.NO_CYCLE);
+			g.setPaint(rgp);
+			g.fillRect(0, 0, getWidth(), getHeight());
+		}
+
+		if (g2 != null) {
+			g2.drawImage(screen, 0, 0, getWidth(), getHeight(), null);
+		}
 	}
+
 };

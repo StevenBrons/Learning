@@ -1,3 +1,4 @@
+import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -71,6 +72,8 @@ public class NeuralNetworkVisualiser extends JPanel {
 		double max = Math.max(network.inputLayer.size(),
 				Math.max(network.hiddenLayer.size(), network.outputLayer.size()));
 		int nsize = (int) Math.max(((double) getHeight() / 2) / (max * 7), 3);
+
+		g.setStroke(new BasicStroke(getHeight() / (10 * Math.max(network.inputLayer.size(), network.hiddenLayer.size()))));
 
 		for (int i = 0; i < network.inputLayer.size(); i++) {
 			int x1 = startX - nsize;
