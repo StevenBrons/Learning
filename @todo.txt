@@ -1,8 +1,0 @@
--Anna's opmerkingen verbeteren
-
--Stukje over Newton's Method schrijven
--Stukje over Spel + Evolutionary schrijven
--Stukje over Digit Recognition + Neural network schrijven
--Conclusie schrijven
--Logboek programma struggles toevoegen
--Inleiding schrijven
